@@ -6,6 +6,7 @@ source("3-RScripts/0-packages.R")
 yard_surveys <- read.csv("1-Input/yard_surveys.csv")
 
 
+
 #Modifications in the column: Species
 
 yard_surveys$Species[which(yard_surveys$Species== "HOSP ")] <- "HOSP"  
@@ -163,6 +164,7 @@ yard_surveys_cleaned <- left_join(yard_surveys,elton_birds, by = join_by("Bird.S
 #Changing blanks into NAs
 
 yard_surveys$Species <- na_if(yard_surveys$Species, "")
+yard_surveys$Basal.density <- na_if(yard_surveys$Basal.density, "No")
 
 
 #Saving this under 2-Cleaned_data

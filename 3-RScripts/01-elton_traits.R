@@ -1,8 +1,8 @@
-source("3-RScripts/packages.R")
+source("3-RScripts/0-packages.R")
 
 #Use the below code to access the elton_traits dataset (more info @ https://github.com/RS-eco/traitdata)
-#if(!"remotes" %in% installed.packages()[,"Package"]) install.packages("remotes")
-#remotes::install_github("RS-eco/traitdata", build_vignettes = T, force=T)
+if(!"remotes" %in% installed.packages()[,"Package"]) install.packages("remotes")
+remotes::install_github("RS-eco/traitdata", build_vignettes = T, force=T)
 
 library(traitdata)
 
