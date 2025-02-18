@@ -170,6 +170,7 @@ yard_surveys$Basal.density <- na_if(yard_surveys$Basal.density, "No")
 #Saving this under 2-Cleaned_data
 
 saveRDS(yard_surveys_cleaned, "2-Cleaned_data/yard_data_cleaned.RDS")
+write.csv(yard_surveys, "2-Cleaned_data/yard_data.csv")
 
 
 
