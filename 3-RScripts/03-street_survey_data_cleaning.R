@@ -71,6 +71,7 @@ street_surveys <- street_surveys %>% mutate(BehaviourType = case_when(
   Behaviour == "Stand" ~ 'Rest',
   Behaviour == "Sally" ~ 'Foraging',
   Behaviour == "Vocalize" ~ 'Territory_defense',
+  Behaviour == "Attack squirrel " ~ 'Territory_defense',
   TRUE ~ 'NA'
 ))
 
@@ -97,7 +98,7 @@ street_surveys_cleaned <- left_join(street_surveys,elton_birds, by = join_by("Bi
 #Saving this under 2-Cleaned_data
 
 saveRDS(street_surveys_cleaned, "2-Cleaned_data/street_data_cleaned.RDS")
-
+write.csv(street_surveys, "2-Cleaned_data/street_surveys.csv")
 
 
 #this are just tables to visualize where the mistakes are 

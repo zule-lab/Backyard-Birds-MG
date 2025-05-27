@@ -77,3 +77,4 @@ behaviour <- ggplot(data=byb, aes(BehaviourType)) +
   theme(panel.spacing.x = unit(15, "mm"))
 behaviour
 table(byb$Plant.species)
+

@@ -132,6 +132,7 @@ yard_surveys <- yard_surveys %>% mutate(BehaviourType = case_when(
   Behaviour == "Drink" ~ 'Anthropogenic_interaction',
   Behaviour == "Feed each other" ~ 'Reproduction',
   Behaviour == "Feed fledgling" ~ 'Reproduction',
+  Behaviour == "Receive food " ~ 'Reproduction',
   Behaviour == "Feed young" ~ 'Reproduction',
   Behaviour == "Feeder" ~ 'Anthropogenic_interaction',
   Behaviour == "Forage" ~ 'Foraging',
@@ -163,7 +164,7 @@ yard_surveys_cleaned <- left_join(yard_surveys,elton_birds, by = join_by("Bird.S
 
 #Changing blanks into NAs
 
-yard_surveys$Species <- na_if(yard_surveys$Species, "")
+yard_surveys_cleaned$Species <- na_if(yard_surveys$Species, "")
 yard_surveys$Basal.density <- na_if(yard_surveys$Basal.density, "No")
 
 

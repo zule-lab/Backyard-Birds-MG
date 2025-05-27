@@ -1,0 +1,370 @@
+Code,Scientific.name,DBH,DBHClass,Native
+Y45,Abies balsamea,5,Small,Yes
+Y45,Abies balsamea,7,Small,Yes
+Y45,Abies balsamea,8,Small,Yes
+Y45,Abies balsamea,9,MedSmall,Yes
+Y28,Acer Freemannii,56,Large,Yes
+S18,Acer ginnala ,5,Small,No
+S09,Acer negundo,22,MedLarge,Yes
+Y27,Acer negundo,29,Large,Yes
+Y33,Acer negundo,31,Large,Yes
+Y04,Acer negundo,34,Large,Yes
+Y04,Acer negundo,36,Large,Yes
+Y33,Acer negundo,42,Large,Yes
+Y04,Acer negundo,53,Large,Yes
+Y04,Acer negundo,66,Large,Yes
+S17,Acer nigrum,23,MedLarge,Yes
+Y04,Acer palmatum,6,Small,No
+Y33,Acer palmatum,6,Small,No
+Y13,Acer palmatum,7,Small,No
+Y04,Acer palmatum,8,Small,No
+Y13,Acer palmatum,8,Small,No
+Y04,Acer palmatum,9,MedSmall,No
+Y49,Acer palmatum,11,MedSmall,No
+Y13,Acer palmatum,36,Large,No
+Y04,Acer platanoides,5,Small,No
+Y31,Acer platanoides,7,Small,No
+S19,Acer platanoides,12,MedSmall,No
+Y06,Acer platanoides,14,MedSmall,No
+Y28,Acer platanoides,14,MedSmall,No
+S21,Acer platanoides,15,MedLarge,No
+S05,Acer platanoides,16,MedLarge,No
+Y04,Acer platanoides,16,MedLarge,No
+Y06,Acer platanoides,16,MedLarge,No
+Y31,Acer platanoides,17,MedLarge,No
+Y31,Acer platanoides,17,MedLarge,No
+S20,Acer platanoides,18,MedLarge,No
+S10,Acer platanoides,20,MedLarge,No
+Y04,Acer platanoides,20,MedLarge,No
+Y06,Acer platanoides,21,MedLarge,No
+S05,Acer platanoides,22,MedLarge,No
+Y09,Acer platanoides,26,MedLarge,No
+Y31,Acer platanoides,31,Large,No
+S09,Acer platanoides,33,Large,No
+Y18,Acer platanoides,33,Large,No
+S10,Acer platanoides,35,Large,No
+S17,Acer platanoides,35,Large,No
+S20,Acer platanoides,35,Large,No
+Y28,Acer platanoides,35,Large,No
+S05,Acer platanoides,38,Large,No
+S20,Acer platanoides,38,Large,No
+S03,Acer platanoides,40,Large,No
+Y31,Acer platanoides,40,Large,No
+Y31,Acer platanoides,40,Large,No
+S10,Acer platanoides,42,Large,No
+Y49,Acer platanoides,43,Large,No
+S19,Acer platanoides,47,Large,No
+S06,Acer platanoides,50,Large,No
+S16,Acer platanoides,50,Large,No
+S16,Acer platanoides,50,Large,No
+S08,Acer platanoides,51,Large,No
+S20,Acer platanoides,54,Large,No
+S01,Acer platanoides,55,Large,No
+S16,Acer platanoides,55,Large,No
+S13,Acer platanoides,56,Large,No
+S16,Acer platanoides,60,Large,No
+S16,Acer platanoides,60,Large,No
+S21,Acer platanoides,62,Large,No
+S04,Acer platanoides,64,Large,No
+S16,Acer platanoides,64,Large,No
+S13,Acer platanoides,66,Large,No
+S14,Acer platanoides,66,Large,No
+S13,Acer platanoides,71,Large,No
+S08,Acer platanoides,72,Large,No
+S03,Acer platanoides,73,Large,No
+S08,Acer platanoides,77,Large,No
+Y04,Acer platanoides,79,Large,No
+S08,Acer platanoides,82,Large,No
+S20,Acer platanoides,90,Large,No
+Y04,Acer platanoides,105,Large,No
+S19,Acer rubrum,16,MedLarge,Yes
+S11,Acer rubrum,26,MedLarge,Yes
+Y20,Acer rubrum,33,Large,Yes
+Y20,Acer rubrum,41,Large,Yes
+Y20,Acer rubrum,53,Large,Yes
+S08,Acer saccharinum,5,Small,Yes
+S15,Acer saccharinum,5,Small,Yes
+S13,Acer saccharinum,18,MedLarge,Yes
+Y20,Acer saccharinum,22,MedLarge,Yes
+Y20,Acer saccharinum,31,Large,Yes
+S12,Acer saccharinum,46,Large,Yes
+S17,Acer saccharinum,49,Large,Yes
+S17,Acer saccharinum,54,Large,Yes
+S12,Acer saccharinum,59,Large,Yes
+Y20,Acer saccharinum,61,Large,Yes
+S12,Acer saccharinum,63,Large,Yes
+S12,Acer saccharinum,64,Large,Yes
+S21,Acer saccharinum,65,Large,Yes
+S17,Acer saccharinum,66,Large,Yes
+S20,Acer saccharinum,66,Large,Yes
+S20,Acer saccharinum,66,Large,Yes
+S21,Acer saccharinum,67,Large,Yes
+S21,Acer saccharinum,68,Large,Yes
+S03,Acer saccharinum,69,Large,Yes
+S02,Acer saccharinum,70,Large,Yes
+S17,Acer saccharinum,70,Large,Yes
+S01,Acer saccharinum,74,Large,Yes
+S04,Acer saccharinum,74,Large,Yes
+S10,Acer saccharinum,74,Large,Yes
+S12,Acer saccharinum,76,Large,Yes
+S07,Acer saccharinum,79,Large,Yes
+S07,Acer saccharinum,79,Large,Yes
+S01,Acer saccharinum,80,Large,Yes
+S04,Acer saccharinum,81,Large,Yes
+S10,Acer saccharinum,82,Large,Yes
+S07,Acer saccharinum,83,Large,Yes
+S04,Acer saccharinum,84,Large,Yes
+S20,Acer saccharinum,85,Large,Yes
+S01,Acer saccharinum,86,Large,Yes
+S07,Acer saccharinum,87,Large,Yes
+S02,Acer saccharinum,98,Large,Yes
+S07,Acer saccharinum,105,Large,Yes
+S10,Acer saccharinum,105,Large,Yes
+S12,Acer saccharinum,105,Large,Yes
+Y13,Acer saccharinum,135,Large,Yes
+S15,Acer x freemanii 'Armstrong',5,Small,Yes
+S08,Acer x freemanii 'Armstrong',6,Small,Yes
+S21,Acer x freemanii 'Autumn Blaze',5,Small,Yes
+S18,Acer x freemanii 'Autumn Blaze',13,MedSmall,Yes
+S08,Acer x freemanii 'Autumn Blaze',16,MedLarge,Yes
+S08,Acer x freemanii 'Autumn Blaze',36,Large,Yes
+S05,Acer x freemanii Celebration,5,Small,Yes
+Y24,Aesculus Hippocastanu,79,Large,No
+S05,Aesculus octandra,5,Small,Yes
+S18,Aesculus octandra,15,MedLarge,Yes
+Y18,Amelanchier canadensis,16,MedLarge,Yes
+S05,Amelanchier laevis 'Cumulus',5,Small,Yes
+S01,Betula nigra,8,Small,Yes
+S19,Betula nigra,8,Small,Yes
+S09,Betula papyrifera,5,Small,Yes
+Y20,"Caragana Arborescens ""pendula""",6,Small,No
+S03,Carpinus caroliniana,5,Small,Yes
+S18,Carpinus caroliniana,5,Small,Yes
+S04,Catalpa speciosa,5,Small,No
+S13,Celtis occidentalis,5,Small,Yes
+Y25,Celtis occidentalis,5,Small,Yes
+S09,Celtis occidentalis,7,Small,Yes
+S02,Celtis occidentalis,8,Small,Yes
+Y18,Celtis occidentalis,9,MedSmall,Yes
+Y25,Celtis occidentalis,12,MedSmall,Yes
+S06,Celtis occidentalis,27,Large,Yes
+S19,Cercidiphyllum japonicum,6,Small,No
+Y03,Chamaecyparis nootkatensis,12,MedSmall,No
+Y13,Chamaecyparis nootkatensis,12,MedSmall,No
+Y13,Chamaecyparis pisifera,4,Small,No
+Y20,"Cotinus ""Royal Purple""",5,Small,No
+Y44,Cotinus coggygria,19,MedLarge,No
+Y03,Cotinus coggygria,21,MedLarge,No
+Y13,Cotinus coggygria,30,Large,No
+Y13,Euonymous alatus,20,MedLarge,No
+Y13,Euonymous alatus,21,MedLarge,No
+Y44,Euonymous alatus,22,MedLarge,No
+Y44,Euonymous alatus,22,MedLarge,No
+Y18,Fraxinus americana,60,Large,Yes
+S15,Fraxinus pennsylvanica,13,MedSmall,Yes
+S09,Fraxinus pennsylvanica,15,MedLarge,Yes
+S09,Fraxinus pennsylvanica,27,Large,Yes
+S09,Fraxinus pennsylvanica,45,Large,Yes
+S02,Fraxinus pennsylvanica,49,Large,Yes
+S09,Fraxinus pennsylvanica,54,Large,Yes
+S09,Fraxinus pennsylvanica,55,Large,Yes
+S02,Fraxinus pennsylvanica,60,Large,Yes
+S09,Fraxinus pennsylvanica,80,Large,Yes
+S10,Ginkgo biloba,4,Small,No
+S01,Ginkgo biloba,5,Small,No
+S05,Ginkgo biloba,5,Small,No
+S17,Ginkgo biloba,5,Small,No
+Y13,Ginkgo biloba,23,MedLarge,No
+S09,Gleditsia triacanthos 'Northern Acclaim',5,Small,No
+S18,Gleditsia triacanthos 'Shademaster',5,Small,No
+S02,Gleditsia triacanthos 'Skyline',5,Small,No
+S04,Gleditsia triacanthos 'Skyline',23,MedLarge,No
+S10,Gleditsia triacanthos var. inermis,51,Large,No
+S10,Gleditsia triacanthos var. inermis,56,Large,No
+S15,Gymnocladus dioicus,5,Small,Yes
+S21,Gymnocladus dioicus,7,Small,Yes
+Y03,Linnaea Amabilis,14,MedSmall,No
+S18,Liriodendron tulipifera,8,Small,Yes
+Y47,Lonicera xylosteum,19,MedLarge,No
+Y25,Lonicera xylosteum,26,MedLarge,No
+Y13,Magnolia 'Susan',17,MedLarge,No
+Y13,Magnolia 'Susan',30,Large,No
+Y24,Malus baccata,92,Large,No
+Y26,Malus domestica,13,MedSmall,No
+Y18,Malus sylvestris,35,Large,No
+Y32,Malus sylvestris,36,Large,No
+S02,Malus x 'Prairifire',5,Small,No
+Y07,Morus alba,18,MedLarge,No
+S02,Ostrya virginiana,6,Small,Yes
+Y33,Philadelphus coronarius,6,Small,No
+Y28,Philadelphus coronarius,11,MedSmall,No
+Y13,Picea abies,5,Small,No
+Y28,Picea abies,16,MedLarge,No
+Y28,Picea abies,16,MedLarge,No
+Y28,Picea abies,17,MedLarge,No
+Y28,Picea abies,22,MedLarge,No
+Y28,Picea abies,25,MedLarge,No
+Y20,Picea abies,66,Large,No
+Y18,Picea glauca,45,Large,Yes
+S21,Picea pungens,7,Small,Yes
+S11,Picea pungens,12,MedSmall,Yes
+S11,Picea pungens,12,MedSmall,Yes
+Y18,Picea pungens,27,Large,Yes
+S14,Picea pungens,44,Large,Yes
+S07,Picea pungens,47,Large,Yes
+S18,Picea pungens Iseli Fastigiata,5,Small,Yes
+Y18,Picea rubens,45,Large,Yes
+Y25,Populus deltoides,133,Large,Yes
+Y20,Prunus padus,13,MedSmall,No
+Y20,Prunus Virginiana 'Schubert',13,MedSmall,No
+Y26,Pyrus communis,17,MedLarge,No
+S06,Quercus robur,5,Small,No
+S02,Quercus rubra,23,MedLarge,No
+S19,Quercus x warei 'Regal Prince',5,Small,No
+S19,Quercus x warei 'Regal Prince',6,Small,No
+Y04,Rhamnus cathartica,5,Small,No
+Y03,Rhus typhina,8,Small,Yes
+Y03,Rhus typhina,18,MedLarge,Yes
+Y45,Sorbus aucuparia,21,MedLarge,No
+Y18,Syringa reticulata,18,MedLarge,No
+Y13,Syringa reticulata,36,Large,No
+Y03,Syringa vulgaris,5,Small,No
+Y26,Syringa vulgaris,10,MedSmall,No
+Y04,Syringa vulgaris,12,MedSmall,No
+Y32,Syringa vulgaris,14,MedSmall,No
+Y06,Syringa vulgaris,16,MedLarge,No
+Y06,Syringa vulgaris,16,MedLarge,No
+Y25,Syringa vulgaris,17,MedLarge,No
+Y04,Syringa vulgaris,18,MedLarge,No
+Y04,Syringa vulgaris,25,MedLarge,No
+Y24,Syringa vulgaris,33,Large,No
+Y09,Syringa vulgaris,36,Large,No
+Y47,Syringa vulgaris,36,Large,No
+Y13,Taxus canadensis,5,Small,Yes
+Y13,Taxus canadensis,11,MedSmall,Yes
+Y13,Taxus canadensis,13,MedSmall,Yes
+Y24,Taxus canadensis,16,MedLarge,Yes
+Y18,Taxus canadensis,18,MedLarge,Yes
+Y13,Thuja occidentalis,4,Small,Yes
+Y03,Thuja occidentalis,5,Small,Yes
+Y03,Thuja occidentalis,5,Small,Yes
+Y06,Thuja occidentalis,5,Small,Yes
+Y06,Thuja occidentalis,5,Small,Yes
+Y06,Thuja occidentalis,5,Small,Yes
+Y06,Thuja occidentalis,5,Small,Yes
+Y06,Thuja occidentalis,5,Small,Yes
+Y13,Thuja occidentalis,5,Small,Yes
+Y13,Thuja occidentalis,5,Small,Yes
+Y20,Thuja occidentalis,5,Small,Yes
+Y20,Thuja occidentalis,5,Small,Yes
+Y32,Thuja occidentalis,5,Small,Yes
+Y32,Thuja occidentalis,5,Small,Yes
+Y06,Thuja occidentalis,6,Small,Yes
+Y06,Thuja occidentalis,6,Small,Yes
+Y06,Thuja occidentalis,6,Small,Yes
+Y06,Thuja occidentalis,6,Small,Yes
+Y06,Thuja occidentalis,6,Small,Yes
+Y13,Thuja occidentalis,6,Small,Yes
+Y18,Thuja occidentalis,6,Small,Yes
+Y03,Thuja occidentalis,7,Small,Yes
+Y06,Thuja occidentalis,7,Small,Yes
+Y06,Thuja occidentalis,7,Small,Yes
+Y06,Thuja occidentalis,7,Small,Yes
+Y06,Thuja occidentalis,7,Small,Yes
+Y06,Thuja occidentalis,7,Small,Yes
+Y13,Thuja occidentalis,7,Small,Yes
+Y13,Thuja occidentalis,7,Small,Yes
+Y18,Thuja occidentalis,7,Small,Yes
+Y20,Thuja occidentalis,7,Small,Yes
+Y45,Thuja occidentalis,7,Small,Yes
+Y06,Thuja occidentalis,8,Small,Yes
+Y09,Thuja occidentalis,8,Small,Yes
+Y13,Thuja occidentalis,8,Small,Yes
+Y13,Thuja occidentalis,8,Small,Yes
+Y13,Thuja occidentalis,8,Small,Yes
+Y18,Thuja occidentalis,8,Small,Yes
+Y20,Thuja occidentalis,8,Small,Yes
+Y20,Thuja occidentalis,8,Small,Yes
+Y20,Thuja occidentalis,8,Small,Yes
+Y32,Thuja occidentalis,8,Small,Yes
+Y47,Thuja occidentalis,8,Small,Yes
+Y49,Thuja occidentalis,8,Small,Yes
+Y03,Thuja occidentalis,9,MedSmall,Yes
+Y06,Thuja occidentalis,9,MedSmall,Yes
+Y06,Thuja occidentalis,9,MedSmall,Yes
+Y13,Thuja occidentalis,9,MedSmall,Yes
+Y18,Thuja occidentalis,9,MedSmall,Yes
+Y18,Thuja occidentalis,9,MedSmall,Yes
+Y18,Thuja occidentalis,9,MedSmall,Yes
+Y18,Thuja occidentalis,9,MedSmall,Yes
+Y20,Thuja occidentalis,9,MedSmall,Yes
+Y09,Thuja occidentalis,10,MedSmall,Yes
+Y13,Thuja occidentalis,10,MedSmall,Yes
+Y18,Thuja occidentalis,10,MedSmall,Yes
+Y18,Thuja occidentalis,10,MedSmall,Yes
+Y18,Thuja occidentalis,10,MedSmall,Yes
+Y20,Thuja occidentalis,10,MedSmall,Yes
+Y25,Thuja occidentalis,10,MedSmall,Yes
+Y18,Thuja occidentalis,11,MedSmall,Yes
+Y18,Thuja occidentalis,11,MedSmall,Yes
+Y24,Thuja occidentalis,11,MedSmall,Yes
+Y03,Thuja occidentalis,12,MedSmall,Yes
+Y18,Thuja occidentalis,12,MedSmall,Yes
+Y18,Thuja occidentalis,12,MedSmall,Yes
+Y25,Thuja occidentalis,12,MedSmall,Yes
+Y24,Thuja occidentalis,13,MedSmall,Yes
+Y25,Thuja occidentalis,13,MedSmall,Yes
+Y32,Thuja occidentalis,13,MedSmall,Yes
+Y09,Thuja occidentalis,15,MedLarge,Yes
+Y20,Thuja occidentalis,15,MedLarge,Yes
+Y24,Thuja occidentalis,15,MedLarge,Yes
+Y18,Thuja occidentalis,16,MedLarge,Yes
+Y20,Thuja occidentalis,16,MedLarge,Yes
+Y25,Thuja occidentalis,16,MedLarge,Yes
+Y18,Thuja occidentalis,17,MedLarge,Yes
+Y24,Thuja occidentalis,17,MedLarge,Yes
+Y45,Thuja occidentalis,18,MedLarge,Yes
+Y20,Thuja occidentalis,19,MedLarge,Yes
+Y24,Thuja occidentalis,19,MedLarge,Yes
+Y24,Thuja occidentalis,20,MedLarge,Yes
+Y47,Thuja occidentalis,20,MedLarge,Yes
+Y32,Thuja occidentalis,21,MedLarge,Yes
+Y18,Thuja occidentalis,23,MedLarge,Yes
+Y47,Thuja occidentalis,25,MedLarge,Yes
+Y47,Thuja occidentalis,27,Large,Yes
+Y18,Thuja occidentalis,29,Large,Yes
+Y24,Thuja occidentalis,31,Large,Yes
+Y47,Thuja occidentalis,37,Large,Yes
+Y18,Thuja occidentalis,38,Large,Yes
+Y24,Thuja occidentalis,38,Large,Yes
+Y24,Thuja occidentalis,39,Large,Yes
+Y03,Thuja occidentalis,40,Large,Yes
+Y47,Thuja occidentalis,40,Large,Yes
+Y24,Thuja occidentalis,43,Large,Yes
+Y47,Thuja occidentalis,47,Large,Yes
+S07,Tilia x americana,54,Large,Yes
+Y09,Tilia x europaea,8,Small,No
+S19,Tilia x europaea,9,MedSmall,No
+S14,Tilia x europaea,43,Large,No
+S15,Tilia x europaea,46,Large,No
+S15,Tilia x europaea,47,Large,No
+S15,Tilia x europaea,50,Large,No
+S14,Tilia x europaea,51,Large,No
+S14,Tilia x europaea,52,Large,No
+S14,Tilia x europaea,52,Large,No
+S06,Tilia x europaea,53,Large,No
+S14,Tilia x europaea,56,Large,No
+S21,Tilia x europaea,57,Large,No
+S14,Tilia x europaea,66,Large,No
+S06,Tilia x europaea,74,Large,No
+S14,Tilia x europaea,75,Large,No
+S06,Tilia x europaea,84,Large,No
+Y04,Ulmus americana,13,MedSmall,Yes
+Y26,Ulmus americana,33,Large,Yes
+S11,Ulmus americana,79,Large,Yes
+Y47,Ulmus 'Frontier',16,MedLarge,Yes
+Y47,Ulmus 'Frontier',41,Large,Yes
+Y18,Ulmus pumila,69,Large,Yes
+S11,Ulmus x hollandica 'Pioneer',5,Small,Yes
+S18,Ulmus x hollandica 'Pioneer',5,Small,Yes
+S03,Ulmus x 'Morton',5,Small,Yes

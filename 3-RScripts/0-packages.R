@@ -8,7 +8,7 @@ library(tidyr)
 library(tidymodels)
 library(lme4)
 library(lmerTest)
-
+library(rcartocolor)
 library(visreg)
 library(dotwhisker)
 library(performance)
@@ -41,3 +41,13 @@ library(ggmap)
 
 
 library(traitdata)
+
+
+library(hrbrthemes)
+library(Matrix)
+library(plotly)
+library(RColorBrewer)
+library(sp)
+library(readr)
+library(fitdistrplus)
+library(geosphere)
