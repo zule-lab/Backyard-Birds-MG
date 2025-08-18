@@ -1,0 +1,1160 @@
+Code,Date,,Time,Temperature,Wind,Noise,Cloud,Time.obs,Bird.code,Bird.sci,Bird.gen,Bird.sp,Behaviour,Behaviour.type,Plant.common,Plant.sci,Plant.genus,Plant.sp,DBH,Notes
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:12,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,"Cat on the prowl. Heard: SOSP, PUFI, NOCA, AMRO, AMCR, HOSP, SCJU, COGR, TUVU, WTSP, WBNU, EUST, YBSA."
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:12,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:12,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:12,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:12,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,180,Hedge
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:14,NOFL,Colaptes auratus,Colaptes,auratus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,45,Tallest tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:14,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,45,Righmost tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:14,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:18,BCCH,Poecile atricapillus,Poecile,atricapillus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,45,Righmost tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:23,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:23,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:23,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:23,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,42,Little tree branch of left tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:23,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,42,Little tree branch of left tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:25,SCJU,Junco hyemalis,Junco,hyemalis,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,42,Little tree branch of left tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:25,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:25,HOSP,Passer domesticus,Passer,domesticus,Preening,Grooming,White cedar,Thuja occidentalis,Thuja,occidentalis,180,Hedge
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:28,RCKI,Corthylio calendula,Corthylio,calendula,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,180,Hedge
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:29,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:29,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:29,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:30,SCJU,Junco hyemalis,Junco,hyemalis,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,45,Righmost tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:31,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,43,Middle tree
+Y31,2025-04-24,114.00,7:12,5,2,2,1,7:31,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,180,Hedge
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:44,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Collecting nesting materials,Reproduction,Ground,NA,NA,NA,NA,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:44,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:45,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,7,"Front yard, left side of house"
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:45,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,7,"Front yard, left side of house"
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:46,HETH,Catharus guttatus,Catharus,guttatus,Inactive rest,Inactive rest,Beauty bush,Linnaea amabilis,Linnaea,amabilis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:46,HETH,Catharus guttatus,Catharus,guttatus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:48,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,What latin name was used last year?
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:50,RCKI,Corthylio calendula,Corthylio,calendula,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,60,~3m tall
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:52,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:52,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:52,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:53,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:53,RCKI,Corthylio calendula,Corthylio,calendula,Vocalising,Vocalisation,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:53,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:54,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:54,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:54,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,Hop
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:54,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,Hop
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:56,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:58,RCKI,Corthylio calendula,Corthylio,calendula,Sally,Foraging,Burning bush,Euonymous alatus,Euonymous,alatus,10,Check tree species. Photo on Jess' phone
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:59,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:59,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-04-24,114.00,7:44,6,2,1,1,7:59,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,"Heard: WTSP, WBNU, AMGO, HAWO, DOWO, AMRO, AMCR, HOSP, EUST, SOSP, RCKI, SCJU"
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:10,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,?,"Front yard, left side of house"
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:10,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,?,"Front yard, left side of house"
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:10,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:10,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:10,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Glean,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,Present for entirety of survey
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:10,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Peck,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:11,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,Front yard
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:11,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:11,SCJU,Junco hyemalis,Junco,hyemalis,Bill wipe,Grooming,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:12,AMRO,Turdus migratorius,Turdus,migratorius,Preening,Grooming,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:13,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,Left Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:14,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:14,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:16,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Red spruce,Picea rubens,Picea,rubens,51,Left Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:17,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Red spruce,Picea rubens,Picea,rubens,51,Left Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:17,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,White ash,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:17,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,White ash,Ulmus pumila,Fraxinus,americana,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:18,RCKI,Corthylio calendula,Corthylio,calendula,Vocalising,Vocalisation,Red spruce,Picea rubens,Picea,rubens,51,Left Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:19,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,Left Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:19,GCKI,Regulus satrapa,Regulus,satrapa,Glean,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:20,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,White spruce,Picea glauca,Picea,glauca,46,Right Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:21,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:21,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:21,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:21,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Siberian elm,Ulmus pumila,Fraxinus,americana,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:22,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Red spruce,Picea rubens,Picea,rubens,51,Left Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:22,WIWR,Troglodytes hiemalis,Troglodytes,hiemalis,Glean,Foraging,Ground,NA,NA,NA,NA,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:23,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White spruce,Picea glauca,Picea,glauca,46,Right Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:23,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,White spruce,Picea glauca,Picea,glauca,46,Right Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:24,WIWR,Troglodytes hiemalis,Troglodytes,hiemalis,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,46,Small little hedge rows on the left
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:26,RCKI,Corthylio calendula,Corthylio,calendula,Preening,Grooming,White spruce,Picea glauca,Picea,glauca,46,Right Norway spruce. Do we know that this is a Norway spruce?
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:27,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Hammer,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:28,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:28,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:28,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:28,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:28,DOWO,Dryobates pubescens,Dryobates,pubescens,Peck,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-04-24,114.00,8:10,7,2,2,1,8:29,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Red spruce,Picea rubens,Picea,rubens,51,Left Norway spruce. Do we know that this is a Norway spruce?
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:00,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,90,1st tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:05,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,102,2nd tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:05,SCJU,Junco hyemalis,Junco,hyemalis,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Bent ash tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:05,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Bent ash tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:05,BRCR,Certhia americana,Certhia,americana,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Bent ash tree. BRCR present the entire survey.
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:06,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,70,Bent ash tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:07,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Bent ash tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:10,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,70,1st tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:10,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,102,Bigger tree (2nd tree)
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:10,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,102,Bigger tree (2nd tree)
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:12,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Bent ash tree
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:14,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,90,Split trunk (1st tree)
+S02,2025-04-24,114.00,8:58,8,2,2,1,9:14,SCJU,Junco hyemalis,Junco,hyemalis,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,90,Saw: EAPH on resident's tree
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:28,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner. Possibly not in backyard?
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:28,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner. Possibly not in backyard?
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:28,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:28,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:28,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:28,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:30,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Trumpet honeysuckle,Lonicera sempervirens,Lonicera,sempervirens,NA,Vine
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:30,HOSP,Passer domesticus,Passer,domesticus,Collecting nesting materials,Reproduction,Trumpet honeysuckle,Lonicera sempervirens,Lonicera,sempervirens,NA,Left tree
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:32,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Hammer,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner. Possibly not in backyard?
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:33,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:35,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:35,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:37,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,76,Right tree (tall tree)
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:40,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner. Possibly not in backyard?
+Y28,2025-04-24,114.00,9:26,8,2,2,1,9:44,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree. Dogs in yard.
+Y44,2025-04-24,114.00,9:55,9,2,1,1,10:00,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,180,"Heard: AMRO, AMGO, NOCA, HAWO, BCCH, WTSP, YBSA"
+Y44,2025-04-24,114.00,9:55,9,2,1,1,10:01,AMRO,Turdus migratorius,Turdus,migratorius,Vocalising,Vocalisation,Canada yew,Taxus canadensis,Taxus,canadensis,102,Larger conifer in front
+Y44,2025-04-24,114.00,9:55,9,2,1,1,10:03,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Canada yew,Taxus canadensis,Taxus,canadensis,102,Smaller conifer in front
+Y44,2025-04-24,114.00,9:55,9,2,1,1,10:10,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,180,
+Y44,2025-04-24,114.00,9:55,9,2,1,1,10:10,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,180,
+Y44,2025-04-24,114.00,9:55,9,2,1,1,10:13,SCJU,Junco hyemalis,Junco,hyemalis,Unknown,Unknown,Canada yew,Taxus canadensis,Taxus,canadensis,86,
+Y44,2025-04-24,114.00,9:55,9,2,1,1,10:13,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Canada yew,Taxus canadensis,Taxus,canadensis,102,Larger conifer in front
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:30,Unknown,Unknown,Unknown,Unknown,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,61,Tree 3
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:35,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,68,Tree 1
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:40,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,73,Tree 6
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:40,RCKI,Corthylio calendula,Corthylio,calendula,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,73,Tree 6
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:42,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,45,Tree 5
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:44,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,68,Tree 1
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:46,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,73,Tree 6
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:46,BRCR,Certhia americana,Certhia,americana,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,56,Tree 2
+S17,2025-04-28,118.00,7:28,14,2,3,1,7:46,BRCR,Certhia americana,Certhia,americana,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,68,"Tree 1. Heard: NOCA, HOSP, YBSA, WBNU."
+Y04,2025-04-28,118.00,8:00,14,2,2,1,8:02,RCKI,Corthylio calendula,Corthylio,calendula,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,82,With face
+Y04,2025-04-28,118.00,8:00,14,2,2,1,8:05,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Vocalising,Vocalisation,White elm,Ulmus americana,Ulmus,americana,18,"Back right, smallish tree. AMCR yelling at cat."
+Y04,2025-04-28,118.00,8:00,14,2,2,1,8:11,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,82,With face
+Y04,2025-04-28,118.00,8:00,14,2,2,1,8:15,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,82,With face
+Y04,2025-04-28,118.00,8:00,14,2,2,1,8:15,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,26,First tree on driveway
+Y04,2025-04-28,118.00,8:00,14,2,2,1,8:17,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Manitoba maple,Acer negundo,Acer,negundo,51,"Dead. Heard: WBNU, HOSP, RCKI, NOFL. HOSP nest on side of house."
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:29,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Western catalpa,Catalpa speciosa,Catalpa,speciosa,15,Little tree in middle of transect
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:29,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Honey locust,Gleditsia tricanthos,Gleditsia,tricanthos,37,Little tree at end of transect
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:34,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,85,Tree 3
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:34,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,85,Tree 5
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:35,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,77,2nd from somerled
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:40,EUST,Sturnus vulgaris,Sturnus,vulgaris,Probe,Foraging,Ground,NA,NA,NA,NA,"Heard: AMGO, WTSP, AMRO, EUST, HOSP, NOCA, NOFL, BCCH, WTSP"
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:40,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:41,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,85,Tree 2
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:41,SCJU,Junco hyemalis,Junco,hyemalis,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,85,Tree 2
+S04,2025-04-28,118.00,8:25,14,2,2,1,8:41,SCJU,Junco hyemalis,Junco,hyemalis,Vocalising,Vocalisation,Ground,NA,NA,NA,NA,
+Y24,2025-04-28,118.00,8:54,15,2,2,1,9:04,AMRO,Turdus migratorius,Turdus,migratorius,Vocalising,Vocalisation,Sour cherry,Prunus cerasus,Prunus,cerasus,10,ARU tree. AMRO likely incubating nest.
+Y24,2025-04-28,118.00,8:54,15,2,2,1,9:08,AMRO,Turdus migratorius,Turdus,migratorius,Occupying nest,Reproduction,White cedar,Thuja occidentalis,Thuja,occidentalis,25,"RCKI on other side of fence. Heard: RCKI, WTSP, SOSP, NOCA, CHSP, AMGO, HOSP"
+S18,2025-04-28,118.00,9:28,15,2,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,"Heard: HETH, AMRO, SOSP, CHSP, HOSP, WTSP, YBSA, NOCA"
+S18,2025-04-28,118.00,9:28,15,2,2,1,9:33,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+S18,2025-04-28,118.00,9:28,15,2,2,1,9:33,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Tulip tree,Liriodendron tulipifera,Liriodendron,tulipifera,16,5001 tree
+S18,2025-04-28,118.00,9:28,15,2,2,1,9:34,EUST,Sturnus vulgaris,Sturnus,vulgaris,Peck,Foraging,Ground,NA,NA,NA,NA,
+S18,2025-04-28,118.00,9:28,15,2,2,1,9:34,AMRO,Turdus migratorius,Turdus,migratorius,Collecting nesting materials,Reproduction,Ground,NA,NA,NA,NA,
+S18,2025-04-28,118.00,9:28,15,2,2,1,9:39,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,
+S18,2025-04-28,118.00,9:28,15,2,2,1,9:46,AMRO,Turdus migratorius,Turdus,migratorius,Collecting nesting materials,Reproduction,Ground,NA,NA,NA,NA,
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:20,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,Spoke with Noa for awhile--extended survey time by 5mins. Both of us in the back bc many birds. First warblers of the season. NAWA in neighbour's conifer. Black & white cat in area.
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:23,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,?,?,?,?,?,Right tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:25,MYWA,Setophaga coronata,Setophaga,coronata,Unknown,Unknown,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:29,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,?,?,?,?,?,Left tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:30,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,?,?,?,?,?,Right tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:30,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,?,?,?,?,?,Left tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:30,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Inactive rest,Inactive rest,?,?,?,?,?,Left tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:31,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Hammer,Foraging,?,?,?,?,?,Left tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:32,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,?,?,?,?,?,Right tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:32,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:33,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:33,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,?,?,?,?,?,ARU tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:33,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,?,?,?,?,?,Right tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:33,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:36,MYWA,Setophaga coronata,Setophaga,coronata,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:37,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,?,?,?,?,?,Right tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:37,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,?,?,?,?,?,Right tree
+Y50,2025-04-29,119.00,7:13,14,3,1,3,7:38,MYWA,Setophaga coronata,Setophaga,coronata,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:02,NAWA,Leiothlypis ruficapilla,Leiothlypis,ruficapilla,Vocalising,Vocalisation,Siberian elm,Ulmus pumila,Ulmus,pumila,47,Left. Saw cat in yard.
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:05,HETH,Catharus guttatus,Catharus,guttatus,Inactive rest,Inactive rest,Siberian elm,Ulmus pumila,Ulmus,pumila,18,Right
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:05,HETH,Catharus guttatus,Catharus,guttatus,Inactive rest,Inactive rest,Siberian elm,Ulmus pumila,Ulmus,pumila,18,Right
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:05,HETH,Catharus guttatus,Catharus,guttatus,Vocalising,Vocalisation,Siberian elm,Ulmus pumila,Ulmus,pumila,18,Right
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:05,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Siberian elm,Ulmus pumila,Ulmus,pumila,47,Left
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:05,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Siberian elm,Ulmus pumila,Ulmus,pumila,47,Left
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:05,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,16,Small tree
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:09,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,22,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:09,HETH,Catharus guttatus,Catharus,guttatus,Inactive rest,Inactive rest,Siberian elm,Ulmus pumila,Ulmus,pumila,18,Right. Mew call.
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:09,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Vocalising,Vocalisation,Siberian elm,Ulmus pumila,Ulmus,pumila,18,Right
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:10,RCKI,Corthylio calendula,Corthylio,calendula,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,22,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:11,RCKI,Corthylio calendula,Corthylio,calendula,Vocalising,Vocalisation,Siberian elm,Ulmus pumila,Ulmus,pumila,47,Left
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:12,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:12,HETH,Catharus guttatus,Catharus,guttatus,Unknown,Unknown,White cedar,Thuja occidentalis,Thuja,occidentalis,22,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:13,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:13,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,22,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:13,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,22,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:13,HETH,Catharus guttatus,Catharus,guttatus,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,22,
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:15,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Vocalising,Vocalisation,Common lilac,Syringa vulgaris,Syringa,vulgaris,16,Small tree
+Y47,2025-04-29,119.00,7:56,15,3,2,2,8:15,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,22,
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:30,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,76,"Tree 2. Counted from corner of street. Heard: SOSP, HOFI, HOSP, NOCA, AMRO, COGR, NAWA"
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:30,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,51,Tree 3
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:31,HOSP,Passer domesticus,Passer,domesticus,Preening,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,76,Tree 2
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:31,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,Tree 2
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:32,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,69,Tree 7
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:33,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,51,Tree 3
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:37,BLJA,Cyanocitta cristata,Cyanocitta,cristata,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,69,Tree 7
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:40,NAWA,Leiothlypis ruficapilla,Leiothlypis,ruficapilla,Unknown,Unknown,Silver maple,Acer saccharinum,Acer,saccharinum,69,Tree 7
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:40,DOWO,Dryobates pubescens,Dryobates,pubescens,Peck,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,112,Tree 1
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:41,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,Tree 2
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:42,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,51,Tree 3
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:42,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,Tree 2
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:44,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,51,Tree 3
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:44,HETH,Catharus guttatus,Catharus,guttatus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,51,Tree 3. Mew call
+S12,2025-04-29,119.00,8:24,15,3,2,1,8:44,HETH,Catharus guttatus,Catharus,guttatus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,Tree 2
+S07,2025-04-29,119.00,9:00,15,3,1,1,9:05,SCJU,Junco hyemalis,Junco,hyemalis,Vocalising,Vocalisation,Blue spruce,Picea pungens,Picea,pungens,47,"Conifer. Merlin pair vocalising and perched across the street. Heard: BCCH, NOCA, AMRO, MERL."
+S07,2025-04-29,119.00,9:00,15,3,1,1,9:05,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,107,Tree 1
+S07,2025-04-29,119.00,9:00,15,3,1,1,9:05,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,79,Tree 4
+S07,2025-04-29,119.00,9:00,15,3,1,1,9:05,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,79,Tree 4
+S07,2025-04-29,119.00,9:00,15,3,1,1,9:05,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,79,Tree 4
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:30,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Burning bush,Euonymous alatus,Euonymous,alatus,30,"Extended survey by 5 mins after resident spoke with both of us. Very loud leafblower in neighbouring backyard. MERL pair still in area. CHSP used birdfeeder. Heard: AMRO, NOCA"
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:30,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Burning bush,Euonymous alatus,Euonymous,alatus,30,I think this is the wrong type of lilac tree (should be Japanese tree lilac) based on the verified yard trees.
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:30,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Japanese lilac,Syringa reticulata,Syringa,reticulata,37,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:30,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Japanese lilac,Syringa reticulata,Syringa,reticulata,37,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:35,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:36,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:37,COGR,Quiscalus quiscula,Quiscalus,quiscula,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,140,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:39,BRCR,Certhia americana,Certhia,americana,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,140,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:40,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Magnolia,Magnolia liliiflora,Magnolia,liliiflora,30,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:41,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,Hop
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:41,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:42,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,Hop
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:43,CHSP,Spizella passerina,Spizella,passerina,Inactive rest,Inactive rest,Japanese maple,Acer palmatum,Acer,palmatum,37,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:43,CHSP,Spizella passerina,Spizella,passerina,Inactive rest,Inactive rest,Japanese maple,Acer palmatum,Acer,palmatum,37,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:43,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:44,AMGO,Spinus tristis,Spinus,tristis,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,140,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:44,SCJU,Junco hyemalis,Junco,hyemalis,Vocalising,Vocalisation,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:44,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:44,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:45,MODO,Zenaida macroura,Zenaida,macroura,Bathing,Grooming,Birdbath,NA,NA,NA,NA,
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:47,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,Hop
+Y13,2025-04-29,119.00,9:23,15,3,4,1,9:48,CHSP,Spizella passerina,Spizella,passerina,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:20,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Peck,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,65,"Heard: WTSP, SOSP, HOSP, CHSP, BCCH, NOCA, MYWA, WBNU, BLJA, NAWA, AMRO, RCKI, AMGO, MERL."
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:20,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Peck,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,65,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:20,YBSA,Sphyrapicus varius,Sphyrapicus,varius,Peck,Foraging,Sugar maple,Acer saccharum,Acer,saccharum,55,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:22,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Sugar maple,Acer saccharum,Acer,saccharum,55,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:22,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,264,Hedge
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:23,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:23,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:23,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:23,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y05,2025-05-01,121.00,8:05,4,2,3,1,8:23,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+S01,2025-05-01,121.00,8:32,4,2,3,1,8:32,,,#N/A,#N/A,,,,,,,,"MERL perched in backyard on our side of street. Many BAWW heard and seen in backyards on other side of street. COHA flyover. Heard: NOCA, MYWA, RCKI, AMRO, SOSP, HOSP, AMGO, MYWA, BWWA."
+Y20,2025-05-01,121.00,8:57,4,2,2,1,9:05,SCJU,Junco hyemalis,Junco,hyemalis,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,22,Shrub
+Y20,2025-05-01,121.00,8:57,4,2,2,1,9:05,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,"MERL perched in neighbours' yards vocalising for most of survey. Most birds silent. Heard: DOWO, NOFL, NOCA, BCCH, COGR, EUST, RCKI."
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:31,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,64,Perched there for about 5 mins.
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:41,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,64,Saw 3 AMGO.
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:44,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,50,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:44,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,50,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:44,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,50,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:44,MYWA,Setophaga coronata,Setophaga,coronata,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-01,121.00,9:29,5,2,2,1,9:44,RCKI,Corthylio calendula,Corthylio,calendula,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,64,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:20,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:20,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:22,EUST,Sturnus vulgaris,Sturnus,vulgaris,Probe,Foraging,Ground,NA,NA,NA,NA,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:22,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:22,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:23,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:23,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:23,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:23,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:24,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,42,On yard
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:24,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,42,On yard
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:24,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,On yard
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:24,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,On yard
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:27,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,82,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:27,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,82,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:27,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,82,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:27,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Sugar maple,Acer saccharum,Acer,saccharum,41,Check tree species. Tree is beside the Norway.
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:30,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Sugar maple,Acer saccharum,Acer,saccharum,41,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:30,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Ginkgo,Ginkgo biloba,Ginkgo,biloba,6,Check tree species.
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:30,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Ginkgo,Ginkgo biloba,Ginkgo,biloba,6,Check tree species.
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:34,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:36,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:36,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-08,128.00,7:17,7,3,2,4,7:36,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,40,
+Y27,2025-05-08,128.00,7:55,7,3,1,4,,,,#N/A,#N/A,,,,,,,,"Cat in alleyway. Heard: NOCA, BCCH, HOSP, EUST, CHSP, BLJA, AMRO, GREG, CAGO, ROPI, RBGU"
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:21,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common hackberry,Celtis occidentalis,Celtis,occidentalis,6,Check tree species.
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:21,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:23,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,Ash #1
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:23,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:25,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common hackberry,Celtis occidentalis,Celtis,occidentalis,6,Check tree species.
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:26,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,58,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:30,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:30,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:31,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:31,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:31,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,58,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:31,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,58,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:31,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common hackberry,Celtis occidentalis,Celtis,occidentalis,6,Check tree species.
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:31,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common hackberry,Celtis occidentalis,Celtis,occidentalis,6,Check tree species.
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:31,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common hackberry,Celtis occidentalis,Celtis,occidentalis,6,Check tree species.
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:36,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,Ash #3
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:37,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,83,Ash #2
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:38,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:38,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:39,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:41,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:41,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,83,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:41,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,83,
+S09,2025-05-08,128.00,8:21,7,3,1,4,8:41,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,83,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:06,SCJU,Junco hyemalis,Junco,hyemalis,Peck,Foraging,Ground,NA,NA,NA,NA,"Heard: CHSP in neighbours, AMRO alarm call, SOSP, AMGO. Yard got quiet after alarm call. No warblers heard."
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:07,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Mock orange,Philadelphus coronarius,Philadelphus,coronarius,6,Check tree species.
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:07,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Mock orange,Philadelphus coronarius,Philadelphus,coronarius,6,Check tree species.
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:08,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:08,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:11,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:11,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:12,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Mock orange,Philadelphus coronarius,Philadelphus,coronarius,6,Check tree species.
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:12,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Mock orange,Philadelphus coronarius,Philadelphus,coronarius,6,Check tree species.
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:13,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:13,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:13,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:13,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:13,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:14,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:14,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:15,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:15,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:15,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:15,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:15,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:16,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:16,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:16,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:17,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Manitoba maple,Acer negundo,Acer,negundo,39,Right
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:18,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Manitoba maple,Acer negundo,Acer,negundo,52,Left
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:18,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-08,128.00,9:05,7,3,1,4,9:21,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Manitoba maple,Acer negundo,Acer,negundo,52,Left
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:30,CHSP,Spizella passerina,Spizella,passerina,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,21,Check tree species. Tree with red band.
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:32,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Scots pine,Pinus sylvestris,Pinus,sylvestris,28,Check tree species.
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:37,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,21,Check tree species.
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:40,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Ground,NA,NA,NA,NA,
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:40,CHSP,Spizella passerina,Spizella,passerina,Peck,Foraging,Ground,NA,NA,NA,NA,
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:46,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Scots pine,Pinus sylvestris,Pinus,sylvestris,28,Check tree species.
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:46,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Scots pine,Pinus sylvestris,Pinus,sylvestris,28,Check tree species.
+S15,2025-05-08,128.00,9:30,7,3,4,4,9:46,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Little-leaved linden,Tilia cordata,Tilia,cordata,59,"Heard: AMRO, EUST"
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:23,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Lime linden,Tilia europaea,Tilia,europaea,13,Check tree species. Tree beside mulberry.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:24,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Lime linden,Tilia europaea,Tilia,europaea,13,Check tree species. Tree beside mulberry.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:25,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Lime linden,Tilia europaea,Tilia,europaea,13,Check tree species. Tree beside mulberry.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:25,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Blue spruce,Picea pungens,Picea,pungens,40,Check tree species. Corner spruce.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:25,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Katsura tree,Cercidiphyllum japonicum,Cercidiphyllum,japonicum,11,Check tree species. Tree 2.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:26,HOSP,Passer domesticus,Passer,domesticus,Nest building,Reproduction,Blue spruce,Picea pungens,Picea,pungens,40,Check tree species. Corner spruce.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:26,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:26,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Lime linden,Tilia europaea,Tilia,europaea,13,Check tree species. Tree beside mulberry.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:27,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,River birch,Betula nigra,Betula,nigra,17,
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:27,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,River birch,Betula nigra,Betula,nigra,17,
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:27,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,River birch,Betula nigra,Betula,nigra,17,
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:28,HOSP,Passer domesticus,Passer,domesticus,Nest building,Reproduction,Blue spruce,Picea pungens,Picea,pungens,40,Check tree species. Corner spruce.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:29,HOSP,Passer domesticus,Passer,domesticus,Collecting nesting materials,Reproduction,River birch,Betula nigra,Betula,nigra,17,
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:31,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red maple,Acer rubrum,Acer,rubrum,37,Check tree species. Tree on left of river birch.
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:32,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,47,
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:32,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,29,
+S19,2025-05-12,132.00,7:13,11,2,2,1,7:32,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Lime linden,Tilia europaea,Tilia,europaea,13,Check tree species. Tree 1.
+Y26,2025-05-12,132.00,7:51,11,2,2,1,7:56,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Dead standing,NA,NA,NA,20,"Heard: NOPA, YEWA, AMRE, HOSP. Saw: SCTA, HOFI. Baby squirrels living in roof."
+Y26,2025-05-12,132.00,7:51,11,2,2,1,7:58,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common pear,Pyrus communis,Pyrus,communis,17,Check tree species. Middle tree
+Y26,2025-05-12,132.00,7:51,11,2,2,1,8:00,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Apple,Malus domesticus,Malus,domesticus,21,Check tree species. Apple?
+S08,2025-05-12,132.00,8:22,13,2,2,1,8:29,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Freeman maple,Acer freemanii,Acer,freemanii,43,Check tree species. Tree next to corner.
+S08,2025-05-12,132.00,8:22,13,2,2,1,8:29,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Freeman maple,Acer freemanii,Acer,freemanii,37,Check tree species. Tree on corner.
+S08,2025-05-12,132.00,8:22,13,2,2,1,8:35,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Freeman maple,Acer freemanii,Acer,freemanii,43,
+S08,2025-05-12,132.00,8:22,13,2,2,1,8:40,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Freeman maple,Acer freemanii,Acer,freemanii,37,"Heard: AMRE, NOPA, YEWA, AMRE, BTNW, NOCA, HOSP."
+Y06,2025-05-12,132.00,9:11,13,2,2,3,,,,#N/A,#N/A,,,,,,,,"Paused at a tree on our way to the yard to see warblers, including MYWA, NAWA, CSWA, CMWA, AMRE. Very quiet, got colder. Heard: MYWA, NOCA, AMRO, WTSP when in yard."
+S20,2025-05-12,132.00,9:35,13,2,3,3,9:35,MYWA,Setophaga coronata,Setophaga,coronata,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,67,"Heard: BLJA, NOCA, HOSP, WTSP. Still cold and quiet."
+S20,2025-05-12,132.00,9:35,13,2,3,3,9:35,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,67,
+S20,2025-05-12,132.00,9:35,13,2,3,3,9:48,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,67,
+S20,2025-05-12,132.00,9:35,13,2,3,3,9:48,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,67,
+S20,2025-05-12,132.00,9:35,13,2,3,3,9:48,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,67,
+S20,2025-05-12,132.00,9:35,13,2,3,3,9:49,RCKI,Corthylio calendula,Corthylio,calendula,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,61,
+S20,2025-05-12,132.00,9:35,13,2,3,3,9:49,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,61,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:23,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,"Heard: NAWA, AMGO, MERL, CHSW. Saw tan WTSP morph."
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:23,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:23,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Japanese maple,Acer palmatum,Acer,palmatum,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:23,EWCS,Zonotrichia leucophrys,Zonotrichia,leucophrys,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:24,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Japanese maple,Acer palmatum,Acer,palmatum,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:30,Unknown,Unknown,Unknown,Unknown,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,?,NAWA heard nearby and RCKI seen on street.
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:33,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,?,?,?,?,?,Check tree species. Tree in left corner.
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:33,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese maple,Acer palmatum,Acer,palmatum,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:33,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:33,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:34,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:34,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Japanese maple,Acer palmatum,Acer,palmatum,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese maple,Acer palmatum,Acer,palmatum,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:35,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Japanese maple,Acer palmatum,Acer,palmatum,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:37,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:37,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:37,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:37,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,?,?,?,?,?,Check tree species. Tree in left corner.
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:38,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:39,EWCS,Zonotrichia leucophrys,Zonotrichia,leucophrys,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:39,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,?,
+Y49,2025-05-13,133.00,7:20,13,2,2,1,7:40,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Japanese maple,Acer palmatum,Acer,palmatum,?,
+S11,2025-05-13,133.00,7:45,13,3,2,1,7:45,NAWA,Leiothlypis ruficapilla,Leiothlypis,ruficapilla,Glean,Foraging,White elm,Ulmus americana,Ulmus,americana,82,"Heard: RCKI, AMCR, AMRO, ROPI, HOSP, RBGU. NAWA was present the whole time. Chouette seen by a resident."
+S11,2025-05-13,133.00,7:45,13,3,2,1,7:45,NAWA,Leiothlypis ruficapilla,Leiothlypis,ruficapilla,Vocalising,Vocalisation,White elm,Ulmus americana,Ulmus,americana,82,"*Pretty sure it was an elm, not a silver"
+S11,2025-05-13,133.00,7:45,13,3,2,1,7:53,WTSP,Zonotrichia albicollis,Zonotrichia,albicollis,Vocalising,Vocalisation,Little-leaved linden,Tilia cordata,Tilia,cordata,41,
+S11,2025-05-13,133.00,7:45,13,3,2,1,7:54,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White elm,Ulmus americana,Ulmus,americana,82,
+S11,2025-05-13,133.00,7:45,13,3,2,1,7:54,Unknown,Unknown,Unknown,Unknown,Inactive rest,Inactive rest,Little-leaved linden,Tilia cordata,Tilia,cordata,41,
+S11,2025-05-13,133.00,7:45,13,3,2,1,8:00,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Little-leaved linden,Tilia cordata,Tilia,cordata,41,Chasing each other.
+S11,2025-05-13,133.00,7:45,13,3,2,1,8:00,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Little-leaved linden,Tilia cordata,Tilia,cordata,41,Chasing each other.
+S05,2025-05-13,133.00,8:14,14,3,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MERL flyover, garbage truck passing, lots of pedestrians. Heard: HOSP, EUST, NAWA, MERL, BCCH, ROPI."
+Y09,2025-05-13,133.00,8:52,14,2,2,1,9:00,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Little-leaved linden,Tilia cordata,Tilia,cordata,14,"Heard: WBNU, AMCR, WTSP, BLJA, NOCA, BCCH, MYWA."
+Y09,2025-05-13,133.00,8:52,14,2,2,1,9:05,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Little-leaved linden,Tilia cordata,Tilia,cordata,14,
+S14,2025-05-13,133.00,9:21,16,2,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Little-leaved linden,Tilia cordata,Tilia,cordata,51,"COHA pair flyover. Heard: AMGO, HOSP, AMCR. Very quiet overall. Check tree species."
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:14,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,"Cat. TEWA singing loudly in backyard with large silver maple. Heard: AMGO, HOFI, REVI, CHSW, TEWA, NOCA, SOSP, AMRO (alarm call), BCCH, HOSP, NOFL"
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:19,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Kentucky coffee tree,Gymnocladus dioicus,Gymnocladus,dioicus,10,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:19,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Ground,NA,NA,NA,,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:19,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Kentucky coffee tree,Gymnocladus dioicus,Gymnocladus,dioicus,10,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:19,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:19,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,67,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:21,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Ground,NA,NA,NA,NA,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:21,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:27,BCCH,Poecile atricapillus,Poecile,atricapillus,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,26,
+S21,2025-05-14,134.00,7:07,16,1,1,1,7:27,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,26,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,Begging behaviour
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,13,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,13,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,13,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,White cedar,Thuja occidentalis,Thuja,occidentalis,13,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,13,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:01,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:04,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:04,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:05,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-05-14,134.00,7:50,17,1,3,1,8:05,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,European crabapple,Malus sylvestris,Malus,sylvestris,?,"Dog and kid in backyard. Heard: CHSP, NOCA, AMRO, CHSW, HOSP, SOSP"
+S13,2025-05-14,134.00,8:21,17,2,3,1,,,,#N/A,#N/A,,,,,,,,"Heard: CHSW, CHSP, AMRO, SOSP, EUST, HOSP, NOCA, TEWA, BLJA, AMRO, HOFI, MODO"
+Y45,2025-05-14,134.00,8:49,18,1,2,1,8:53,SOSP,Melospiza melodia,Melospiza,melodia,Preening,Grooming,Balsam fir,Abies balsamea,Abies,balsamea,5,"Heard: RWBL, HOFI, HOSP, WTSP, AMRO, BCCH, NOCA, CHSP, SOSP, CHSW, COGR, EUST, AMGO"
+Y45,2025-05-14,134.00,8:49,18,1,2,1,8:58,SOSP,Melospiza melodia,Melospiza,melodia,Bill wipe,Grooming,Balsam fir,Abies balsamea,Abies,balsamea,15,
+Y45,2025-05-14,134.00,8:49,18,1,2,1,8:58,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,
+S06,2025-05-14,134.00,9:19,20,1,2,1,9:22,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,English oak,Quercus robur,Quercus,robur,27,"Cat. WBNU across the street. Heard: WBNU, CORA, SOSP, NOCA, AMRO, AMGO, HOSP, EUST"
+S06,2025-05-14,134.00,9:19,20,1,2,1,9:22,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Little-leaved linden,Tilia europaea,Tilia,europaea,92,"Green Norway maple DBH: 93, Red Norway maple DBH: 79"
+S06,2025-05-14,134.00,9:19,20,1,2,1,9:22,SOSP,Melospiza melodia,Melospiza,melodia,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,57,
+S06,2025-05-14,134.00,9:19,20,1,2,1,9:22,TEWA,Leiothlypis peregrina,Leiothlypis,peregrina,Vocalising,Vocalisation,Little-leaved linden,Tilia europaea,Tilia,europaea,70,
+S06,2025-05-14,134.00,9:19,20,1,2,1,9:22,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Little-leaved linden,Tilia europaea,Tilia,europaea,92,
+Y44,2025-05-21,141.00,7:02,9,3,2,4,7:21,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Canada yew,Taxus canadensis,Taxus,canadensis,102,"Cat in yard. Heard: SOSP, CHSP, NOCA, BCCH, MAAWA, TEWA, YEWA, LEFL. LEFL in backyard (che-bek heard directly above, likely in huge silver maple)."
+Y44,2025-05-21,141.00,7:02,9,3,2,4,7:21,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Canada yew,Taxus canadensis,Taxus,canadensis,102,Pair of NOCAs.
+Y31,2025-05-21,141.00,7:38,9,3,2,4,7:48,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,45,"Rightmost tree. MERL being chased by AMCR. Heard: MERL, AMCR, HOSP, NOCA, BTBW."
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:07,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,Red spruce,Picea rubens,Picea,rubens,51,Do we know that both these conifers are norway spruce?
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:10,AMRE,Setophaga ruticilla,Setophaga,ruticilla,Glean,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,Female AMRE.
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:13,SOSP,Melospiza melodia,Melospiza,melodia,Vocalising,Vocalisation,European crab apple,Malus sylvestris,Malus,sylvestris,37,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:14,BTBW,Setophaga caerulescens,Setophaga,caerulescens,Glean,Foraging,?,?,?,?,NA,Tree/tall shrub in back left corner. Pics on Jess' phone.
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:14,BTBW,Setophaga caerulescens,Setophaga,caerulescens,Glean,Foraging,European crab apple,Malus sylvestris,Malus,sylvestris,37,Female BTBW
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:14,BTBW,Setophaga caerulescens,Setophaga,caerulescens,Preening,Grooming,European crab apple,Malus sylvestris,Malus,sylvestris,37,Female BTBW
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:14,BTBW,Setophaga caerulescens,Setophaga,caerulescens,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,NA,Female BTBW
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:16,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,White spruce,Picea glauca,Picea,glauca,46,Males identified. Likely some CMWA females and BLPW females confused.
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:16,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,White spruce,Picea glauca,Picea,glauca,46,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:16,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,White spruce,Picea glauca,Picea,glauca,46,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:16,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,White spruce,Picea glauca,Picea,glauca,46,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:18,BTBW,Setophaga caerulescens,Setophaga,caerulescens,Vocalising,Vocalisation,?,?,?,?,NA,Tree/tall shrub in back left corner. Pics on Jess' phone.
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:20,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:20,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:21,AMRO,Turdus migratorius,Turdus,migratorius,Gape,Foraging,Ground,NA,NA,NA,NA,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:23,CMWA,Setophaga tigrina,Setophaga,tigrina,Glean,Foraging,White spruce,Picea glauca,Picea,glauca,46,All female CMWAs.
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:23,CMWA,Setophaga tigrina,Setophaga,tigrina,Glean,Foraging,White spruce,Picea glauca,Picea,glauca,46,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:24,CMWA,Setophaga tigrina,Setophaga,tigrina,Vocalising,Vocalisation,White spruce,Picea glauca,Picea,glauca,46,
+Y18,2025-05-21,141.00,8:07,10,3,2,4,8:24,CMWA,Setophaga tigrina,Setophaga,tigrina,Vocalising,Vocalisation,Norway spruce,Picea glauca,Picea,glauca,46,"Heard: SOSP, HOSP, CHSP, BTBW, CMWA, AMCR, EUST, NOFL, RBNU, WTSP, COYT (seen)."
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:15,CMWA,Setophaga tigrina,Setophaga,tigrina,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,"Very busy with many warblers; mostly BBWAs in second half of survey. WBNU, BCCH, and HOFI using the bird feeder. Heard: BTBW, TEWA, BTNW, BLPW, MAWA, BBWA, AMRE, CMWA, CHSW."
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:15,TEWA,Leiothlypis peregrina,Leiothlypis,peregrina,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:16,WBNU,Sitta carolinensis,Sitta,carolinensis,Peck,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,76,Right tree. Caching seeds.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:16,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,76,"Right tree. Plain, non-descript female warbler."
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:16,BLPW,Setophaga striata,Setophaga,striata,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,76,"Right tree. Plain, non-descript female warbler."
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:19,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,12,
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:19,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:22,TEWA,Leiothlypis peregrina,Leiothlypis,peregrina,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner. Very yellow female warbler.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Common lilac,Syringa vulgaris,Syringa,vulgaris,12,
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,BCCH,Poecile atricapillus,Poecile,atricapillus,Peck,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,12,
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,12,
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner. Mix of females and males.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:24,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:25,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:25,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:27,TEWA,Leiothlypis peregrina,Leiothlypis,peregrina,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,"Left tree in corner. Male heard vocalising very loudly,"
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:27,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:27,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:27,AMRE,Setophaga ruticilla,Setophaga,ruticilla,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner. Female AMRE.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:27,WBNU,Sitta carolinensis,Sitta,carolinensis,Peck,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,76,Right tree. Caching seeds.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:28,BCCH,Poecile atricapillus,Poecile,atricapillus,Peck,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,12,Caching seeds.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:28,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Common lilac,Syringa vulgaris,Syringa,vulgaris,12,Peeps.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:29,BBWA,Setophaga castanea,Setophaga,castanea,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:29,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:29,BBWA,Setophaga castanea,Setophaga,castanea,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:30,BLPW,Setophaga striata,Setophaga,striata,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:30,BCCH,Poecile atricapillus,Poecile,atricapillus,Peck,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,12,
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:31,BBWA,Setophaga castanea,Setophaga,castanea,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:31,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:31,BBWA,Setophaga castanea,Setophaga,castanea,Bill wipe,Grooming,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:33,MAWA,Setophaga magnolia,Setophaga,magnolia,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:34,BBWA,Setophaga castanea,Setophaga,castanea,Bill wipe,Grooming,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+Y28,2025-05-21,141.00,9:15,11,3,2,4,9:34,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,60,Left tree in corner.
+S02,2025-05-21,141.00,9:59,11,2,4,4,9:59,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red oak,Quercus rubra,Quercus,rubra,54,"Heard: AMRO, AMGO, CORA, AMRE, OVEN, HOSP."
+S02,2025-05-21,141.00,9:59,11,2,4,4,9:59,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red oak,Quercus rubra,Quercus,rubra,54,
+S02,2025-05-21,141.00,9:59,11,2,4,4,9:59,NOPA,Setophaga americana,Setophaga,americana,Glean,Foraging,Red oak,Quercus rubra,Quercus,rubra,54,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:01,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Red oak,Quercus rubra,Quercus,rubra,54,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:01,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Red oak,Quercus rubra,Quercus,rubra,54,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:01,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Bill wipe,Grooming,Red oak,Quercus rubra,Quercus,rubra,54,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:05,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Ground,NA,NA,NA,NA,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:05,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Ground,NA,NA,NA,NA,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:05,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:05,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:11,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,American hophornbeam,Ostrya virginiana,Ostrya,virginiana,10,American hophornbeam aka Ironwood.
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:11,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red oak,Quercus rubra,Quercus,rubra,54,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:18,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:18,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common hackberry,Celtis occidentalis,Celtis,occidentalis,13,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:18,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Common hackberry,Celtis occidentalis,Celtis,occidentalis,13,
+S02,2025-05-21,141.00,9:59,11,2,4,4,10:19,BBWA,Setophaga castanea,Setophaga,castanea,Glean,Foraging,Red oak,Quercus rubra,Quercus,rubra,54,
+Y03,2025-05-21,141.00,10:31,12,3,2,4,10:38,MAWA,Setophaga magnolia,Setophaga,magnolia,Glean,Foraging,Beauty bush,Linnaea Amabilis,Linnaea,Amabilis,15,"Tall shrubby tree/bush on right side of yard. Heard: SOSP, BTBW, NOCA, BCCH."
+S18,2025-05-22,142.00,7:17,10,3,2,4,,,,#N/A,#N/A,,,,,,,,"Heard: BLJA, NOCA, SOSP, MAWA, TEWA, BCCH, WTSP, HOSP."
+Y24,2025-05-22,142.00,7:54,10,3,3,4,7:59,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Sour cherry,Prunus cerasus,Prunus,cerasus,10,"Heard: SOSP, BLJA, NOCA, EUST."
+Y24,2025-05-22,142.00,7:54,10,3,3,4,8:09,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,American elm,Ulmus americana,Ulmus,americana,NA,Sapling.
+Y04,2025-05-22,142.00,8:25,10,3,2,4,8:31,MAWA,Setophaga magnolia,Setophaga,magnolia,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,30,
+Y04,2025-05-22,142.00,8:25,10,3,2,4,8:36,MAWA,Setophaga magnolia,Setophaga,magnolia,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,30,
+Y04,2025-05-22,142.00,8:25,10,3,2,4,8:38,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,82,Red Norway maple. (DBH written in Mackenzie's notes).
+Y04,2025-05-22,142.00,8:25,10,3,2,4,8:42,MAWA,Setophaga magnolia,Setophaga,magnolia,Glean,Foraging,Norway maple,Acer platanoides,Acer,platanoides,35,Norway maple in left corner.
+Y04,2025-05-22,142.00,8:25,10,3,2,4,8:42,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,82,Red Norway maple. (DBH written in Mackenzie's notes).
+Y04,2025-05-22,142.00,8:25,10,3,2,4,8:45,MAWA,Setophaga magnolia,Setophaga,magnolia,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,30,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:00,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Silver maple,Acer saccharinum,Acer,saccharinum,85,"Heard: TEWA, HOSP, EUST, NOCA, AMRO."
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:00,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Silver maple,Acer saccharinum,Acer,saccharinum,85,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:00,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:00,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:02,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Silver maple,Acer saccharinum,Acer,saccharinum,85,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:02,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:05,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,85,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:05,EUST,Sturnus vulgaris,Sturnus,vulgaris,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,77,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:05,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,77,
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:05,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,77,Begging.
+S04,2025-05-22,142.00,9:00,10,3,3,4,9:06,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,77,
+S17,2025-05-22,142.00,9:32,10,3,3,4,9:35,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,34,"Heard: HOSP, EUST, MAWA. GREG flyover."
+S17,2025-05-22,142.00,9:32,10,3,3,4,9:38,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,73,
+S17,2025-05-22,142.00,9:32,10,3,3,4,9:38,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,45,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:12,CHSP,Spizella passerina,Spizella,passerina,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,Shrub.
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:13,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,30,"Might want to double-check: the magnolia with most observations is the one in the back left corner of the yard; bc it is large, Jess marked it as 30cm DBH since that is the larger magnolia in the DBH database. Not 100% certain."
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:14,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:19,COGR,Quiscalus quiscula,Quiscalus,quiscula,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:20,SOSP,Melospiza melodia,Melospiza,melodia,Bill wipe,Grooming,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:20,COGR,Quiscalus quiscula,Quiscalus,quiscula,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:20,COGR,Quiscalus quiscula,Quiscalus,quiscula,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:20,COGR,Quiscalus quiscula,Quiscalus,quiscula,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:20,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:20,SOSP,Melospiza melodia,Melospiza,melodia,Bill wipe,Grooming,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:22,COGR,Quiscalus quiscula,Quiscalus,quiscula,Bill wipe,Grooming,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:24,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:25,MODO,Zenaida macroura,Zenaida,macroura,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:25,MODO,Zenaida macroura,Zenaida,macroura,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:25,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:27,COGR,Quiscalus quiscula,Quiscalus,quiscula,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:27,COGR,Quiscalus quiscula,Quiscalus,quiscula,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:29,COGR,Quiscalus quiscula,Quiscalus,quiscula,Feeding fledgling,Reproduction,Burning bush,Euonymous alatus,Euonymous,alatus,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:29,COGR,Quiscalus quiscula,Quiscalus,quiscula,Inactive rest,Inactive rest,Burning bush,Euonymous alatus,Euonymous,alatus,30,Fledgling.
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:30,SOSP,Melospiza melodia,Melospiza,melodia,Bill wipe,Grooming,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,17,Right.
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:31,COGR,Quiscalus quiscula,Quiscalus,quiscula,Vocalising,Vocalisation,Magnolia 'Susan',Magnolia soulangeana,Magnolia,soulangeana,30,
+Y13,2025-05-26,146.00,7:12,13,1,1,1,7:31,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,"Heard: MODO, COGR, BLJA, TEWA, BCCH. TEWA was likely in neighbour's yard."
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:43,CHSP,Spizella passerina,Spizella,passerina,Peck,Foraging,Ground,NA,NA,NA,NA,"MERL across the street causing BCCH alarm calls. Heard: REVI, MERL, BCCH, HOSP, EUST."
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:45,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,107,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:47,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,87,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:51,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,87,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:51,BCCH,Poecile atricapillus,Poecile,atricapillus,Collecting nesting materials,Reproduction,Silver maple,Acer saccharinum,Acer,saccharinum,85,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:54,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,85,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:54,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,85,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:54,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,85,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:56,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,79,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:56,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,79,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:56,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,79,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:56,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,87,
+S07,2025-05-26,146.00,7:36,13,1,3,1,7:56,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,87,
+Y47,2025-05-26,146.00,8:19,14,2,2,1,8:20,MAWA,Setophaga magnolia,Setophaga,magnolia,Sally,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,16,Not the same DBH as in yard_trees_verified
+Y47,2025-05-26,146.00,8:19,14,2,2,1,8:20,MAWA,Setophaga magnolia,Setophaga,magnolia,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,37,Big cedar.
+Y47,2025-05-26,146.00,8:19,14,2,2,1,8:31,AMRO,Turdus migratorius,Turdus,migratorius,Vocalising,Vocalisation,Fly honeysuckle,Lonicera xylosteum,Lonicera,xylosteum,19,
+Y47,2025-05-26,146.00,8:19,14,2,2,1,8:31,AMRO,Turdus migratorius,Turdus,migratorius,Occupying nest,Reproduction,Fly honeysuckle,Lonicera xylosteum,Lonicera,xylosteum,19,In the laying phase; 1 egg.
+Y47,2025-05-26,146.00,8:19,14,2,2,1,8:38,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,37,"Heard: NOPA, REVI, TEWA, MAWA, CHSP, SOSP, BLJA, NOCA, ROPI, BLPW."
+S12,2025-05-26,146.00,8:44,14,2,3,1,,,,#N/A,#N/A,,,,,,,,"Heard: NOPA, TEWA, HOSP, CHSP, NOCA, AMRO, BLJA, SOSP, MAWA, BLPW."
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:24,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Elm?,?,?,?,35,Right.
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:24,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Elm?,?,?,?,25,Left.
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:27,MAWA,Setophaga magnolia,Setophaga,magnolia,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,?,Double-check tree species as they are not yet in the yard_trees_verified datasheet.
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:28,BLJA,Cyanocitta cristata,Cyanocitta,cristata,Inactive rest,Inactive rest,Elm?,?,?,?,25,Left.
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:30,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Elm?,?,?,?,35,Right.
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:31,HOSP,Passer domesticus,Passer,domesticus,Preening,Grooming,?,?,?,?,NA,"Grapevine (We took a leaf, but I never got the species name) in back left corner of yard."
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:31,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,?,?,?,?,NA,
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:31,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,?,?,?,?,NA,
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:31,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,?,?,?,?,NA,
+Y50,2025-05-26,146.00,9:24,15,2,2,1,9:32,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Elm?,?,?,?,35,Right.
+Y20,2025-05-27,147.00,7:07,13,2,1,1,,,,#N/A,#N/A,,,,,,,,"Lots of activity around the yard. MERL nesting in large conifer. Heard: NOCA, AMRO, REVI, EWPE, BLBW, SOSP, HOSP, AMCR, MERL."
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:39,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:39,BCCH,Poecile atricapillus,Poecile,atricapillus,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,64,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:43,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:43,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:43,BCCH,Poecile atricapillus,Poecile,atricapillus,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,50,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:48,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:48,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Occupying nest,Reproduction,Norway maple,Acer platanoides,Acer,platanoides,60,
+S16,2025-05-27,147.00,7:39,14,2,3,1,7:48,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,60,"Heard: NOFL, EUST, REVI, AMRO, NOCA."
+S01,2025-05-27,147.00,8:17,15,2,3,1,8:21,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,76,"Check DBH for silver maple 2 (from street corner). Heard: CEDW, MERL, NOCA, REVI, WAVI, EUST, BCCH, CHSW."
+S01,2025-05-27,147.00,8:17,15,2,3,1,8:21,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,76,Check DBH for silver maple 2 (from street corner).
+S01,2025-05-27,147.00,8:17,15,2,3,1,8:31,BCCH,Poecile atricapillus,Poecile,atricapillus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,76,Check DBH for silver maple 2 (from street corner).
+Y05,2025-05-27,147.00,8:42,15,2,3,1,8:52,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,"Very talkative resident. LEFL very nearby. Heard: LEFL, BLJA, NOCA, BBWA, HOSP, REVI, CEDW."
+Y07,2025-05-27,147.00,9:12,15,2,2,1,NA,,,#N/A,#N/A,,,,,,,,"Skunk in yard! Heard: BCCH, TEWA, LEFL, NOCA, COGR, AMCR. All in neighbour's yard."
+S03,2025-05-27,147.00,9:35,16,2,4,1,NA,,,#N/A,#N/A,,,,,,,,"Busy road, daycare having a party. Heard: HOFI, AMRO, NOCA, HOSP, EUST, AMCR, SOSP, COGR, MODO, BLJA, DCCO (flyover), AMGO, TUVU (being mobbed), CHSP."
+S15,2025-05-28,148.00,7:08,17,1,3,1,7:14,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Little-leaved linden,Tilia cordata,Tilia,cordata,59,"Construction nearby. Heard: CHSW, HOSP, NOCA, EUST, CHSP."
+S15,2025-05-28,148.00,7:08,17,1,3,1,7:24,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,21,
+S15,2025-05-28,148.00,7:08,17,1,3,1,7:24,CHSP,Spizella passerina,Spizella,passerina,Bill wipe,Grooming,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,21,
+S15,2025-05-28,148.00,7:08,17,1,3,1,7:24,CHSP,Spizella passerina,Spizella,passerina,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,21,
+S15,2025-05-28,148.00,7:08,17,1,3,1,7:25,AMRO,Turdus migratorius,Turdus,migratorius,Gape,Foraging,Ground,NA,NA,NA,NA,
+S15,2025-05-28,148.00,7:08,17,1,3,1,7:28,EUST,Sturnus vulgaris,Sturnus,vulgaris,Gape,Foraging,Ground,NA,NA,NA,NA,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Manitoba maple,Acer negundo,Acer,negundo,39,"Heard: BLJA, AMRO, HOSP, EUST, NOCA, CHSW."
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:37,HOSP,Passer domesticus,Passer,domesticus,Feeding fledgling,Reproduction,Manitoba maple,Acer negundo,Acer,negundo,39,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:38,HOSP,Passer domesticus,Passer,domesticus,Preening,Grooming,Manitoba maple,Acer negundo,Acer,negundo,39,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:39,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Manitoba maple,Acer negundo,Acer,negundo,39,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:53,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Mock orange,Philadelphus coronarius,Philadelphus,coronarius,6,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:53,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Mock orange,Philadelphus coronarius,Philadelphus,coronarius,6,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:53,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Mock orange,Philadelphus coronarius,Philadelphus,coronarius,6,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:53,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:53,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+Y33,2025-05-28,148.00,7:35,17,1,3,1,7:53,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,10,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:10,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,"Heard: REVI, YEWA, EUST, CHSW."
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:12,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,Ash 3
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:13,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:14,BCCH,Poecile atricapillus,Poecile,atricapillus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:15,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:15,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:15,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,Ash 1
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:15,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:17,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:19,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,House 2246
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:20,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:20,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common hackberry,Celtis occidentalis,Celtis,occidentalis,6,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:25,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:26,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-05-28,148.00,8:10,18,1,2,1,8:26,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+Y27,2025-05-28,148.00,8:41,19,1,1,1,8:41,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Manitoba maple,Acer negundo,Acer,negundo,106,"Man singing and playing guitar. Cat in alley. Heard: CHSP, NOCA, BCCH, CHSW."
+Y27,2025-05-28,148.00,8:41,19,1,1,1,8:43,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Manitoba maple,Acer negundo,Acer,negundo,106,
+Y27,2025-05-28,148.00,8:41,19,1,1,1,8:52,BCCH,Poecile atricapillus,Poecile,atricapillus,Inactive rest,Inactive rest,Manitoba maple,Acer negundo,Acer,negundo,106,
+Y27,2025-05-28,148.00,8:41,19,1,1,1,8:56,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Manitoba maple,Acer negundo,Acer,negundo,106,
+Y27,2025-05-28,148.00,8:41,19,1,1,1,9:00,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Manitoba maple,Acer negundo,Acer,negundo,106,
+Y27,2025-05-28,148.00,8:41,19,1,1,1,9:00,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Manitoba maple,Acer negundo,Acer,negundo,106,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,"Heard: HOSP, EUST, GREG (flyover)"
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,76,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,82,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,82,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,51,1
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:10,EUST,Sturnus vulgaris,Sturnus,vulgaris,Peck,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,76,1
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:12,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,42,3rd tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:12,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,42,3rd tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:15,HOSP,Passer domesticus,Passer,domesticus,Preening,Grooming,Norway maple,Acer platanoides,Acer,platanoides,40,4th tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:15,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,42,2nd tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:15,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,42,2nd tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:15,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,42,2nd tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:15,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,42,2nd tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:15,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,42,2nd tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:15,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Glean,Foraging,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Glean,Foraging,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:16,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:18,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:18,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Honey locust,Gleditsia triacanthos,Gleditsia,triacanthos,56,1st tree
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:20,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,42,**Neon silver maple: check if it's a street tree.
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:21,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Maple?,?,?,?,?,See Siena's data sheet
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:21,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Maple?,?,?,?,?,See Siena's data sheet
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,105,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,105,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:28,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,40,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:30,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,105,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:30,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Silver maple,Acer saccharinum,Acer,saccharinum,105,
+S10,2025-05-28,148.00,9:10,18,1,2,1,9:30,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,76,
+S20,2025-06-02,153.00,7:07,10,3,2,1,NA,,,#N/A,#N/A,,,,,,,,"Heard: AMCR, HOSP, NOCA, RBGU. Saw: RBGU, CHSW, CHSP"
+Y06,2025-06-02,153.00,7:49,11,3,1,1,7:50,LEFL,Empidonax minimus,Empidonax,minimus,Inactive rest,Inactive rest,American hophorn beam,Ostrya virginiana,Ostrya,virginiana,2,"Heard and saw: RBGU, AMCR; Heard: NOCA"
+Y06,2025-06-02,153.00,7:49,11,3,1,1,7:57,LEFL,Empidonax minimus,Empidonax,minimus,Sally,Foraging,American hophorn beam,Ostrya virginiana,Ostrya,virginiana,2,
+Y06,2025-06-02,153.00,7:49,11,3,1,1,7:57,LEFL,Empidonax minimus,Empidonax,minimus,Sally,Foraging,Ground,NA,NA,NA,NA,Ground vegetation
+Y06,2025-06-02,153.00,7:49,11,3,1,1,7:57,LEFL,Empidonax minimus,Empidonax,minimus,Inactive rest,Inactive rest,American hophorn beam,Ostrya virginiana,Ostrya,virginiana,2,
+Y06,2025-06-02,153.00,7:49,11,3,1,1,7:57,LEFL,Empidonax minimus,Empidonax,minimus,Sally,Foraging,American hophorn beam,Ostrya virginiana,Ostrya,virginiana,2,
+Y06,2025-06-02,153.00,7:49,11,3,1,1,7:57,LEFL,Empidonax minimus,Empidonax,minimus,Sally,Foraging,American hophorn beam,Ostrya virginiana,Ostrya,virginiana,2,
+S08,2025-06-02,153.00,8:27,12,3,3,1,NA,,,#N/A,#N/A,,,,,,,,"2 X CHSW, RBGU, AMRO"
+Y26,2025-06-02,153.00,8:48,12,3,2,1,8:58,Unknown,Unknown,Unknown,Unknown,Inactive rest,Inactive rest,Apple,Malus domesticus,Malus,domesticus,21,CHSW
+Y26,2025-06-02,153.00,8:48,12,3,2,1,9:06,YEWA,Setophaga petechia,Setophaga,petechia,Inactive rest,Inactive rest,Apple,Malus domesticus,Malus,domesticus,21,
+Y26,2025-06-02,153.00,8:48,12,3,2,1,9:07,YEWA,Setophaga petechia,Setophaga,petechia,Sally,Foraging,Ground,NA,NA,NA,NA,Ground vegetation
+Y26,2025-06-02,153.00,8:48,12,3,2,1,8:52,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Dead standing,NA,NA,NA,20,
+Y26,2025-06-02,153.00,8:48,12,3,2,1,8:55,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Dead standing,NA,NA,NA,20,
+S19,2025-06-02,153.00,9:25,12,3,2,1,9:35,CHSP,Spizella passerina,Spizella,passerina,Feeding fledgling,Reproduction,Blue spruce,Picea pungens,Picea,pungens,40,"CHSW, EUST, HOSP, 2 X RBGU"
+S19,2025-06-02,153.00,9:25,12,3,2,1,9:35,CHSP,Spizella passerina,Spizella,passerina,Feeding fledgling,Reproduction,Blue spruce,Picea pungens,Picea,pungens,40,"CHSW, EUST, HOSP, 2 X RBGU"
+Y09,2025-06-03,154.00,7:01,11,1,1,1,7:11,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,15,"HOSP, AMRO, RBGU, heard NOCA, CHSW; nest in 4415's fuschia plant"
+S05,2025-06-03,154.00,7:38,13,2,2,1,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Serviceberry,Amelanchier laevis,Amelanchier,laevis,9,"RBGU, CHSW, AMCR, NOCA (baby!), HOSP"
+S05,2025-06-03,154.00,7:38,13,2,2,1,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,21,
+S05,2025-06-03,154.00,7:38,13,2,2,1,7:50,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Norway Maple,Acer platanoides,Acer,platanoides,21,
+S05,2025-06-03,154.00,7:38,13,2,2,1,7:58,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Norway Maple,Acer platanoides,Acer,platanoides,29,
+S05,2025-06-03,154.00,7:38,13,2,2,1,7:58,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Norway Maple,Acer platanoides,Acer,platanoides,29,
+S14,2025-06-03,154.00,8:21,14,2,3,1,NA,,,#N/A,#N/A,,,,,,,,"Heard: MAWA (super loud and close), HOSP; cat out"
+S11,2025-06-03,154.00,9:00,15.5,2,3,1,9:11,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Blue Spruce,Picea pungens,Picea,pungens,21,"CHSP, HOSP, CHSW, RBGU, heard AMCR, NOCA; Merlins came from Turcot during construction, nested in church"
+S11,2025-06-03,154.00,9:00,15.5,2,3,1,9:04,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Glean,Foraging,Blue Spruce,Picea pungens,Picea,pungens,19,
+S11,2025-06-03,154.00,9:00,15.5,2,3,1,9:04,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Glean,Foraging,Blue Spruce,Picea pungens,Picea,pungens,19,
+S11,2025-06-03,154.00,9:00,15.5,2,3,1,9:04,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Blue Spruce,Picea pungens,Picea,pungens,19,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:30,Unknown,Unknown,Unknown,Unknown,Preening,Grooming,Norway Maple,Acer platanoides,Acer,platanoides,8,"Eyering, beigish brown, black streaks on butt "
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:30,Unknown,Unknown,Unknown,Unknown,Preening,Grooming,Norway Maple,Acer platanoides,Acer,platanoides,8,"Eyering, beigish brown, black streaks on butt "
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:34,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Ground,NA,NA,NA,NA,"NOCA, HOSP and EUST at birdfeeder"
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,"Bird had white ""necklace"""
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:41,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:43,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:48,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Feeding fledgling,Reproduction,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,NOCA at feeder
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:49,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Japanese Maple,Acer palmatum,Acer,palmatum,8,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Norway Maple,Acer platanoides,Acer,platanoides,49,
+Y49,2025-06-03,154.00,9:29,17,1,2,1,9:35,CHSP,Spizella passerina,Spizella,passerina,Peck,Foraging,Ground,NA,NA,NA,NA,"AMRO, CHSP"
+S06,2025-06-04,155.00,6:57,17,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"HOSP, AMRO, CHSW, AMCR"
+Y45,2025-06-04,155.00,7:23,17,1,1,1,7:38,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,15,"Heard AMCR, HOSP, NOCA; Saw AMRO (fly through); black cat!"
+Y45,2025-06-04,155.00,7:23,17,1,1,1,7:25,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Balsam fir,Abies balsamea,Abies,balsamea,12,
+Y45,2025-06-04,155.00,7:23,17,1,1,1,7:27,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,15,
+Y45,2025-06-04,155.00,7:23,17,1,1,1,7:28,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Balsam fir,Abies balsamea,Abies,balsamea,5,
+Y45,2025-06-04,155.00,7:23,17,1,1,1,7:28,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,9,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:02,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,5,"Heard: AMCR; saw: HOSP (female), COGR"
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:07,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:07,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,5,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:07,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:07,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,13,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:07,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:07,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:08,HOSP,Passer domesticus,Passer,domesticus,,,European crabapple,Malus sylvestris,Malus,sylvestris,?,copulation - Mackenzie will ponder what to call this behaviour
+Y32,2025-06-04,155.00,7:51,19,1,1,1,8:08,HOSP,Passer domesticus,Passer,domesticus,,,European crabapple,Malus sylvestris,Malus,sylvestris,?,copulation - Mackenzie will ponder what to call this behaviour
+Y32,2025-06-04,155.00,7:51,19,1,1,1,7:51,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,7:51,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,13,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,7:56,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,7:56,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,7:59,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,European crabapple,Malus sylvestris,Malus,sylvestris,?,
+Y32,2025-06-04,155.00,7:51,19,1,1,1,7:59,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,White cedar,Thuja occidentalis,Thuja,occidentalis,13,
+S21,2025-06-04,155.00,9:25,19,1,1,1,9:33,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Kentucky coffee,Gymnocladus dioicus,Gymnocladus,dioicus,10,Not visible
+S21,2025-06-04,155.00,10:25,19,1,1,1,9:38,HOSP,Passer domesticus,Passer,domesticus,Unknown,Unknown,Silver maple,Acer saccharinum,Acer,saccharinum,68,"Saw: RBGU, CHSP, HOSP, CHSW
+Heard: AMCR, HOSP, CHSW, NOCA, RBGU
+Lawnmower started"
+S21,2025-06-04,155.00,10:25,19,1,1,1,9:38,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Kentucky coffee,Gymnocladus dioicus,Gymnocladus,dioicus,10,
+Y28,2025-06-13,164.00,6:59,10,2,2,1,7:13,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,4,"Saw: RBGU, NOCA (birdfeeder), EUST (flyover), HOFI
+Heard: NOCA, RBGU, BCCH"
+Y28,2025-06-13,164.00,6:59,10,2,2,1,7:13,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Vocalising,Vocalisation,Common lilac,Syringa vulgaris,Syringa,vulgaris,4,Cat in adjacent yard
+Y28,2025-06-13,164.00,6:59,10,2,2,1,7:14,BCCH,Poecile atricapillus,Poecile,atricapillus,Peck,Foraging,Common lilac,Syringa vulgaris,Syringa,vulgaris,4,
+Y28,2025-06-13,164.00,6:59,10,2,2,1,7:14,BCCH,Poecile atricapillus,Poecile,atricapillus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,4,
+S02,2025-06-13,164.00,7:26,11,2,1,1,7:37,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,European crab apple,Malus sylvestris,Malus,sylvestris,5,"Saw: SOSP (gray head), HOSP, MERL, AMCR, EUST, NOCA, AMGO, REVI, CHSW"
+Y44,2025-06-13,164.00,7:55,11,2,1,1,7:58,REVI,Vireo olivaceus,Vireo,olivaceus,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,180,"Churchbell at 8:12; Saw: RBGU(?), EUST; Heard: AMCR"
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:37,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,Construction in yard; Heard: NOCA; Saw: EUSTX3
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:37,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,"Ground vegetation (grass, plants)"
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:39,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:39,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:39,SOSP,Melospiza melodia,Melospiza,melodia,Vocalising,Vocalisation,Ground,NA,NA,NA,NA,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:42,SOSP,Melospiza melodia,Melospiza,melodia,Vocalising,Vocalisation,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:47,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:50,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:53,SOSP,Melospiza melodia,Melospiza,melodia,Occupying nest,Reproduction,Japanese barberry,Berberis thunbergii,Berberis,thunbergii,15,Shrub; bird flew out of shrub where nest is
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:53,SOSP,Melospiza melodia,Melospiza,melodia,Vocalising,Vocalisation,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:53,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,Ground veg
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:40,SOSP,Melospiza melodia,Melospiza,melodia,Vocalising,Vocalisation,Nootka cypress,Chamaecyparis nootkatensis,Chamaecyparis,nootkatensis,15,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:40,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Beauty bush,Linnaea amabilis,Linnaea,amabilis,15,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:50,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Smoketree,Euonymous alatus,Euonymous,alatus,10,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:50,SOSP,Melospiza melodia,Melospiza,melodia,Occupying nest,Reproduction,Japanese barberry,Berberis thunbergii,Berberis,thunbergii,15,
+Y03,2025-06-13,164.00,8:34,11,2,3,1,8:50,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-06-13,164.00,9:12,12,2,3,1,9:26,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,45,Holding food in mouth; construction next door; heard: AMRO (fledgling)
+Y31,2025-06-13,164.00,9:12,12,2,3,1,9:12,AMRO,Turdus migratorius,Turdus,migratorius,Gape,Foraging,Ground,NA,NA,NA,NA,
+Y31,2025-06-13,164.00,9:12,12,2,3,1,9:12,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,45,
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:08,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Red spruce,Picea rubens,Picea,rubens,51,Left spruce
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:08,BCCH,Poecile atricapillus,Poecile,atricapillus,Glean,Foraging,Siberian elm,Ulmus pumila,Ulmus,pumila,69,"Saw: HAWO (flythrough), 2xEUST"
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:10,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Siberian elm,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:12,HAWO,Dryobates villosus,Dryobates,villosus,Unknown,Unknown,Siberian elm,Ulmus pumila,Ulmus,pumila,69,
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:15,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,Left spruce
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:15,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,Left spruce
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:15,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,Left spruce
+Y18,2025-06-13,164.00,10:08,12,2,1,1,10:15,AMCR,Corvus brachyrhynchos,Corvus,brachyrhynchos,Inactive rest,Inactive rest,Red spruce,Picea rubens,Picea,rubens,51,Left spruce
+S04,2025-06-16,167.00,7:15,18,1,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Heard: NOCA, SOSP, HOSP, AMRO, AMCR AMGO; Saw: EUST? (flyover), EUST? (flyover); 7:26 Growling dog; Cat loose"
+S17,2025-06-16,167.00,7:55,18,1,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Heard: HOSP, AMCR, MERL (before start of survey), BCCH, AMRO; Saw: 2xHOSP, EUST? (flyover), CHSW (flyover); 8:02 dog barking"
+S18,2025-06-16,167.00,8:48,20,1,3,1,9:02,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Tulip tree,Liriodendron tulipifera,Liriodendron,tulipifera,16,"REVI, SOSP, EUST, HOSP, NOCA, COGR, AMCR; 8:53 construction started"
+S18,2025-06-16,167.00,8:48,20,1,3,1,9:02,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Glean,Foraging,Tulip tree,Liriodendron tulipifera,Liriodendron,tulipifera,16,
+Y04,2025-06-16,167.00,9:24,20,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NOCA, AMRO, CHSW, HOSP (nesting in fixture for the wires on side of the house), SOSP, AMCR; Black squirrel hanging around; noise from neighbour cleaning balcony at 9:43"
+Y24,2025-06-16,167.00,9:55,20,1,3,1,10:04,SOSP,Melospiza melodia,Melospiza,melodia,Peck,Foraging,Ground,NA,NA,NA,NA,REVI; kids playing loudly in school yard next door starting at 10:00
+Y24,2025-06-16,167.00,9:55,20,1,3,1,10:04,SOSP,Melospiza melodia,Melospiza,melodia,Inactive rest,Inactive rest,Sour cherry,Prunus cerasus,Prunus,cerasus,10,
+Y47,2025-06-23,174.00,7:10,24,1,1,2,7:21,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Vocalising,Vocalisation,White cedar,Thuja occidentalis,Thuja,occidentalis,16,"CHSW, AMRO, HOSP, AMCR, CHSP, SOSP, COGR, RBGU"
+Y47,2025-06-23,174.00,7:10,24,1,1,2,7:28,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,White cedar,Thuja occidentalis,Thuja,occidentalis,16,
+Y47,2025-06-23,174.00,7:10,24,1,1,2,7:28,HOFI,Haemorhous mexicanus,Haemorhous,mexicanus,Unknown,Unknown,White cedar,Thuja occidentalis,Thuja,occidentalis,16,
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:40,AMRO,Turdus migratorius,Turdus,migratorius,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,70,
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:45,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,70,
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:45,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,112,
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:50,AMRO,Turdus migratorius,Turdus,migratorius,Vocalising,Vocalisation,Silver maple,Acer saccharinum,Acer,saccharinum,61,"AMRO, NOCA, BCCH, CHSW, HOSP, EUST, SOSP, HOFI, CHSP, RBGU; two cats"
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:40,AMRO,Turdus migratorius,Turdus,migratorius,Preening,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,70,
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:40,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,70,
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:40,AMRO,Turdus migratorius,Turdus,migratorius,Preening,Grooming,Silver maple,Acer saccharinum,Acer,saccharinum,70,
+S12,2025-06-23,174.00,7:34,24,1,1,2,7:53,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,61,Nesting material in mouth
+Y50,2025-06-23,174.00,8:13,26,1,1,1,8:22,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Elm?,?,?,?,?,"Right; AMRO, NOCA, HOSP, CHSW, AMCR, BCCH, AMGO; dog barking at 8:28"
+Y50,2025-06-23,174.00,8:13,26,1,1,1,8:26,EUST,Sturnus vulgaris,Sturnus,vulgaris,Bill wipe,Grooming,Elm?,?,?,?,?,Right
+Y50,2025-06-23,174.00,8:13,26,1,1,1,8:26,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Elm?,?,?,?,?,Right
+Y50,2025-06-23,174.00,8:13,26,1,1,1,8:26,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Elm?,?,?,?,?,Right
+Y50,2025-06-23,174.00,8:13,26,1,1,1,8:26,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Elm?,?,?,?,?,Left
+Y50,2025-06-23,174.00,8:13,26,1,1,1,8:26,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Elm?,?,?,?,?,Left
+Y13,2025-06-23,174.00,9:12,26,1,2,2,9:17,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,135,"NOCA, AMRO, SOSP, EUST, HOSP; NOCA bathing in bird bath!; lawnmower started at 9:26"
+Y13,2025-06-23,174.00,9:12,26,1,2,2,9:17,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,135,
+S07,2025-06-23,174.00,9:53,26,1,2,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AMRO, EUST, HOSP, CHSP, NOCA, GREG pair flyover"
+Y05,2025-06-25,176.00,6:56,22,3,2,2,7:11,CHSP,Spizella passerina,Spizella,passerina,Vocalising,Vocalisation,Blue Spruce,Picea pungens,Picea,pungens,50,"Front yard; machinery started at 7:06; AMRO, AMGO, HOSP, WBNU, NOCA, CHSP, SOSP, AMCR, CEWA, EUST"
+Y05,2025-06-25,176.00,6:56,22,3,2,2,7:16,AMRO,Turdus migratorius,Turdus,migratorius,Inactive rest,Inactive rest,Ground,NA,NA,NA,NA,
+S01,2025-06-25,176.00,7:26,22,3,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Construction noise; AMRO, AMGO, NOCA, CHSW, CHSP, HOSP, AMCR, EUST, GREG, MERL"
+Y20,2025-06-25,176.00,7:57,23,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Bunny; construction in yard directly behind; GREG, HOSP, MERL, SOSP, RBGU?, CHSW?"
+S16,2025-06-25,176.00,8:32,24,3,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Loud machinery on; HOSP, EUST, WAVI, SOSP, AMRO, AMCR, BCCH, BLJA, GREG?, NOCA"
+S03,2025-06-25,176.00,9:01,24,3,3,3,9:01,HAWO,Dryobates villosus,Dryobates,villosus,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,75,"AMRO, BCCH, SOSP, NOCA, CHSP, COGR, BLJA, EUST, CHSW, DOWO, GREG, RBGU?, HOSP"
+S03,2025-06-25,176.00,9:01,24,3,3,3,9:01,HAWO,Dryobates villosus,Dryobates,villosus,Feeding fledgling,Reproduction,Norway maple,Acer platanoides,Acer,platanoides,75,
+Y07,2025-06-25,176.00,9:28,24,3,2,4,9:28,AMRO,Turdus migratorius,Turdus,migratorius,Peck,Foraging,Ground,NA,NA,NA,NA,"HOSP, COGR, CHSP, EUST, CHSW, MODO, NOCA, AMRO"
+Y27,2025-06-26,177.00,7:16,17,3,1,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dog barking at 7:25; COGR, HOSP, CHSW"
+S10,2025-06-26,177.00,7:48,17,3,2,4,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,"Cat out; MERL, CHSW"
+S10,2025-06-26,177.00,7:48,17,3,2,4,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,
+S10,2025-06-26,177.00,7:48,17,3,2,4,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,
+S10,2025-06-26,177.00,7:48,17,3,2,4,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,
+S10,2025-06-26,177.00,7:48,17,3,2,4,7:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Silver maple,Acer saccharinum,Acer,saccharinum,42,
+S10,2025-06-26,177.00,7:48,17,3,2,4,7:50,HOSP,Passer domesticus,Passer,domesticus,Feeding fledgling,Reproduction,Silver maple,Acer saccharinum,Acer,saccharinum,42,
+S10,2025-06-26,177.00,7:48,17,3,2,4,8:01,WBNU,Sitta carolinensis,Sitta,carolinensis,Peck,Foraging,Honey locust?,Gleditsia triacanthos,Gleditsia,triacanthos,56,Ask Mackenzie for common name (just Honey Locust?)!
+S10,2025-06-26,177.00,7:48,17,3,2,4,8:03,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Honey locust?,Gleditsia triacanthos,Gleditsia,triacanthos,56,Ask Mackenzie!
+S10,2025-06-26,177.00,7:48,17,3,2,4,8:07,WBNU,Sitta carolinensis,Sitta,carolinensis,Peck,Foraging,Honey locust?,Gleditsia triacanthos,Gleditsia,triacanthos,56,Ask Mackenzie!
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:18,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,38,"RBGU, CHSW"
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:18,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,38,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:20,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,38,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:20,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,38,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:20,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:21,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:22,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:25,EUST,Sturnus vulgaris,Sturnus,vulgaris,Vocalising,Vocalisation,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,57,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:25,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:30,HOSP,Passer domesticus,Passer,domesticus,Glean,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:32,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:36,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Honey locust?,Gleditsia triacanthos,Gleditsia,triacanthos,5,Ask Mackenzie!
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:24,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:24,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:24,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:27,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:27,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,49,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:32,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S09,2025-06-26,177.00,8:18,18,3,2,4,8:32,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Red ash,Fraxinus pennsylvanica,Fraxinus,pennsylvanica,27,
+S15,2025-06-26,177.00,8:59,18,3,3,4,8:07,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Linden?,?,?,?,59,"AMCR, HOSP, ROPI, CHSP, CHSW"
+S15,2025-06-26,177.00,8:59,18,3,3,4,8:07,CHSP,Spizella passerina,Spizella,passerina,Inactive rest,Inactive rest,Scots Pine,Pinus sylvestris,Pinus,sylvestris,28,
+Y33,2025-06-26,177.00,9:22,18,3,1,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CHSW, CHSP, AMRO"
+S20,2025-06-30,181.00,7:07,19,2,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SOSP, HOSP, BCCH, AMCR, CHSW, AMRO, NOCA, RBGU"
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:38,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Freeman maple,Acer freemanii,Acer,freemanii,37,"CHSW, SOSP, BCCH, RBGU"
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:39,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,73,3
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:40,EUST,Sturnus vulgaris,Sturnus,vulgaris,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,73,4
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:40,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Peck,Foraging,Ground,NA,NA,NA,NA,
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:42,EUST,Sturnus vulgaris,Sturnus,vulgaris,Peck,Foraging,Ground,NA,NA,NA,NA,
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:42,EUST,Sturnus vulgaris,Sturnus,vulgaris,Peck,Foraging,Ground,NA,NA,NA,NA,
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:42,EUST,Sturnus vulgaris,Sturnus,vulgaris,Peck,Foraging,Ground,NA,NA,NA,NA,
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:42,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:42,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:42,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Ground,NA,NA,NA,NA,
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:47,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Norway maple,Acer platanoides,Acer,platanoides,85,Big
+S08,2025-06-30,181.00,7:35,19.5,2,2,1,7:50,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,85,4945
+Y06,2025-06-30,181.00,8:12,20,2,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AMRO, NOCA, CHSW, WBNU, RBGU"
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:49,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Dead standing,?,?,?,?,"SOSP, CHSW, NOCA"
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:50,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:52,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:45,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:53,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:56,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:56,EUST,Sturnus vulgaris,Sturnus,vulgaris,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:57,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:58,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:58,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:58,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,8:59,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Dead standing,?,?,?,?,
+Y26,2025-06-30,181.00,8:45,20,2,1,1,9:04,EUST,Sturnus vulgaris,Sturnus,vulgaris,Preening,Grooming,Dead standing,?,?,?,?,
+S19,2025-06-30,181.00,9:13,20,2,2,1,9:30,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,47,"CHSW, GREG, REVI, HOSP, AMRO"
+S19,2025-06-30,181.00,9:13,20,2,2,1,9:30,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Preening,Grooming,Norway maple,Acer platanoides,Acer,platanoides,47,
+S19,2025-06-30,181.00,9:13,20,2,2,1,9:30,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Inactive rest,Inactive rest,Norway maple,Acer platanoides,Acer,platanoides,47,
+S19,2025-06-30,181.00,9:13,20,2,2,1,9:32,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,47,
+S19,2025-06-30,181.00,9:13,20,2,2,1,9:13,NOCA,Cardinalis cardinalis,Cardinalis,cardinalis,Unknown,Unknown,Norway maple,Acer platanoides,Acer,platanoides,47,
+S19,2025-06-30,181.00,9:13,20,2,2,1,9:23,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Norway maple,Acer platanoides,Acer,platanoides,47,
+S19,2025-06-30,181.00,9:13,20,2,2,1,9:31,HOSP,Passer domesticus,Passer,domesticus,Peck,Foraging,Long oak,Quercus warei,Quercus,warei,10,
+S05,2025-07-02,183.00,7:12,21,3,3,1,7:31,AMRO,Turdus migratorius,Turdus,migratorius,Peck,Foraging,Ground,NA,NA,NA,NA,"HOSP, NOCA, CHSW, AMCR, RBNU, RBGU?"
+S14,2025-07-02,183.00,7:43,21,3,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"BLJA, HOSP, BCCH, NOCA, RBGU, CHSW; Cat out"
+Y09,2025-07-02,183.00,8:09,21,3,1,1,8:22,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Littleleaf linden,Tilia cordata,Tilia,cordata,14,"CHSW, HOSP, NOCA"
+Y09,2025-07-02,183.00,8:09,21,3,1,1,8:22,HOSP,Passer domesticus,Passer,domesticus,Vocalising,Vocalisation,Common lilac,Syringa vulgaris,Syringa,vulgaris,36,
+Y09,2025-07-02,183.00,8:09,21,3,1,1,8:25,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Common lilac,Syringa vulgaris,Syringa,vulgaris,36,
+Y09,2025-07-02,183.00,8:09,21,3,1,1,8:25,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Littleleaf linden,Tilia cordata,Tilia,cordata,14,
+Y09,2025-07-02,183.00,8:09,21,3,1,1,8:25,HOSP,Passer domesticus,Passer,domesticus,Preening,Grooming,Littleleaf linden,Tilia cordata,Tilia,cordata,14,
+Y09,2025-07-02,183.00,8:09,21,3,1,1,8:26,HOSP,Passer domesticus,Passer,domesticus,Bill wipe,Grooming,Common lilac,Syringa vulgaris,Syringa,vulgaris,36,
+Y49,2025-07-02,183.00,8:45,22,3,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+S11,2025-07-02,183.00,9:07,23,3,2,1,9:27,HOSP,Passer domesticus,Passer,domesticus,Inactive rest,Inactive rest,Morton elm,"Ulmus ""Morton""",Ulmus,"""Morton""",5,"HOSP, NOCA, SOSP, WBNU, CHSW?, ROPI?"
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,
+,,,,,,,,,,,#N/A,#N/A,,,,,,,,

@@ -1,4 +1,4 @@
-Street code,Date ,Start Time,End Time,Temperature (°C),Cloud Cover code,Beaufort scale ,Day of Week ,Species ,Bird Scientific Name ,Behaviour,Time of Observation,Plant species,Scientific Name ,DBH,Notes
+Code,Date ,Start Time,End Time,Temperature (°C),Cloud Cover code,Beaufort scale ,Day of Week ,Species ,Bird Scientific Name ,Behaviour,Time of Observation,Plant species,Scientific Name ,DBH,Notes
 S02,15/05/2024,10:33,10:53,15,2,2,Wednesday ,HOSP,Passer domesticus,Vocalize ,10:43,Red Ash ,Fraxinus pennsylvanica,48,
 S01,15/05/2024,11:01,11:21,15,2,2,Wednesday ,GCKI,Regulus satrapa,Sally,10:10,Silver maple,Acer saccharinum,80,"Sound ranged between 2-4, street cleaning passed by "
 S01,15/05/2024,11:01,11:21,15,2,2,Wednesday ,GCKI,Regulus satrapa,Sally,10:10,Silver maple,Acer saccharinum,80,"Specific DBH not taken, looked at public tree inventory to see the sizes of this tree on the segment "

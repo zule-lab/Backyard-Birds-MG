@@ -1,153 +1,161 @@
-street code ,common name,scientific name,DBH
-S01,Ginkgo,Ginkgo biloba,5
-,Silver maple,Acer saccharinum,80
-,Silver maple,Acer saccharinum,86
-,Norway maple,Acer platanoides,55
-,Silver maple,Acer saccharinum,74
-,River birch,Betula nigra,8
-S02,Skyline honey locust,Gleditsia triacanthos 'Skyline',5
-,Prariefire crabapple,Malus x 'Prairifire',5
-,Red oak,Quercus rubra,23
-,American Hop-Hornbeam Ironwood,Ostrya virginiana,6
-,Common hackberry,Celtis occidentalis,8
-,Silver maple,Acer saccharinum,70
-,Silver maple,Acer saccharinum,98
-,Red ash,Fraxinus pennsylvanica,60
-,Red ash,Fraxinus pennsylvanica,49
-S03,Norway maple,Acer platanoides,40
-,Silver maple,Acer saccharinum,69
-,Norway maple,Acer platanoides,73
-,Blue beech,Carpinus caroliniana,5
-,Morton elm,Ulmus x 'Morton',5
-S04,Skyline honey locust,Gleditsia triacanthos 'Skyline',23
-,Silver maple,Acer saccharinum,81
-,Silver maple,Acer saccharinum,74
-,Silver maple,Acer saccharinum,84
-,Western Catalpa,Catalpa speciosa,5
-,Norway maple,Acer platanoides,64
-S05,Norway maple,Acer platanoides,38
-,Norway maple,Acer platanoides,22
-,Ginkgo,Ginkgo biloba,5
-,Amelanchier laevis Cumulus,Amelanchier laevis 'Cumulus',5
-,Norway maple,Acer platanoides,16
-,Aesculus octandra,Aesculus octandra,5
-,Silver maple,Acer saccharinum,5
-S06,English oak,Quercus robur,5
-,European linden,Tilia cordata,53
-,Norway maple,Acer platanoides,50
-,European linden,Tilia cordata,84
-,Common hackberry,Celtis occidentalis,27
-,European linden,Tilia cordata,74
-S07,Basswood,Tilia americana,54
-,Blue spruce,Picea pungens,47
-,Silver maple,Acer saccharinum,105
-,Silver maple,Acer saccharinum,79
-,Silver maple,Acer saccharinum,83
-,Silver maple,Acer saccharinum,79
-,Silver maple,Acer saccharinum,87
-S08,Silver maple,Acer saccharinum,36
-,Silver maple,Acer saccharinum,16
-,Norway maple,Acer platanoides,72
-,Silver maple,Acer saccharinum,6
-,Silver maple,Acer saccharinum,5
-,Norway maple,Acer platanoides,82
-,Norway maple,Acer platanoides,51
-,Norway maple,Acer platanoides,77
-S09,Betula papyrifera,Betula papyrifera,5
-,Norway maple,Acer platanoides,33
-,Common hackberry,Celtis occidentalis,7
-,Red ash,Fraxinus pennsylvanica,55
-,Red ash,Fraxinus pennsylvanica,27
-,Manitoba maple,Acer negundo ,22
-,Red ash,Fraxinus pennsylvanica,15
-,Red ash,Fraxinus pennsylvanica,54
-,Red ash,Fraxinus pennsylvanica,80
-,Red ash,Fraxinus pennsylvanica,45
-,Norther acclaim honey locust,Gleditsia triacanthos 'Northern Acclaim',5
-S10,Thornless Honey-Locust,Gleditsia triacanthos var. inermis,56
-,Thornless Honey-Locust,Gleditsia triacanthos var. inermis,51
-,Norway maple,Acer platanoides,42
-,Norway maple,Acer platanoides,20
-,Norway maple,Acer platanoides,35
-,Silver maple,Acer saccharinum,74
-,Silver maple,Acer saccharinum,82
-,Ginkgo,Ginkgo biloba,4
-,Silver maple,Acer saccharinum,105
-S11,Colorado spruce,Picea pungens,12
-,Colorado spruce,Picea pungens,12
-,White elm,Ulmus americana,79
-,Red maple,Acer rubrum,26
-,Pioneer elm,Ulmus x hollandica 'Pioneer',5
-S12,Silver maple,Acer saccharinum,105
-,Silver maple,Acer saccharinum,76
-,Silver maple,Acer saccharinum,46
-,Silver maple,Acer saccharinum,59
-,Silver maple,Acer saccharinum,63
-,Silver maple,Acer saccharinum,64
-S13,Norway maple,Acer platanoides,71
-,Silver maple,Acer saccharinum,18
-,Norway maple,Acer platanoides,56
-,Common hackberry,Celtis occidentalis,5
-,Norway maple,Acer platanoides,66
-S14,European linden,Tilia cordata,52
-,European linden,Tilia cordata,56
-,European linden,Tilia cordata,66
-,European linden,Tilia cordata,43
-,Norway maple,Acer platanoides,66
-,European linden,Tilia cordata,51
-,European linden,Tilia cordata,52
-,European linden,Tilia cordata,75
-,Blue spruce,Picea pungens,44
-S15,Silver maple,Acer saccharinum,5
-,Red ash,Fraxinus pennsylvanica,13
-,European linden,Tilia cordata,47
-,Kentucky Coffee Tree,Gymnocladus dioicus,5
-,Silver maple,Acer saccharinum,5
-,European linden,Tilia cordata,50
-,European linden,Tilia cordata,46
-S16,Norway maple,Acer platanoides,64
-,Norway maple,Acer platanoides,60
-,Norway maple,Acer platanoides,60
-,Norway maple,Acer platanoides,50
-,Norway maple,Acer platanoides,55
-,Norway maple,Acer platanoides,50
-S17,Silver maple,Acer saccharinum,70
-,Norway maple,Acer platanoides,35
-,Black maple,Acer nigrum,23
-,Silver maple,Acer saccharinum,54
-,Silver maple,Acer saccharinum,49
-,Silver maple,Acer saccharinum,66
-,Ginkgo,Ginkgo biloba,5
-S18,Amur maple,Acer ginnala ,5
-,Aesculus octandra,Aesculus octandra,15
-,Shademaster honey locust,Gleditsia triacanthos 'Shademaster',5
-,Blue beech,Carpinus caroliniana,5
-,spruce Iseli Fastigiata,Picea pungens Iseli Fastigiata,5
-,Silver maple,Acer saccharinum,13
-,Pioneer Elm,Ulmus x hollandica 'Pioneer',5
-,Tulip Tree,Liriodendron tulipifera,8
-S19,European linden,Tilia cordata,9
-,Katsura Tree,Cercidiphyllum japonicum,6
-,Regal Prince Oak,Quercus x warei 'Regal Prince',6
-,Regal Prince Oak,Quercus x warei 'Regal Prince',5
-,River Birch,Betula nigra,8
-,Red Maple,Acer rubrum,16
-,Norway maple,Acer platanoides,47
-,Norway maple,Acer platanoides,12
-S20,Silver maple,Acer saccharinum,66
-,Norway maple,Acer platanoides,18
-,Norway maple,Acer platanoides,35
-,Norway maple,Acer platanoides,90
-,Norway maple,Acer platanoides,54
-,Norway maple,Acer platanoides,38
-,Silver maple,Acer saccharinum,85
-,Silver maple,Acer saccharinum,66
-S21,Silver maple,Acer saccharinum,68
-,Norway maple,Acer platanoides,62
-,Kentucky Coffee Tree,Gymnocladus dioicus,7
-,Norway maple,Acer platanoides,15
-,Silver maple,Acer saccharinum,5
-,Silver maple,Acer saccharinum,7
-,Silver maple,Acer saccharinum,67
-,Silver maple,Acer saccharinum,65
-,European linden,Tilia cordata,57
+Code,Species.Code,Scientific.Name,DBH,Number.stems
+S01,Ginkgo,Ginkgo biloba,16,1
+S01,Silver maple,Acer saccharinum,76,1
+S01,Silver maple,Acer saccharinum,90,1
+S01,Norway maple,Acer platanoides,55,1
+S01,Silver maple,Acer saccharinum,75,1
+S01,River birch,Betula nigra,12,1
+S02,Honey locust,Gleditsia triacanthos,5,1
+S02,Crabapple,Malus spp,5,1
+S02,Red oak,Quercus rubra,54,1
+S02,American hop-hornbeam ironwood,Ostrya virginiana,10,1
+S02,Common hackberry,Celtis occidentalis,13,1
+S02,Silver maple,Acer saccharinum,90,1
+S02,Silver maple,Acer saccharinum,102,1
+S02,Red ash,Fraxinus pennsylvanica,NA,1
+S02,Red ash,Fraxinus pennsylvanica,60,1
+S03,Norway maple,Acer platanoides,50,1
+S03,Silver maple,Acer saccharinum,71,1
+S03,Norway maple,Acer platanoides,75,1
+S03,Blue beech,Carpinus caroliniana,5,1
+S03,Morton elm,Ulmus x 'Morton',22,1
+S04,Honey locust,Gleditsia triacanthos,37,1
+S04,Silver maple,Acer saccharinum,85,1
+S04,Silver maple,Acer saccharinum,77,1
+S04,Silver maple,Acer saccharinum,85,1
+S04,Western catalpa,Catalpa speciosa,15,1
+S04,Norway maple,Acer platanoides,83,1
+S05,Norway maple,Acer platanoides,45,1
+S05,Norway maple,Acer platanoides,29,1
+S05,Ginkgo,Ginkgo biloba,15,1
+S05,Serviceberry,Amelanchier laevis,9,1
+S05,Norway maple,Acer platanoides,29,1
+S05,Common buckeye,Aesculus octandra,5,1
+S05,Freeman maple,Acer freemanii,21,1
+S06,English oak,Quercus robur,27,1
+S06,Little-leaved linden,Tilia cordata,70,1
+S06,Norway maple,Acer platanoides,57,1
+S06,Little-leaved linden,Tilia cordata,90,1
+S06,Norway maple,Acer platanoides,97,1
+S06,Norway maple,Acer platanoides,90,1
+S06,Common hackberry,Celtis occidentalis,42,1
+S06,Little-leaved linden,Tilia cordata,92,1
+S07,Basswood,Tilia americana,57,1
+S07,Blue spruce,Picea pungens,47,1
+S07,Silver maple,Acer saccharinum,107,1
+S07,Silver maple,Acer saccharinum,82,1
+S07,Silver maple,Acer saccharinum,85,1
+S07,Silver maple,Acer saccharinum,79,1
+S07,Silver maple,Acer saccharinum,87,1
+S08,Freeman maple,Acer freemanii,43,1
+S08,Freeman maple,Acer freemanii,37,1
+S08,Norway maple,Acer platanoides,73,1
+S08,Freeman maple,Acer freemanii,6,1
+S08,Norway maple,Acer platanoides,85,1
+S08,Norway maple,Acer platanoides,52,1
+S08,Norway maple,Acer platanoides,81,1
+S09,Paper birch,Betula papyrifera,5,1
+S09,Norway maple,Acer platanoides,58,1
+S09,Common hackberry,Celtis occidentalis,6,1
+S09,Red ash,Fraxinus pennsylvanica,60,1
+S09,Red ash,Fraxinus pennsylvanica,30,1
+S09,Red ash,Fraxinus pennsylvanica,37,1
+S09,Manitoba maple,Acer negundo ,32,1
+S09,Red ash,Fraxinus pennsylvanica,27,1
+S09,Red ash,Fraxinus pennsylvanica,57,1
+S09,Red ash,Fraxinus pennsylvanica,83,1
+S09,Red ash,Fraxinus pennsylvanica,49,1
+S09,Honey locust,Gleditsia triacanthos,5,1
+S09,Red ash,Fraxinus pennsylvanica,38,1
+S10,Honey locust,Gleditsia triacanthos,56,1
+S10,Honey locust,Gleditsia triacanthos,51,1
+S10,Norway maple,Acer platanoides,42,1
+S10,Silver maple,Acer saccharinum,42,1
+S10,Sugar maple,Acer saccharum,41,1
+S10,Norway maple,Acer platanoides,40,1
+S10,Silver maple,Acer saccharinum,76,1
+S10,Silver maple,Acer saccharinum,82,1
+S10,Ginkgo,Ginkgo biloba,6,1
+S10,Silver maple,Acer saccharinum,105,1
+S11,Blue spruce,Picea pungens,19,1
+S11,Blue spruce,Picea pungens,21,1
+S11,Blue spruce,Picea pungens,20,1
+S11,White elm,Ulmus americana,82,1
+S11,Red maple,Acer rubrum,34,1
+S11,Pioneer elm,Ulmus hollandica,5,1
+S11,Lime linden,Tilia cordata,41,1
+S12,Silver maple,Acer saccharinum,112,1
+S12,Silver maple,Acer saccharinum,76,1
+S12,Silver maple,Acer saccharinum,51,1
+S12,Silver maple,Acer saccharinum,61,1
+S12,Silver maple,Acer saccharinum,62,1
+S12,Silver maple,Acer saccharinum,69,1
+S13,Norway maple,Acer platanoides,71,1
+S13,Silver maple,Acer saccharinum,18,1
+S13,Norway maple,Acer platanoides,56,1
+S13,Common hackberry,Celtis occidentalis,5,1
+S13,Norway maple,Acer platanoides,66,1
+S14,Little-leaved linden,Tilia cordata,52,1
+S14,Little-leaved linden,Tilia cordata,56,1
+S14,Little-leaved linden,Tilia cordata,66,1
+S14,Little-leaved linden,Tilia cordata,43,1
+S14,Norway maple,Acer platanoides,66,1
+S14,Little-leaved linden,Tilia cordata,51,1
+S14,Little-leaved linden,Tilia cordata,55,1
+S14,Blue spruce,Picea pungens,45,1
+S14,Silver maple,Acer saccharinum,118,1
+S15,Freeman maple,Acer freemanii,5,1
+S15,Red ash,Fraxinus pennsylvanica,21,1
+S15,Little-leaved linden,Tilia cordata,55,1
+S15,Kentucky coffee tree,Gymnocladus dioicus,5,1
+S15,Silver maple,Acer saccharinum,5,1
+S15,Little-leaved linden,Tilia cordata,59,1
+S15,Little-leaved linden,Tilia cordata,53,1
+S15,Scots pine,Pinus sylvestris,28,1
+S16,Norway maple,Acer platanoides,64,1
+S16,Norway maple,Acer platanoides,60,1
+S16,Norway maple,Acer platanoides,60,1
+S16,Norway maple,Acer platanoides,50,1
+S16,Norway maple,Acer platanoides,55,1
+S16,Norway maple,Acer platanoides,50,1
+S17,Silver maple,Acer saccharinum,73,1
+S17,Norway maple,Acer platanoides,45,1
+S17,Norway maple,Acer platanoides,34,1
+S17,Silver maple,Acer saccharinum,61,1
+S17,Silver maple,Acer saccharinum,56,1
+S17,Silver maple,Acer saccharinum,68,1
+S17,Ginkgo,Ginkgo biloba,5,1
+S18,Amur maple,Acer ginnala ,5,1
+S18,Common buckeye,Aesculus octandra,15,1
+S18,Honey locust,Gleditsia triacanthos,5,1
+S18,Blue beech,Carpinus caroliniana,5,1
+S18,Blue spruce,Picea pungens,5,1
+S18,Freeman maple,Acer freemanii,16,1
+S18,Pioneer elm,Ulmus hollandica,5,1
+S18,Tulip tree,Liriodendron tulipifera,16,1
+S19,Lime linden,Tilia europaea,13,1
+S19,Katsura tree,Cercidiphyllum japonicum,11,1
+S19,Long oak,Quercus warei,10,1
+S19,Long oak,Quercus warei,9,1
+S19,River birch,Betula nigra,17,1
+S19,Red maple,Acer rubrum,37,1
+S19,Norway maple,Acer platanoides,47,1
+S19,Norway maple,Acer platanoides,29,1
+S19,Blue spruce,Picea pungens,40,
+S20,Silver maple,Acer saccharinum,67,1
+S20,Norway maple,Acer platanoides,42,1
+S20,Norway maple,Acer platanoides,35,1
+S20,Norway maple,Acer platanoides,94,1
+S20,Norway maple,Acer platanoides,61,1
+S20,Norway maple,Acer platanoides,48,1
+S20,Silver maple,Acer saccharinum,68,1
+S20,Silver maple,Acer saccharinum,66,1
+S21,Silver maple,Acer saccharinum,68,1
+S21,Norway maple,Acer platanoides,67,1
+S21,Kentucky coffee tree,Gymnocladus dioicus,10,1
+S21,Norway maple,Acer platanoides,26,1
+S21,Freeman maple,Acer freemanii,5,1
+S21,Blue spruce,Picea pungens,7,1
+S21,Silver maple,Acer saccharinum,67,1
+S21,Silver maple,Acer saccharinum,65,1
+S21,Little-leaved linden,Tilia cordata,57,1

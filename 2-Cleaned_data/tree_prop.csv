@@ -1,82 +1,71 @@
 "","Sci.name","Frequency"
-"1","Tilia × europaea x europaea",0.002710027100271
-"2","Abies balsamea",0.010840108401084
-"3","Acer Freemannii",0.002710027100271
-"4","Acer ginnala ",0.002710027100271
-"5","Acer negundo",0.021680216802168
-"6","Acer nigrum",0.002710027100271
-"7","Acer palmatum",0.021680216802168
-"8","Acer platanoides",0.0975609756097561
-"9","Acer Platanoides",0.0514905149051491
-"10","Acer rubrum",0.00542005420054201
-"11","Acer Rubrum",0.00813008130081301
-"12","Acer saccharinum",0.0975609756097561
-"13","Acer Saccharinum",0.010840108401084
-"14","Acer x freemanii 'Armstrong'",0.00542005420054201
-"15","Acer x freemanii 'Autumn Blaze'",0.010840108401084
-"16","Acer x freemanii Celebration",0.002710027100271
-"17","Aesculus Hippocastanu",0.002710027100271
-"18","Aesculus octandra",0.00542005420054201
-"19","Amelanchier laevis 'Cumulus'",0.002710027100271
-"20","Betula nigra",0.00542005420054201
-"21","Betula papyrifera",0.002710027100271
-"22","Canadian Serviceberry",0.002710027100271
-"23","Caragana Arborescens ""pendula""",0.002710027100271
-"24","Carpinus caroliniana",0.00542005420054201
-"25","Catalpa speciosa",0.002710027100271
-"26","Celtis occidentalis",0.010840108401084
-"27","Celtis Occidentalis",0.00813008130081301
-"28","Cercidiphyllum japonicum",0.002710027100271
-"29","Chamaecyparis Nootkatensis",0.00542005420054201
-"30","Chamaecyparis Pisifera",0.002710027100271
-"31","Cotinus ""Royal Purple""",0.002710027100271
-"32","Cotinus Coggygria",0.00813008130081301
-"33","Euonymous Alatus",0.010840108401084
-"34","Fraxinus americana",0.002710027100271
-"35","Fraxinus pennsylvanica",0.024390243902439
-"36","Gingko Biloba",0.002710027100271
-"37","Ginkgo biloba",0.010840108401084
-"38","Gleditsia triacanthos 'Northern Acclaim'",0.002710027100271
-"39","Gleditsia triacanthos 'Shademaster'",0.002710027100271
-"40","Gleditsia triacanthos 'Skyline'",0.00542005420054201
-"41","Gleditsia triacanthos var. inermis",0.00542005420054201
-"42","Gymnocladus dioicus",0.00542005420054201
-"43","Linnaea Amabilis",0.002710027100271
-"44","Liriodendron tulipifera",0.002710027100271
-"45","Lonicera Xylosteum",0.00542005420054201
-"46","Magnolia 'Susan'",0.00542005420054201
-"47","Malus Baccata",0.002710027100271
-"48","Malus Domestica",0.002710027100271
-"49","Malus Sylvestris",0.00542005420054201
-"50","Malus x 'Prairifire'",0.002710027100271
-"51","Morus Alba",0.002710027100271
-"52","Ostrya virginiana",0.002710027100271
-"53","Philadelphus Coronarius",0.00542005420054201
-"54","Picea abies",0.018970189701897
-"55","Picea glauca",0.002710027100271
-"56","Picea pungens",0.013550135501355
-"57","Picea Pungens",0.002710027100271
-"58","Picea pungens Iseli Fastigiata",0.002710027100271
-"59","Picea Rubens",0.002710027100271
-"60","Populus Deltoides",0.002710027100271
-"61","Prunus Padus",0.002710027100271
-"62","Prunus Virginiana 'Schubert'",0.002710027100271
-"63","Pyrus Communis",0.002710027100271
-"64","Quercus robur",0.002710027100271
-"65","Quercus rubra",0.002710027100271
-"66","Quercus x warei 'Regal Prince'",0.00542005420054201
-"67","Rhamnus Cathartica",0.002710027100271
-"68","Rhus Typhina",0.00542005420054201
-"69","Sorbus Aucuparia",0.002710027100271
-"70","Syringa Reticulata",0.00542005420054201
-"71","Syringa vulgaris",0.032520325203252
-"72","Taxus Canadensis",0.013550135501355
-"73","Thuja occidentalis",0.262872628726287
-"74","Tilia x americana",0.002710027100271
-"75","Tilia x europaea",0.040650406504065
-"76","Ulmus 'Frontier'",0.00542005420054201
-"77","Ulmus americana",0.002710027100271
-"78","Ulmus Americana",0.00542005420054201
-"79","Ulmus pumila",0.002710027100271
-"80","Ulmus x 'Morton'",0.002710027100271
-"81","Ulmus x hollandica 'Pioneer'",0.00542005420054201
+"1","Abies balsamea",0.0116618075801749
+"2","Acer freemanii",0.0204081632653061
+"3","Acer ginnala ",0.00291545189504373
+"4","Acer negundo",0.0174927113702624
+"5","Acer negundo ",0.00291545189504373
+"6","Acer palmatum",0.0174927113702624
+"7","Acer platanoides",0.14868804664723
+"8","Acer rubrum",0.00583090379008746
+"9","Acer saccharinum",0.122448979591837
+"10","Acer saccharum",0.00583090379008746
+"11","Aesculus octandra",0.00583090379008746
+"12","Amelanchier canadensis",0.00583090379008746
+"13","Amelanchier laevis",0.00291545189504373
+"14","Betula nigra",0.00583090379008746
+"15","Betula papyrifera",0.00291545189504373
+"16","Carpinus caroliniana",0.00583090379008746
+"17","Catalpa speciosa",0.00291545189504373
+"18","Celtis occidentalis",0.0145772594752187
+"19","Cercidiphyllum japonicum",0.00291545189504373
+"20","Chamaecyparis nootkatensis",0.00583090379008746
+"21","Chamaecyparis pisifera",0.00291545189504373
+"22","Cotinus coggygria",0.00291545189504373
+"23","Dead standing",0.00583090379008746
+"24","Euonymus alatus",0.0145772594752187
+"25","Fraxinus americana",0.00583090379008746
+"26","Fraxinus pennsylvanica",0.0379008746355685
+"27","Gingko biloba",0.00291545189504373
+"28","Ginkgo biloba",0.0116618075801749
+"29","Gleditsia triacanthos",0.0174927113702624
+"30","Gymnocladus dioicus",0.00583090379008746
+"31","Japanese barberry",0.00291545189504373
+"32","Linnaea amabilis",0.00291545189504373
+"33","Liriodendron tulipifera",0.00291545189504373
+"34","Lonicera xylosteum",0.00291545189504373
+"35","Magnolia susan",0.00583090379008746
+"36","Malus baccata",0.00291545189504373
+"37","Malus domestica",0.0087463556851312
+"38","Malus spp",0.00291545189504373
+"39","Malus sylvestris",0.00583090379008746
+"40","Morus alba",0.00583090379008746
+"41","Ostrya virginiana",0.00583090379008746
+"42","Philadelphus coronarius",0.00291545189504373
+"43","Picea abies",0.00291545189504373
+"44","Picea glauca",0.00291545189504373
+"45","Picea pungens",0.0262390670553936
+"46","Picea rubens",0.00291545189504373
+"47","Pinus sylvestris",0.00291545189504373
+"48","Prunus cerasus",0.00291545189504373
+"49","Prunus communis",0.00291545189504373
+"50","Prunus japonica",0.00291545189504373
+"51","Pyrus communis",0.00583090379008746
+"52","Quercus robur",0.00291545189504373
+"53","Quercus rubra",0.00291545189504373
+"54","Quercus warei",0.00583090379008746
+"55","Rhamnus cathartica",0.00291545189504373
+"56","Sambucus nigra",0.00291545189504373
+"57","Sorbus aucuparia",0.00291545189504373
+"58","Syringa reticulata",0.0087463556851312
+"59","Syringa vulgaris",0.0641399416909621
+"60","Taxus canadensis",0.0204081632653061
+"61","Thuja occidentalis",0.186588921282799
+"62","Tilia americana",0.00291545189504373
+"63","Tilia cordata",0.0408163265306122
+"64","TIlia cordata",0.00291545189504373
+"65","Tilia europaea",0.00291545189504373
+"66","Ulmus americana",0.00583090379008746
+"67","Ulmus hollandica",0.00583090379008746
+"68","Ulmus pumila",0.0087463556851312
+"69","Ulmus x 'Morton'",0.00291545189504373
+"70","Weigela florida",0.00291545189504373
