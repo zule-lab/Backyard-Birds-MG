@@ -38,10 +38,10 @@ spp.25 <- n_distinct(data_2025$Bird.code) #minus 2 because NA and unknown
 
 ```
 
-1. 971 observations in 2024 
-2. 924 observation in 2025
-3. 28 species recorded in 2024 
-4. 39 species recorded in 2025
+1.  971 observations in 2024
+2.  924 observation in 2025
+3.  28 species recorded in 2024
+4.  39 species recorded in 2025
 
 ### Count for each species
 
