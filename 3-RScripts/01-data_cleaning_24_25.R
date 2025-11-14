@@ -33,6 +33,7 @@ data_2024$Plant.genus[which(data_2024$Plant.genus== "Cupressus")] <- "Chamaecypa
 
 data_2024 <- data_2024 %>%
   mutate(Landtype = ifelse(substr(Code, 1, 1) == "Y", "yard", "street"))
+data_2024 <- data_2024 %>% mutate(Date= as.Date(Date, format= "%d/%m/%Y"))
 
 write.csv(data_2024, "2-Cleaned_data/ndg_cleaneddata_2024.csv", row.names=FALSE)
 
@@ -70,6 +71,7 @@ data_2025 <- data_2025 %>%
   mutate(Landtype = ifelse(substr(Code, 1, 1) == "Y", "yard", "street"))
 data_2025$DBH <- as.numeric(as.character(data_2025$DBH))
 
+data_2025 <- data_2025 %>% mutate(Date= as.Date(Date, format= "%d/%m/%Y"))
 
 write.csv(data_2025, "2-Cleaned_data/ndg_cleaneddata_2025.csv", row.names=FALSE)
 
