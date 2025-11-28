@@ -38,5 +38,9 @@ random_obs$DBH <- as.integer(random_obs$DBH)
 
 foraging_rsf <- bind_rows(foragingdata_filter, random_obs)
 
+foraging_rsf$Plant.sci <- as.factor(foraging_rsf$Plant.sci)
+foraging_rsf$Plant.sci <- relevel(foraging_rsf$Plant.sci, ref = "Acer platanoides")
+
+
 foraging_rsf <- glm(Presence~Plant.sci, family="binomial", data=foraging_rsf)
 summary(foraging_rsf)

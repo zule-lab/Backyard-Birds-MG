@@ -1,6 +1,7 @@
 library(tidyverse)
 library(lmerTest)
 library(lme4)
+library(rms)
 
 
 
@@ -12,11 +13,11 @@ all_trees <- read.csv("2-Cleaned_data/all_trees.csv")
 alldata <- bind_rows(data2024, data2025)
 
 
-##############################################
-###############################################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ######### PRESENCE ~ TREE SPECIES #############
-###############################################
-###############################################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 #dropping NA's from rows of interest
@@ -54,6 +55,17 @@ random_obs$DBH <- as.integer(random_obs$DBH)
 #combining the real observations (1) with our randomly generated observations (0)
 alldata_rsf <- bind_rows(alldata_filter, random_obs)
 
+
+#in the following code we are changing the reference factor from alphabetical 
+# (in this case Abies balsamea) to a ecologically relevant species, we chose
+#the Norway maples
+
+#first we need to change our plant species column to a factor
+alldata_rsf$Plant.sci <- as.factor(alldata_rsf$Plant.sci)
+
+#changing reference level to Norwar maple (ACPL)
+alldata_rsf$Plant.sci <- relevel(alldata_rsf$Plant.sci, ref = "Acer platanoides")
+
 #this rsf includes data from all seasons + all years (global) 
 global_rsf <- glm(Presence~Plant.sci, family="binomial", data=alldata_rsf)
 summary(global_rsf)
@@ -79,9 +91,9 @@ table(alldata_rsf$Plant.sci, alldata_rsf$Presence)
         #Plant.sci != "Weigela florida")
 
 
-############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ######### 2025 #############
-############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 data2025_filter <- data2025 %>% 
   drop_na(c(Plant.sci, DBH)) %>% 
@@ -104,12 +116,15 @@ random_obs_2025$DBH <- as.integer(random_obs_2025$DBH)
 
 data2025_rsf <- bind_rows(data2025_filter, random_obs_2025)
 
+data2025_rsf$Plant.sci <- as.factor(data2025_rsf$Plant.sci)
+data2025_rsf$Plant.sci <- relevel(data2025_rsf$Plant.sci, ref = "Acer platanoides")
+
 data2025_rsf <- glm(Presence~Plant.sci, family="binomial", data=data2025_rsf)
 summary(data2025_rsf)
 
-############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ######### 2024 #############
-############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 data2024_filter <- data2024 %>% 
   drop_na(c(Plant.sci, DBH)) %>% 
@@ -132,12 +147,15 @@ random_obs_2024$DBH <- as.integer(random_obs_2024$DBH)
 
 data2024_rsf <- bind_rows(data2024_filter, random_obs_2024)
 
+data2024_rsf$Plant.sci <- as.factor(data2024_rsf$Plant.sci)
+data2024_rsf$Plant.sci <- relevel(data2024_rsf$Plant.sci, ref = "Acer platanoides")
+
 data2024_rsf <- glm(Presence~Plant.sci, family="binomial", data=data2024_rsf)
 summary(data2024_rsf)
 
-############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ######### SPRING #############
-############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 spring2025 <- data2025[data2025$Date <= "2025-06-01", ]
 spring2024 <- data2024[data2024$Date <= "2024-06-01", ]
@@ -166,12 +184,15 @@ random_obs_spring$DBH <- as.integer(random_obs_spring$DBH)
 
 spring_rsf <- bind_rows(springdata_filter, random_obs_spring)
 
+spring_rsf$Plant.sci <- as.factor(spring_rsf$Plant.sci)
+spring_rsf$Plant.sci <- relevel(spring_rsf$Plant.sci, ref = "Acer platanoides")
+
 spring_rsf <- glm(Presence~Plant.sci, family="binomial", data=spring_rsf)
 summary(spring_rsf)
 
-##############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ######### SUMMER #############
-##############################
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 summer2025 <- data2025[data2025$Date >= "2025-06-02", ]
 summer2024 <- data2024[data2024$Date >= "2024-06-02", ]
@@ -199,6 +220,9 @@ random_obs_summer$DBH <- as.integer(random_obs_summer$DBH)
 
 
 summer_rsf <- bind_rows(summerdata_filter, random_obs_summer)
+
+summer_rsf$Plant.sci <- as.factor(summer_rsf$Plant.sci)
+summer_rsf$Plant.sci <- relevel(summer_rsf$Plant.sci, ref = "Acer platanoides")
 
 summer_rsf <- glm(Presence~Plant.sci, family="binomial", data=summer_rsf)
 summary(summer_rsf)
