@@ -5,6 +5,7 @@ library(rms)
 
 
 
+
 data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
 data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
 all_trees <- read.csv("2-Cleaned_data/all_trees.csv")
@@ -63,12 +64,16 @@ alldata_rsf <- bind_rows(alldata_filter, random_obs)
 #first we need to change our plant species column to a factor
 alldata_rsf$Plant.sci <- as.factor(alldata_rsf$Plant.sci)
 
-#changing reference level to Norwar maple (ACPL)
+#changing reference level to Norway maple (ACPL)
 alldata_rsf$Plant.sci <- relevel(alldata_rsf$Plant.sci, ref = "Acer platanoides")
 
 #this rsf includes data from all seasons + all years (global) 
 global_rsf <- glm(Presence~Plant.sci, family="binomial", data=alldata_rsf)
 summary(global_rsf)
+
+
+hoslem.test(alldata_rsf$Presence, fitted(global_rsf), g=5)
+
 
 #visualizing the rsf dataset
 table(alldata_rsf$Plant.sci, alldata_rsf$Presence)
