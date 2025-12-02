@@ -51,10 +51,10 @@ l <- levels(as.factor((all_trees %>%
                          unite(united, c("Plant.sci","DBH")))$united))
 set.seed(2901)
 
-random_obs <- tibble(united = sample(l,2*n, replace = T), .rows = 2*n) %>% 
+random_yard_obs <- tibble(united = sample(l,2*n, replace = T), .rows = 2*n) %>% 
   separate(united, c("Plant.sci","DBH"), sep = "_")
-random_obs$Presence <- 0
-random_obs$DBH <- as.integer(random_obs$DBH)
+random_yard_obs$Presence <- 0
+random_yard_obs$DBH <- as.integer(random_yard_obs$DBH)
 
 
 
@@ -62,7 +62,7 @@ random_obs$DBH <- as.integer(random_obs$DBH)
 #3.# then we prep the df that will go into the model
 
 #comibining used (1, real observations) and available (0, random sample)
-foraging_rsf_df <- bind_rows(foragingdata_filter, random_obs)
+foraging_rsf_df <- bind_rows(foragingdata_filter, random_yard_obs)
 
 #changing our reference factor level to Norway maple
 foraging_rsf_df$Plant.sci <- as.factor(foraging_rsf_df$Plant.sci)
@@ -74,7 +74,7 @@ foraging_rsf_df$Plant.sci <- relevel(foraging_rsf_df$Plant.sci, ref = "Acer plat
 #4.# With our model-ready df, we train and test
 
 #now we split the dataset into a 'training' (70%) and 'testing' (30%)
-set.seed(860)
+set.seed(2901)
 index <- createDataPartition(foraging_rsf_df$Presence, p = 0.7, list = FALSE)
 forg_train_df <- foraging_rsf_df[index, ]
 forg_test_df <- foraging_rsf_df[-index, ]
@@ -93,4 +93,9 @@ summary(foraging_model)
 #the following code calculate the AUC
 foraging_probs <- predict(foraging_model, forg_test_df, type = "response") 
 auc(forg_test_df$Presence, foraging_probs)
+##test 2: DHARMa
+
+#checking model disgnostics
+diagnostics_forg_model <- simulateResiduals(foraging_model, n = 1000, plot = TRUE)
+
 
