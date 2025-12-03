@@ -30,6 +30,11 @@ data_2024$Plant.sci[which(data_2024$Plant.sci== "Abies balsamae")] <- "Abies bal
 data_2024$Plant.sci[which(data_2024$Plant.sci== "Euonymous alatus")] <- "Euonymus alatus"
 data_2024$Plant.sci[which(data_2024$Plant.sci== "Malus pumila")] <- "Malus domestica"
 data_2024$Plant.genus[which(data_2024$Plant.genus== "Cupressus")] <- "Chamaecyparis"
+data_2024$Plant.sci[which(data_2024$Plant.sci== "Chamaecyparis nootkatensis")] <- "Chamaecyparis spp"
+data_2024$Plant.sci[which(data_2024$Plant.sci== "Chamaecyparis pisifera")] <- "Chamaecyparis spp"
+data_2024$Plant.sci[which(data_2024$Plant.sci== "Malus baccata")] <- "Malus spp"
+data_2024$Plant.sci[which(data_2024$Plant.sci== "Malus domestica")] <- "Malus spp"
+data_2024$Plant.sci[which(data_2024$Plant.sci== "Tilia europaea")] <- "Tilia cordata"
 
 
 data_2024 <- data_2024 %>%
@@ -65,6 +70,11 @@ data_2025$Plant.common[which(data_2025$Plant.common== "Apple")] <- "Domestic app
 data_2025$Plant.common[which(data_2025$Plant.common== "American hophorn beam")] <- "American hophornbeam"
 data_2025$Plant.common[which(data_2025$Plant.common== "Japanese Maple")] <- "Japanese maple"
 data_2025$Plant.sci[which(data_2025$Plant.sci== "Euonymous alatus")] <- "Euonymus alatus"
+data_2025$Plant.sci[which(data_2025$Plant.sci== "Chamaecyparis nootkatensis")] <- "Chamaecyparis spp"
+data_2025$Plant.sci[which(data_2025$Plant.sci== "Chamaecyparis pisifera")] <- "Chamaecyparis spp"
+data_2025$Plant.sci[which(data_2025$Plant.sci== "Malus baccata")] <- "Malus spp"
+data_2025$Plant.sci[which(data_2025$Plant.sci== "Malus domestica")] <- "Malus spp"
+data_2025$Plant.sci[which(data_2025$Plant.sci== "Tilia europaea")] <- "Tilia cordata"
 
 
 
@@ -86,4 +96,14 @@ street_trees <- read.csv("1-Input/street_trees_verified.csv")
 yard_trees <- read.csv("1-Input/yard_trees_verified.csv")
 
 all_trees <- bind_rows(street_trees, yard_trees)
+
+all_trees$Plant.sci[which(all_trees$Plant.sci== "Chamaecyparis nootkatensis")] <- "Chamaecyparis spp"
+all_trees$Plant.sci[which(all_trees$Plant.sci== "Chamaecyparis pisifera")] <- "Chamaecyparis spp"
+all_trees$Plant.sci[which(all_trees$Plant.sci== "Malus baccata")] <- "Malus spp"
+all_trees$Plant.sci[which(all_trees$Plant.sci== "Malus domestica")] <- "Malus spp"
+all_trees$Plant.sci[which(all_trees$Plant.sci== "Tilia europaea")] <- "Tilia cordata"
+
+
+
 write.csv(all_trees, "2-Cleaned_data/all_trees.csv", row.names = FALSE)
+
