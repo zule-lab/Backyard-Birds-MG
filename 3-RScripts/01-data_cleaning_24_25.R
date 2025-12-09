@@ -39,6 +39,7 @@ data_2024$Plant.sci[which(data_2024$Plant.sci== "Tilia europaea")] <- "Tilia cor
 
 data_2024 <- data_2024 %>%
   mutate(Landtype = ifelse(substr(Code, 1, 1) == "Y", "yard", "street"))
+
 data_2024 <- data_2024 %>% mutate(Date= as.Date(Date, format= "%d/%m/%Y"))
 
 write.csv(data_2024, "2-Cleaned_data/ndg_cleaneddata_2024.csv", row.names=FALSE)

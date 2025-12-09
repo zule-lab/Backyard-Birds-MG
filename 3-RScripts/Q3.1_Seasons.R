@@ -1,13 +1,15 @@
+#packages used to run the model
 library(tidyverse)
 library(lme4)
-library(rms)
-library(pROC)
-library(DHARMa)
-library(caret)
-library(ResourceSelection)
+
+#packages used for visualisation
+library(ggplot2)
+library(ggsignif)
+library(margins) 
+library(socviz)
 
 #In this script we're running a resource selection function (logistic regression)
-#to see if there are tree species who are used disproportionally more then
+#to see if there are tree species who are used disproportionally more than
 #their available 
 
 data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
@@ -82,7 +84,7 @@ springdata_reduced_rsf$Plant.sci <- relevel(springdata_reduced_rsf$Plant.sci, re
 
 
 
-####RUNNING THE MODEL####
+####2. RUNNING THE MODEL####
 
 #running the model yipee
 spring_model <- glm(Presence ~ Plant.sci, 
@@ -96,7 +98,27 @@ summary(spring_model)
 ####3. GOODNESS OF FIT TESTS####
 
 
+#### 4. VISUALISATION ####
 
+
+#in the following code I'm creating a df with the results of the model so we can plot it
+springrsf_margins <- margins(spring_model)
+springrsf_df <- as_tibble(summary(springrsf_margins))
+springrsf_df$factor <- prefix_strip(springrsf_df$factor, "Plant.sci") 
+springrsf_df %>% select(factor, AME, lower, upper)
+
+
+springrsf_effect <- ggplot(data = springrsf_df, aes(x= reorder(factor, AME),
+                                                    y= AME, ymin = lower, ymax = upper)) + 
+  geom_hline(yintercept=0) + 
+  geom_pointrange() + coord_flip() + 
+  labs(x="Tree Species", y="Average Marginal Effect")
+
+ggsave(springrsf_effect, 
+       filename = "springrsf_effect.png",
+       path = "4-Output",
+       device = "png",
+       height = 6, width = 6, units = "in")
 
 
 
@@ -107,6 +129,7 @@ summary(spring_model)
 
 
 ####SUMMER####
+
 summer2024 <- data2024[data2024$Date >= "2024-06-01", ] #spring as defined by (Gahbauer et al. 2021)
 summer2025 <- data2025[data2025$Date >= "2025-06-01", ] #spring as defined by (Gahbauer et al. 2021)
 summerdata <- bind_rows(summer2024, summer2025)
@@ -174,7 +197,7 @@ summerdata_reduced_rsf$Plant.sci <- as.factor(summerdata_reduced_rsf$Plant.sci) 
 summerdata_reduced_rsf$Plant.sci <- relevel(summerdata_reduced_rsf$Plant.sci, ref = "Acer platanoides") #changing our reference to ACPL
 
 
-####RUNNING THE MODEL####
+####2. RUNNING THE MODEL####
 
 
 #running the model yipee
@@ -187,5 +210,25 @@ summary(summer_model) #wow so results
 ####3. GOODNESS OF FIT TESTS####
 
 
+#### 4. VISUALISATION ####
 
+
+#in the following code I'm creating a df with the results of the model so we can plot it
+summerrsf_margins <- margins(summer_model)
+summerrsf_df <- as_tibble(summary(summerrsf_margins))
+summerrsf_df$factor <- prefix_strip(summerrsf_df$factor, "Plant.sci") 
+summerrsf_df %>% select(factor, AME, lower, upper)
+
+
+summerrsf_effect <- ggplot(data = summerrsf_df, aes(x= reorder(factor, AME),
+                                                    y= AME, ymin = lower, ymax = upper)) + 
+  geom_hline(yintercept=0) + 
+  geom_pointrange() + coord_flip() + 
+  labs(x="Tree Species", y="Average Marginal Effect")
+
+ggsave(summerrsf_effect, 
+       filename = "summerrsf_effect.png",
+       path = "4-Output",
+       device = "png",
+       height = 6, width = 6, units = "in")
 

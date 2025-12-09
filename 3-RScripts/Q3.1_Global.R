@@ -1,10 +1,14 @@
+#packages used to run the model
 library(tidyverse)
 library(lme4)
-library(rms)
-library(broom)
+
+#packages used for visualisation
 library(ggplot2)
-library(pROC)
-library(DHARMa)
+library(ggsignif)
+library(margins) 
+library(socviz)
+
+
 
 #In this script we're running a resource selection function (logistic regression)
 #to see if there are tree species who are used disproportionally more then
@@ -42,8 +46,8 @@ l <- levels(as.factor((all_trees %>%
 set.seed(2901)
 
 #from the complete tree dataset, we are randomly sampling to create a dataset that 
-#has 3x the amount of rows as our real dataset
-random_obs <- tibble(united = sample(l, 10*n, replace = T), .rows = 10*n) %>% 
+#has 2x the amount of rows as our real dataset
+random_obs <- tibble(united = sample(l, 2*n, replace = T), .rows = 2*n) %>% 
   separate(united, c("Plant.sci","DBH"), sep = "_")
 
 #assigning 0 (absence) to these observations
@@ -87,29 +91,35 @@ alldata_reduced_rsf$Plant.sci <- relevel(alldata_reduced_rsf$Plant.sci, ref = "A
 ####2. RUNNING THE MODEL####
 
 #this rsf includes data from all seasons + all years (global) 
-global_rsf <- glm(Presence~Plant.sci, family="binomial", data=alldata_reduced_rsf)
-summary(global_rsf)
+global_model <- glm(Presence~Plant.sci, family="binomial", data=alldata_reduced_rsf)
+summary(global_model)
 
 
 
 
-coef_table <- tidy(global_rsf, conf.int = TRUE, exponentiate = TRUE) %>%
-  filter(grepl("Plant.sci", term))
-print(coef_table)
+####3. GOODNESS OF FIT####
 
-coef_table$species <- gsub("Plant.sci", "", coef_table$term)
 
-ggplot(coef_table, aes(x = reorder(species, estimate), y = estimate)) +
-  geom_point(size = 3) +
-  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), width = 0.2) +
-  geom_hline(yintercept = 1, linetype = "dashed", color = "red") +
-  coord_flip() +
-  scale_y_log10() +
-  labs(title = "Species Selection Coefficients",
-       x = "Species", 
-       y = "Odds Ratio (reference = availability)",
-       caption = "Error bars show 95% CI") +
-  theme_minimal()
 
-####3. GOODNESS OF FIT TESTS####
 
+#### 4. VISUALISATION ####
+
+
+#in the following code I'm creating a df with the results of the model so we can plot it
+globalrsf_margins <- margins(global_model)
+globalrsf_df <- as_tibble(summary(globalrsf_margins))
+globalrsf_df$factor <- prefix_strip(globalrsf_df$factor, "Plant.sci") 
+globalrsf_df %>% select(factor, AME, lower, upper)
+
+
+globalrsf_effect <- ggplot(data = globalrsf_df, aes(x= reorder(factor, AME),
+                                     y= AME, ymin = lower, ymax = upper)) + 
+                    geom_hline(yintercept=0) + 
+                    geom_pointrange() + coord_flip() + 
+                    labs(x="Tree Species", y="Average Marginal Effect")
+
+ggsave(globalrsf_effect, 
+       filename = "globalrsf_effect.png",
+       path = "4-Output",
+       device = "png",
+       height = 6, width = 6, units = "in")

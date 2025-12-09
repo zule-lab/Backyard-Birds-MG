@@ -1,18 +1,17 @@
 library(tidyverse)
 library(lme4)
 library(lmerTest)
-library(pROC)
-
-#In this script we are using a logistic regression to see if tree species
-#can predict bird foraging presence
-
-# formula:      presence(for foraging) ~ tree species
 
 
-#dfs used
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
-all_trees <- read.csv("2-Cleaned_data/all_trees.csv")
+#In this script we're running a resource selection function (logistic regression)
+#to see if there are tree species who are used disproportionally more than
+#their available 
+
+data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
+data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
+all_trees <- read.csv("2-Cleaned_data/all_trees.csv") #all tree individuals in our study area
+
+##we are subsetting the data by behaviour
 
 
 
@@ -64,38 +63,33 @@ random_yard_obs$DBH <- as.integer(random_yard_obs$DBH)
 #comibining used (1, real observations) and available (0, random sample)
 foraging_rsf_df <- bind_rows(foragingdata_filter, random_yard_obs)
 
+#the following code filters out tree species with less than 10 observations (1/presences/real obs) =
+
+min_presences <- 10
+
+forg_species_counts <- foraging_rsf_df %>%
+  filter(Presence == 1) %>%
+  count(Plant.sci, name = "n_presences")
+
+keep_species_forg <- forg_species_counts %>% 
+  filter(n_presences >= min_presences) %>% 
+  pull(Plant.sci)
+
+forgdata_reduced_rsf <- foraging_rsf_df %>% #only has species where observations are > 10
+  filter(Plant.sci %in% keep_species_forg)
+
+
 #changing our reference factor level to Norway maple
-foraging_rsf_df$Plant.sci <- as.factor(foraging_rsf_df$Plant.sci)
-foraging_rsf_df$Plant.sci <- relevel(foraging_rsf_df$Plant.sci, ref = "Acer platanoides")
+forgdata_reduced_rsf$Plant.sci <- as.factor(forgdata_reduced_rsf$Plant.sci)
+forgdata_reduced_rsf$Plant.sci <- relevel(forgdata_reduced_rsf$Plant.sci, ref = "Acer platanoides")
 
 
 ####RUNNING THE MODEL####
 
-#4.# With our model-ready df, we train and test
-
-#now we split the dataset into a 'training' (70%) and 'testing' (30%)
-set.seed(2901)
-index <- createDataPartition(foraging_rsf_df$Presence, p = 0.7, list = FALSE)
-forg_train_df <- foraging_rsf_df[index, ]
-forg_test_df <- foraging_rsf_df[-index, ]
-
 #running the model yipee
-foraging_model <- glm(Presence ~ Plant.sci, family = binomial(), data = forg_train_df)
+foraging_model <- glm(Presence ~ Plant.sci, family = binomial(), data = forgdata_reduced_rsf)
 summary(foraging_model)
 
 
 ####GOODNESS OF FIT####
-
-#5.# testing our model for goodness of fit
-
-##test 1: ROC & AUC 
-
-#the following code calculate the AUC
-foraging_probs <- predict(foraging_model, forg_test_df, type = "response") 
-auc(forg_test_df$Presence, foraging_probs)
-##test 2: DHARMa
-
-#checking model disgnostics
-diagnostics_forg_model <- simulateResiduals(foraging_model, n = 1000, plot = TRUE)
-
 
