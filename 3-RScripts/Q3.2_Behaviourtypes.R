@@ -1,7 +1,12 @@
+#packages used to run the model
 library(tidyverse)
 library(lme4)
-library(lmerTest)
 
+#packages used for visualisation
+library(ggplot2)
+library(ggsignif)
+library(margins) 
+library(socviz)
 
 #In this script we're running a resource selection function (logistic regression)
 #to see if there are tree species who are used disproportionally more than
@@ -20,7 +25,7 @@ all_trees <- read.csv("2-Cleaned_data/all_trees.csv") #all tree individuals in o
 #////////////////////////////////////
 
 
-####PREPARING THE DATASET####
+####1. PREPARING THE DATASET####
 
 
 
@@ -84,12 +89,33 @@ forgdata_reduced_rsf$Plant.sci <- as.factor(forgdata_reduced_rsf$Plant.sci)
 forgdata_reduced_rsf$Plant.sci <- relevel(forgdata_reduced_rsf$Plant.sci, ref = "Acer platanoides")
 
 
-####RUNNING THE MODEL####
+####2. RUNNING THE MODEL####
 
 #running the model yipee
 foraging_model <- glm(Presence ~ Plant.sci, family = binomial(), data = forgdata_reduced_rsf)
 summary(foraging_model)
 
 
-####GOODNESS OF FIT####
+####3. GOODNESS OF FIT####
 
+#### 4. VISUALISATION ####
+
+
+#in the following code I'm creating a df with the results of the model so we can plot it
+forgrsf_margins <- margins(foraging_model)
+forgrsf_df <- as_tibble(summary(forgrsf_margins))
+forgrsf_df$factor <- prefix_strip(forgrsf_df$factor, "Plant.sci") 
+forgrsf_df %>% select(factor, AME, lower, upper)
+
+
+forgrsf_effect <- ggplot(data = forgrsf_df, aes(x= reorder(factor, AME),
+                                                    y= AME, ymin = lower, ymax = upper)) + 
+  geom_hline(yintercept=0) + 
+  geom_pointrange() + coord_flip() + 
+  labs(x="Tree Species", y="Average Marginal Effect")
+
+ggsave(forgrsf_effect, 
+       filename = "forgrsf_effect.png",
+       path = "4-Output",
+       device = "png",
+       height = 6, width = 6, units = "in")
