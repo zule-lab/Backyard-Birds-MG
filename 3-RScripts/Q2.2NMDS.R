@@ -1,33 +1,8 @@
----
-title: "Stats_update_dec2025"
-format: html
-editor: visual
----
-
-## NMDS: Are bird communities in yards different than streets
-
-Hi all! I wanted to share an NMDS I ran, ordinations are still not fully clicking in my brain so I'm unsure of how to fully appreciate these results
-
-I am worried about the stress value which is over 2 (=0.24)
-
-I am working on a PERMANOVA to assess significance of the difference and then next steps I would like to see which bird species are driving these differences
-
-
-I included the code in case you had any questions on how I generated the plot.
-
-```{r}
-#| echo: false
-#| output: false
 library(tidyverse)
 library(vegan)
-```
 
-```{r}
-
-#packages used: tidyverse + vegan
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
-
+data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
+data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
 
 #Creating a global dataset with the data from 2025&2024
 alldata <- bind_rows(data2024, data2025)
@@ -72,6 +47,20 @@ nmds_SpeciesScores <-
 nmds_SpeciesScores$species <- rownames(nmds_SpeciesScores) 
 
 
+ggplot() + 
+  
+  # add site scores
+  geom_point(data = nmds_CodeScores, 
+             aes(x=NMDS1, y=NMDS2, colour = Landtype), 
+             size = 2) + 
+  
+  # add species scores 
+  geom_text(data = nmds_SpeciesScores, 
+            aes(x=NMDS1, y=NMDS2, label = species)) +
+  
+  theme_classic()
+
+
 # get centroid 
 Habitat_Centroid <- 
   nmds_CodeScores %>% 
@@ -112,8 +101,3 @@ ggplot() +
         axis.line = element_line(color = "black"),
         plot.title = element_text(hjust = 0.5),
         legend.key.size = unit(.25, "cm"))
-
-
-
-
-```

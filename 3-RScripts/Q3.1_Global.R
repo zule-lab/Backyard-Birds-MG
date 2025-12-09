@@ -8,6 +8,10 @@ library(ggsignif)
 library(margins) 
 library(socviz)
 
+#packages for table creation
+library(knitr)
+library(kableExtra)
+
 
 
 #In this script we're running a resource selection function (logistic regression)
@@ -123,3 +127,50 @@ ggsave(globalrsf_effect,
        path = "4-Output",
        device = "png",
        height = 6, width = 6, units = "in")
+
+
+#### 5. TABLE####
+
+#first we're naming our model summary
+global_model_summary <- summary(global_model)
+
+#turning this model summary into a df
+gloablrsf_results <- data.frame(
+  Variable = rownames(global_model_summary$coefficients),
+  Estimate = global_model_summary$coefficients[, "Estimate"],
+  SE = global_model_summary$coefficients[, "Std. Error"],
+  z_value = global_model_summary$coefficients[, "z value"],
+  p_value = global_model_summary$coefficients[, "Pr(>|z|)"],
+  OR = exp(global_model_summary$coefficients[, "Estimate"]),
+  OR_lower = exp(global_model_summary$coefficients[, "Estimate"] - 
+                   1.96 * global_model_summary$coefficients[, "Std. Error"]),
+  OR_upper = exp(global_model_summary$coefficients[, "Estimate"] + 
+                   1.96 * global_model_summary$coefficients[, "Std. Error"])
+)
+
+# p-values, changing the super small ones to just <.001, etc
+gloablrsf_results$p_value <- ifelse(gloablrsf_results$p_value < 0.001, "< 0.001",
+                          sprintf("%.3f", gloablrsf_results$p_value))
+
+# Rounding numeric columns
+gloablrsf_results$Estimate <- round(gloablrsf_results$Estimate, 3)
+gloablrsf_results$SE <- round(gloablrsf_results$SE, 3)
+gloablrsf_results$z_value <- round(gloablrsf_results$z_value, 3)
+gloablrsf_results$OR <- round(gloablrsf_results$OR, 3)
+gloablrsf_results$OR_lower <- round(gloablrsf_results$OR_lower, 3)
+gloablrsf_results$OR_upper <- round(gloablrsf_results$OR_upper, 3)
+gloablrsf_results$Variable <- prefix_strip(gloablrsf_results$Variable, "Plant.sci") 
+
+# Creating the formatted table
+globalrsf_table <- kable(gloablrsf_results, 
+      col.names = c("Variable", "β", "SE", "z", "p", 
+                    "OR", "95% CI Lower", "95% CI Upper"),
+      caption = "Global Used-Available Results",
+      align = c("l", rep("c", 7)), 
+      row.names = FALSE) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE) %>%
+  add_header_above(c(" " = 5, "Odds Ratios" = 3))
+
+save_kable(globalrsf_table, "4-Output/globalrsf_table.html")
+
