@@ -25,7 +25,7 @@ all_trees <- read.csv("2-Cleaned_data/all_trees.csv") #all tree individuals in o
 #///////////////////////
 
 
-####PREPARING THE DATASET####
+####1. PREPARING THE DATASET####
 
 
 #1.# First we'll make the used dataset by modifying our datasheet to have the columns we're interested in
@@ -91,7 +91,7 @@ yarddata_reduced_rsf$Plant.sci <- relevel(yarddata_reduced_rsf$Plant.sci, ref = 
 
 
 
-####RUNNING THE MODEL####
+####2. RUNNING THE MODEL####
 
 #running the model yipee
 yard_model <- glm(Presence ~ Plant.sci, family = binomial(), data = yarddata_reduced_rsf)
@@ -99,7 +99,7 @@ summary(yard_model)
 
 
 
-####GOODNESS OF FIT####
+####3. GOODNESS OF FIT####
 
 #### 4. VISUALISATION ####
 
@@ -131,7 +131,7 @@ ggsave(yardrsf_effect,
 ######### STREET ##################
 #////////////////////////////////
 
-####PREPARING THE DATASET####
+####1. PREPARING THE DATASET####
 
 
 #1.# First we'll make the used dataset by modifying our datasheet to have the columns we're interested in
@@ -197,7 +197,7 @@ streetdata_reduced_rsf$Plant.sci <- relevel(streetdata_reduced_rsf$Plant.sci, re
 
 
 
-####RUNNING THE MODEL####
+####2. RUNNING THE MODEL####
 
 #running the model yipee
 street_model <- glm(Presence ~ Plant.sci, family = binomial(), data = streetdata_reduced_rsf)
@@ -205,7 +205,7 @@ summary(street_model)
 
 
 
-####GOODNESS OF FIT####
+####3. GOODNESS OF FIT####
 
 #### 4. VISUALISATION ####
 
