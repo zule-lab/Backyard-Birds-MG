@@ -60,7 +60,6 @@ ggplot(chsq_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
   )
 
 
-
 #########################################
         #PEARSONS CHI SQ TEST#
 #########################################
@@ -104,7 +103,8 @@ corrplot(chisq_results$stdres,
          addCoef.col = "black",
          tl.col = "black",
          title = "Standardized Residuals",
-         mar = c(0,0,1,0))
+         mar = c(0,0,1,0), 
+         tl.srt = 0)
 
 #Mosaic plot
 mosaicplot(chsq_contingency_table, 
@@ -178,5 +178,109 @@ corrplot(
   addCoef.col = "black",
   tl.col = "black",
   title = "Standardized Residuals",
+  mar = c(0,0,1,0), 
+  tl.srt = 0)
+
+
+
+
+
+########################################################################
+########################################################################
+
+                              #SEASONS#
+
+########################################################################
+########################################################################
+
+#######################################
+          #CONTINGENCY TABLE#
+#######################################
+
+spring_data <- subset(data_global, Season == "Spring")
+summer_data <- subset(data_global, Season == "Summer")
+
+
+spring_contingency_table <- table(spring_data$Behaviour.type, spring_data$Landtype)
+summer_contingency_table <- table(summer_data$Behaviour.type, summer_data$Landtype)
+
+
+
+#Transforming the contingency table into a df
+spring_contingency_df <- as.data.frame(spring_contingency_table)
+summer_contingency_df <- as.data.frame(summer_contingency_table)
+
+#plot of the contingency table
+spring_contingency_fig <- ggplot(spring_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
+  geom_tile() +
+  geom_text(aes(label = Freq), color = "white") +
+  scale_fill_gradient(low = "yellow3", high = "cyan4") +
+  labs(title = "Spring Contingency Table",
+       x = "Behaviour type", y = "Land use") +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(size = 16, hjust = 0.5),
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    strip.text = element_text(size = 12)  
+  )
+spring_contingency_fig
+
+summer_contingency_fig <- ggplot(summer_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
+  geom_tile() +
+  geom_text(aes(label = Freq), color = "white") +
+  scale_fill_gradient(low = "yellow3", high = "cyan4") +
+  labs(title = "Spring Contingency Table",
+       x = "Behaviour type", y = "Land use") +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(size = 16, hjust = 0.5),
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    strip.text = element_text(size = 12)  
+  )
+summer_contingency_fig
+
+#########################################
+          #PEARSONS CHI SQ TEST#
+#########################################
+
+spring_chisq_results <- chisq.test(spring_contingency_table)
+spring_chisq_results
+
+summer_chisq_results <- chisq.test(summer_contingency_table)
+summer_chisq_results
+
+
+spring_chisq_results$expected
+any(spring_chisq_results$expected < 10)
+
+
+summer_chisq_results$expected
+any(summer_chisq_results$expected < 10)
+
+########################################
+      #RESULTS VISUALISATION#
+#######################################
+
+
+spring_corrplot <- corrplot( as.matrix(spring_chisq_results$stdres),
+  is.corr = FALSE,
+  method = "color",
+  col = colorRampPalette(c("cyan4", "grey", "yellow3"))(200),
+  addCoef.col = "black",
+  tl.col = "black",
+  title = "Spring Standardized Residuals",
   mar = c(0,0,1,0)
-)
+  tl.srt = 0)
+
+summer_corrplot <- corrplot(as.matrix(summer_chisq_results$stdres),
+  is.corr = FALSE,
+  method = "color",
+  col = colorRampPalette(c("cyan4", "grey", "yellow3"))(200),
+  addCoef.col = "black",
+  tl.col = "black",
+  title = "Summer Standardized Residuals",
+  mar = c(0,0,1,0), 
+  tl.srt = 0)
+
