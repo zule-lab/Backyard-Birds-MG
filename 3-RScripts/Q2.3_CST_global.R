@@ -22,7 +22,14 @@ data_global <- bind_rows(season2024, season2025) %>%
     filter(!grepl("Unknown", Behaviour.type))
 
 
-# H0: behaviour type does not depend on landtype
+########################################################################
+########################################################################
+
+                      #GLOBAL#
+
+########################################################################
+########################################################################
+
 
 
 #######################################
@@ -33,6 +40,9 @@ data_global <- bind_rows(season2024, season2025) %>%
 #Creating a contingency table showing the frquency of each behaviour + land use combination
 chsq_contingency_table <- table(data_global$Landtype,data_global$Behaviour.type)
 
+
+#Transforming the contingency table into a df
+chsq_contingency_df <- as.data.frame(chsq_contingency_table)
 
 #plot of the contingency table
 ggplot(chsq_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
@@ -75,8 +85,6 @@ sum(chsq_contingency_table) #sample size is sufficient
       #RESULTS VISUALISATION#
 #######################################
 
-#Transforming the contingency table into a df
-chsq_contingency_df <- as.data.frame(chsq_contingency_table)
 
 #Some notes on residuals: 
         #residuals express the difference between expected and outcome, 
@@ -98,7 +106,7 @@ corrplot(chisq_results$stdres,
          title = "Standardized Residuals",
          mar = c(0,0,1,0))
 
-
+#Mosaic plot
 mosaicplot(chsq_contingency_table, 
        shade = TRUE,
        main = "Chi-square Residuals")
@@ -106,27 +114,47 @@ mosaicplot(chsq_contingency_table,
 
 
 
+########################################################################
+########################################################################
+
+                            #FORAGING#
+
+########################################################################
+########################################################################
+
+
+#######################################
+          #CONTINGENCY TABLE#
+#######################################
+
+forg_data <- subset(data_global, Behaviour.type == "Foraging")
+
+forg_contingency_table <- table(forg_data$Behaviour.type, forg_data$Landtype)
+
+#Transforming the contingency table into a df
+forg_contingency_df <- as.data.frame(forg_contingency_table)
+
+#plot of the contingency table
+ggplot(forg_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
+  geom_tile() +
+  geom_text(aes(label = Freq), color = "white") +
+  scale_fill_gradient(low = "yellow3", high = "cyan4") +
+  labs(title = "Contingency Table",
+       x = "Behaviour type", y = "Land use") +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(size = 16, hjust = 0.5),
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    strip.text = element_text(size = 12)  
+  )
 
 
 
+#########################################
+        #PEARSONS CHI SQ TEST#
+#########################################
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-forg_global <- subset(data_global, Behaviour.type == "Foraging")
-
-
-forg_contingency_table <- table(forg_global$Behaviour.type, forg_global$Landtype)
 forg_chisq_results <- chisq.test(forg_contingency_table)
 forg_chisq_results
 
@@ -135,4 +163,20 @@ forg_chisq_results$expected
 any(forg_chisq_results$expected < 10)
 
 
-sum(forg_contingency_table)
+
+########################################
+        #RESULTS VISUALISATION#
+#######################################
+
+forg_chisq_results$stdres
+
+corrplot(
+  as.matrix(forg_chisq_results$stdres),
+  is.corr = FALSE,
+  method = "color",
+  col = colorRampPalette(c("cyan4", "grey", "yellow3"))(200),
+  addCoef.col = "black",
+  tl.col = "black",
+  title = "Standardized Residuals",
+  mar = c(0,0,1,0)
+)
