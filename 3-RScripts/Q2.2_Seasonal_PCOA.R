@@ -13,7 +13,12 @@ season2024 <- data2024 %>%
                             Date <= "2024-06-01" ~ 'Spring'))
 seasons_total <- bind_rows(season2024, season2025)
 
-####Spring####
+
+
+################################
+          #SPRING#
+################################
+
 
 spring <- seasons_total %>% subset(Season == "Spring")
 
@@ -21,7 +26,7 @@ spring <- seasons_total %>% subset(Season == "Spring")
 #and includes landtype identity (yard or street) 
 spring_data_matrix <- spring %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(Code, Landtype, Bird.code) %>%
+  dplyr::select(Code, Landtype, Bird.code) %>%
   distinct() %>%
   mutate_at(vars(Code), as.factor) %>% 
   mutate(Present = 1) %>%
@@ -35,7 +40,7 @@ spring_data_matrix <- spring %>%
 #the following code creates a df with just species and pres/abs
 #this will be used to calculate the distance matrix
 spring_dist_df <- spring_data_matrix %>% 
-  select(-(Landtype))
+  dplyr::select(-(Landtype))
 
 
 #calculating the distance matrix for the permanova 
@@ -55,7 +60,7 @@ eigenvalues <- spring_pcoa$eig
 var_explained <- eigenvalues / sum(eigenvalues) * 100
 
 
-ggplot(spring_pcoa_scores, aes(x = PCoA1, y = PCoA2, color = Landtype)) +
+spring_pcoa <- ggplot(spring_pcoa_scores, aes(x = PCoA1, y = PCoA2, color = Landtype)) +
   geom_point(size = 3, alpha = 0.7) +
   stat_ellipse(level = 0.95, linetype = 2) +  # 95% confidence ellipses
   labs(x = paste0("PCoA1 (", round(var_explained[1], 1), "%)"),
@@ -65,7 +70,18 @@ ggplot(spring_pcoa_scores, aes(x = PCoA1, y = PCoA2, color = Landtype)) +
   theme_classic() +
   theme(legend.position = "right")
 
-####Summer####
+
+ggsave(spring_pcoa, 
+       filename = "Q2.2_spring_pcoa.png",
+       path = "4-Output/Figures",
+       device = "png",
+       height = 6, width = 10, units = "in")
+
+
+
+################################
+          #SUMMER#
+################################
 
 summer <- seasons_total %>% subset(Season == "Summer")
 
@@ -73,7 +89,7 @@ summer <- seasons_total %>% subset(Season == "Summer")
 #and includes landtype identity (yard or street) 
 summer_data_matrix <- summer %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(Code, Landtype, Bird.code) %>%
+  dplyr::select(Code, Landtype, Bird.code) %>%
   distinct() %>%
   mutate_at(vars(Code), as.factor) %>% 
   mutate(Present = 1) %>%
@@ -87,7 +103,7 @@ summer_data_matrix <- summer %>%
 #the following code creates a df with just species and pres/abs
 #this will be used to calculate the distance matrix
 summer_dist_df <- summer_data_matrix %>% 
-  select(-(Landtype))
+  dplyr::select(-(Landtype))
 
 
 #calculating the distance matrix for the permanova 
@@ -107,7 +123,7 @@ sum_eigenvalues <- summer_pcoa$eig
 sum_var_explained <- sum_eigenvalues / sum(sum_eigenvalues) * 100
 
 
-ggplot(summer_pcoa_scores, aes(x = PCoA1, y = PCoA2, color = Landtype)) +
+summer_pcoa <- ggplot(summer_pcoa_scores, aes(x = PCoA1, y = PCoA2, color = Landtype)) +
   geom_point(size = 3, alpha = 0.7) +
   stat_ellipse(level = 0.95, linetype = 2) +  # 95% confidence ellipses
   labs(x = paste0("PCoA1 (", round(sum_var_explained[1], 1), "%)"),
@@ -116,3 +132,10 @@ ggplot(summer_pcoa_scores, aes(x = PCoA1, y = PCoA2, color = Landtype)) +
        color = "Landtype") +
   theme_classic() +
   theme(legend.position = "right")
+
+
+ggsave(summer_pcoa, 
+       filename = "Q2.2_summer_pcoa.png",
+       path = "4-Output/Figures",
+       device = "png",
+       height = 6, width = 10, units = "in")

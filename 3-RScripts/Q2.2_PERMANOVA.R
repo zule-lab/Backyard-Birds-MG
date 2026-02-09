@@ -1,14 +1,25 @@
+#This script runs a PERMANOVA tests on the global data, answering question 2.2
+
+#packages used
 library(tidyverse)
 library(vegan)
 
+
+#loading in the data
 data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
 data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
 
-#Creating a global dataset with the data from 2025&2024
+#Creating a global dataset
 alldata <- bind_rows(data2024, data2025)
 
-#here we are formatting the data to fit the form of a matrix, where rows are sites  
-#and includes landtype identity (yard or street) 
+
+#####################################
+        #PERMANOVA#
+#####################################
+
+#Converting the dataset into a matrix format
+
+#where rows are sites and includes land use identity (yard or street) 
 data_matrix <- alldata %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
   select(Code, Landtype, Bird.code) %>%
@@ -22,13 +33,12 @@ data_matrix <- alldata %>%
     values_fill = 0) %>% 
   column_to_rownames(var = "Code")
 
-#the following code creates a df with just species and pres/abs
-#this will be used to calculate the distance matrix
+#Now we create the distance matrix from the data matrix
+
+#first removing land use variable
 dist_df <- data_matrix %>% 
-  select(-(Landtype))
+  dplyr::select(-(Landtype))
 
-
-#calculating the distance matrix for the permanova 
 dist_matrix <- vegdist(x = dist_df, method = "jaccard", binary = TRUE) #jaccard distance
 
 
@@ -36,6 +46,19 @@ dist_matrix <- vegdist(x = dist_df, method = "jaccard", binary = TRUE) #jaccard 
 permanova_results <- adonis2( dist_matrix ~ Landtype, data = data_matrix, permutations = 999) 
 permanova_results
 
+###########################
+    #MODEL CHECKING#
+############################
 
-disp <- betadisper(dist_matrix, data_matrix$Landtype)
-permutest(disp)
+#Checking for homogenity of variances between groups using beta disper
+
+
+global_disp <- betadisper(dist_matrix, data_matrix$Landtype)
+permutest(global_disp, permutations = 999)
+plot(global_disp)
+
+  #results are significant (p=0.03)
+  #the groups do not have similar vairances --> yards are more variable/dispersed than streets
+
+
+

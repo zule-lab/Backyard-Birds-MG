@@ -1,8 +1,10 @@
+#This script runs a PERMANOVA tests on the seasonal data, answering question 2.2
+
+
+#packages used
 library(tidyverse)
 library(vegan)
 
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
 
 data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
 data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
@@ -16,14 +18,17 @@ season2024 <- data2024 %>%
 seasons_total <- bind_rows(season2024, season2025)
 
 
-####Spring####
+#####################################
+        #SPRING PERMANOVA#
+#####################################
+
 spring <- seasons_total %>% subset(Season == "Spring")
 
 #here we are formatting the data to fit the form of a matrix, where rows are sites  
 #and includes landtype identity (yard or street) 
 spring_data_matrix <- spring %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(Code, Landtype, Bird.code) %>%
+  dplyr::select(Code, Landtype, Bird.code) %>%
   distinct() %>%
   mutate_at(vars(Code), as.factor) %>% 
   mutate(Present = 1) %>%
@@ -37,7 +42,7 @@ spring_data_matrix <- spring %>%
 #the following code creates a df with just species and pres/abs
 #this will be used to calculate the distance matrix
 spring_dist_df <- spring_data_matrix %>% 
-  select(-(Landtype))
+  dplyr::select(-(Landtype))
 
 
 #calculating the distance matrix for the permanova 
@@ -48,18 +53,28 @@ spring_dist_matrix <- vegdist(x = spring_dist_df, method = "jaccard", binary = T
 spring_permanova_results <- adonis2( spring_dist_matrix ~ Landtype, data = spring_data_matrix, permutations = 999) 
 spring_permanova_results
 
+############################
+      #CHECKING MODEL#
+###########################
+
+#Checking for homogenity of variances between groups using beta disper
 
 spring_disp <- betadisper(spring_dist_matrix, spring_data_matrix$Landtype)
 permutest(spring_disp)
 
-####Summer####
+
+
+############################
+    #SUMMER PERMANOVA#
+###########################
+
 summer <- seasons_total %>% subset(Season == "Summer")
 
 #here we are formatting the data to fit the form of a matrix, where rows are sites  
 #and includes landtype identity (yard or street) 
 summer_data_matrix <- summer %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(Code, Landtype, Bird.code) %>%
+  dplyr::select(Code, Landtype, Bird.code) %>%
   distinct() %>%
   mutate_at(vars(Code), as.factor) %>% 
   mutate(Present = 1) %>%
@@ -73,7 +88,7 @@ summer_data_matrix <- summer %>%
 #the following code creates a df with just species and pres/abs
 #this will be used to calculate the distance matrix
 summer_dist_df <- summer_data_matrix %>% 
-  select(-(Landtype))
+  dplyr::select(-(Landtype))
 
 
 #calculating the distance matrix for the permanova 
@@ -84,6 +99,11 @@ summer_dist_matrix <- vegdist(x = summer_dist_df, method = "jaccard", binary = T
 summer_permanova_results <- adonis2( summer_dist_matrix ~ Landtype, data = summer_data_matrix, permutations = 999) 
 summer_permanova_results
 
+#############################
+      #MODEL CHECKING#
+#############################
+
+#Checking for homogenity of variances between groups using beta disper
 
 summer_disp <- betadisper(summer_dist_matrix, summer_data_matrix$Landtype)
 permutest(summer_disp)
