@@ -16,7 +16,7 @@ alldata <- bind_rows(data2024, data2025) %>% drop_na(Bird.code)
 ################################
         #CREATING THE DF#
 ################################
-
+landtype_groups <- alldata$Landtype
 # In the following code we calculate the frequency that each 
 #species was observed in each land use (yard and street)
 
