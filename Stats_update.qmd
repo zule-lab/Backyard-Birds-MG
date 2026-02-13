@@ -1,119 +1,172 @@
 ---
-title: "Stats_update_dec2025"
+title: "Community differences update feb2026"
 format: html
 editor: visual
 ---
 
-## NMDS: Are bird communities in yards different than streets
+## Evaluating community differences
 
-Hi all! I wanted to share an NMDS I ran, ordinations are still not fully clicking in my brain so I'm unsure of how to fully appreciate these results
+Q2.2: Is bird community different between yards and street segments?
 
-I am worried about the stress value which is over 2 (=0.24)
+-   We answered this statistically with a PERMANOVA, and associated PCoA
 
-I am working on a PERMANOVA to assess significance of the difference and then next steps I would like to see which bird species are driving these differences
+[Bullet points from our discussion on Wednesday regarding Q2.2]{.underline}
 
+-   Add some kind of incidence per visit when calculating occurrence
 
-I included the code in case you had any questions on how I generated the plot.
+-   Add a day of year variable if adding the per visit piece
+
+-   Split this analysis into spring and summer
+
+[How I've updated the code:]{.underline}
+
+-   I treated each visit as a different site, so now instead of n(yards)=21 and n(streets)=21, it is n(yards)=147 and n(streets)=147, since in total we visited each yard 7 times
+
+-   Because in this question we are looking at the differences between yards and streets, and not the differences among yards and streets I didn't think this would cause any bias
+
+-   Moreover, I thought making each individual survey a site, it would add weight consistency of use and not just pres/abs
+
+[Specific questions I have:]{.underline}
+
+-   Not sure if this is (statistically/scientifically) legal?
+
+-   I'm not sure where to incorporate day-of-year
+
+I included the code in case you had any questions on how I went about it.
 
 ```{r}
 #| echo: false
 #| output: false
 library(tidyverse)
-library(vegan)
+library(indicspecies)
+library(gt)
 ```
 
 ```{r}
 
-#packages used: tidyverse + vegan
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
+# Loading in the data
+data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
+data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
+
+# Creating a global dataset with the data from 2025&2024
+alldata <- bind_rows(data2024, data2025) %>% drop_na(Bird.code)
 
 
-#Creating a global dataset with the data from 2025&2024
-alldata <- bind_rows(data2024, data2025)
+# Species matrix (site x bird species)
+alldata_visits <- alldata %>% 
+  unite("SurveyID", Code, Date, remove = TRUE)
 
-species_matrix <- alldata %>%
-  filter(!grepl("Unknown", Bird.code)) %>% 
-  select(Code, Landtype, Bird.code) %>%
-  distinct() %>%
-  mutate_at(vars(Code), as.factor) %>% 
-  mutate(Present = 1) %>%
+
+
+# Number of sites for each land use
+street_sites2 <- 147
+yard_sites2 <- 154
+
+
+# Species occurence calculations
+species_occurrence <- alldata_visits %>%
+  group_by(Landtype, Bird.code) %>% 
+  summarise(
+    # Number of sites a species was observed for each land use
+    n_occurrences = n_distinct(SurveyID), 
+  ) %>%
+  group_by(Bird.code) %>%
+  mutate(
+    # Total # of sites a species was observed in
+    total_sites = sum(n_occurrences) 
+  ) %>%
+  ungroup() %>%
   pivot_wider(
-    id_cols = c(Code, Landtype),
-    names_from = Bird.code,
-    values_from = Present,
-    values_fill = 0) %>% 
-  column_to_rownames(var = "Code")
+    names_from = Landtype,
+    values_from = c(n_occurrences),
+    values_fill = 0
+  ) %>%
+  mutate(
+    # The proportion of sites where X species occurred (streets)
+    occurenceprop_street = street / street_sites2,
+    # The proportion of sites where X species occurred (yards)
+    occurenceprop_yard = yard / yard_sites2, 
+    # Calculated the difference in proprtion of occurrences
+    occurenceprop_diff = occurenceprop_yard - occurenceprop_street, 
+    # Calculating the ratio, adding 0.01 to avoid division by 0
+    yard_street_ratio = occurenceprop_yard / (occurenceprop_street + 0.01)  
+  ) %>%
+  arrange(desc(abs(occurenceprop_diff)))
 
+head(species_occurrence)
 
-nmds <-
-  metaMDS(species_matrix[,3:48],
-          distance = "bray",
-          k = 2)
-print(nmds)
-
-land_type <- alldata %>% 
-  distinct(Code, Landtype)
-
-# Extract NMDS scores for sites 
-nmds_CodeScores <-
-  # get nmds scores 
-  as.data.frame(scores(nmds)$site) %>%
-  # change rownames (site) to a column 
-  rownames_to_column(var = "Code") %>% 
-  # join our habitat type (grouping variable) to each site 
-  left_join(land_type)
-
-
-# Extract NMDS scores for species  
-nmds_SpeciesScores <- 
-  as.data.frame(scores(nmds, "species"))
-
-nmds_SpeciesScores$species <- rownames(nmds_SpeciesScores) 
-
-
-# get centroid 
-Habitat_Centroid <- 
-  nmds_CodeScores %>% 
-  group_by(Landtype) %>% 
-  summarise(axis1 = mean(NMDS1),
-            axis2 = mean(NMDS2)) %>% 
-  ungroup()
-
-
-# extract convex hull
-habitat.hull <- 
-  nmds_CodeScores %>% 
-  group_by(Landtype) %>%
-  slice(chull(NMDS1, NMDS2))
-
-nmds_stress <- nmds$stress
-
-
-# use ggplot to plot 
-ggplot() + 
-    geom_point(data = nmds_CodeScores, 
-             aes(x=NMDS1, y=NMDS2, colour = Landtype), size = 2) + 
-    geom_text(data = nmds_SpeciesScores, 
-            aes(x=NMDS1, y=NMDS2, label = species)) +
-    geom_point(data = Habitat_Centroid, 
-             aes(x = axis1, y = axis2, color = Landtype), 
-             size = 5, shape = 17) +
-    geom_polygon(data = habitat.hull, 
-               aes(x = NMDS1, y = NMDS2, fill = Landtype, group = Landtype), 
-               alpha = 0.30) +
-    annotate("text", x = 0.75, y = 0.65, 
-           label = paste("2d stress =", round(nmds_stress, 3))) +
-  labs(x = "NMDS1", y = "NMDS2") + 
-  theme(axis.text = element_blank(), axis.ticks = element_blank(),
-        panel.background = element_rect(fill = "white"),
-        panel.border = element_rect(color = "black", 
-                                    fill = NA, linewidth = .5),
-        axis.line = element_line(color = "black"),
-        plot.title = element_text(hjust = 0.5),
-        legend.key.size = unit(.25, "cm"))
-
-
-
-
+community_composition <- species_occurrence %>% 
+  ggplot(aes(x = reorder(Bird.code, occurenceprop_diff), 
+             y = occurenceprop_diff,
+             fill = occurenceprop_diff > 0)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "Species code", 
+       y = "Difference in occurence (Yard - Street)",
+       title = "Difference in Species Occurrences") +
+  scale_fill_manual(values = c("coral", "skyblue"),
+                    labels = c("More in streets", "More in yards"),
+                    name = "") +
+  theme_minimal()
+community_composition
 ```
+
+This compared to what I presented
+
+```{r}
+#| echo: false
+
+
+street_sites <- 21
+yard_sites <- 21
+
+species_occurrence_df <- alldata %>%
+  group_by(Landtype, Bird.code) %>%
+  summarise(
+    # Number of sites a species was observed for each land use
+    n_occurrences = n_distinct(Code), 
+  ) %>%
+  group_by(Bird.code) %>%
+  mutate(
+    # Total # of sites a species was observed in
+    total_sites = sum(n_occurrences) 
+  ) %>%
+  ungroup() %>%
+  pivot_wider(
+    names_from = Landtype,
+    values_from = c(n_occurrences),
+    values_fill = 0
+  ) %>%
+  mutate(
+    # The proportion of sites where X species occurred (streets)
+    occurenceprop_street = street / street_sites,
+    # The proportion of sites where X species occurred (yards)
+    occurenceprop_yard = yard / yard_sites, 
+    # Calculated the difference in proprtion of occurrences
+    occurenceprop_diff = occurenceprop_yard - occurenceprop_street, 
+    # Calculating the ratio, adding 0.01 to avoid division by 0
+    yard_street_ratio = occurenceprop_yard / (occurenceprop_street + 0.01)  
+  ) %>%
+  arrange(desc(abs(occurenceprop_diff)))
+
+
+
+community_composition_original <- species_occurrence_df %>% 
+  ggplot(aes(x = reorder(Bird.code, occurenceprop_diff), 
+             y = occurenceprop_diff,
+             fill = occurenceprop_diff > 0)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "Species Code", 
+       y = "Difference in prevalence (Yard - Street)",
+       title = "Species Driving Compositional Differences") +
+  scale_fill_manual(values = c("coral", "skyblue"),
+                    labels = c("More in streets", "More in yards"),
+                    name = "") +
+  theme_minimal()
+community_composition_original
+```
+
+The range of percentages contracts a decent amount, not sure if this is a good thing (more conservative results).
+
+Thank you!!

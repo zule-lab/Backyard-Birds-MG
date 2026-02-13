@@ -12,7 +12,7 @@ library(gt)
 data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
 data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
 
-# Creating a global dataset with the data from 2025&2024
+# Creating a global data set with the data from 2025&2024
 alldata <- bind_rows(data2024, data2025) %>% drop_na(Bird.code)
 
 
@@ -38,12 +38,14 @@ data_matrix <- alldata %>%
   column_to_rownames(var = "Code")
 
 
-
 # Distance matrix
 dist_df <- data_matrix %>% 
   # Removing landtype column so it is a 'true' matrix
   dplyr::select(-(Landtype))
 
+
+
+# Number of sites for each land use
 yard_sites <- 22
 street_sites <- 21
 
@@ -56,7 +58,6 @@ species_occurrence_matrix <- alldata %>%
   summarise(
     # Number of sites a species was observed for each land use
     n_occurrences = n_distinct(Code), 
-    
   ) %>%
   group_by(Bird.code) %>%
   mutate(
@@ -85,24 +86,23 @@ species_occurrence_matrix <- alldata %>%
 
 
 
+#=============================================#
+            #OCCURRENCES BARPLOT#
+#=============================================#
 
 
-################################
-      #PREVALENCES BARPLOT#
-################################
 
-
-community_composition <- species_occurences %>%
+community_composition <- species_occurrence_matrix %>%
   #filter(total_sites >= ) %>%  # Only species in at least X sites
-  filter(abs(prevalence_diff) >= 0.15) %>% 
-  ggplot(aes(x = reorder(Bird.code, prevalence_diff), 
-             y = prevalence_diff,
-             fill = prevalence_diff > 0)) +
+  filter(abs(occurenceprop_diff) >= 0.15) %>% 
+  ggplot(aes(x = reorder(Bird.code, occurenceprop_diff), 
+             y = occurenceprop_diff,
+             fill = occurenceprop_diff > 0)) +
   geom_col() +
   coord_flip() +
   labs(x = "Species Code", 
-       y = "Difference in prevalence (Yard - Street)",
-       title = "Species Driving Compositional Differences") +
+       y = "Difference in occurrence (Yard - Street)",
+       title = "Differences in Species Occurrences between Yards and Streets") +
   scale_fill_manual(values = c("coral", "skyblue"),
                     labels = c("More in streets", "More in yards"),
                     name = "") +
@@ -116,80 +116,46 @@ ggsave(community_composition,
 
 
 
-################################
-    #PREVALENCE DATA TABLE#
-################################
+#=============================================#
+              #OCCURRENCES TABLE#
+#=============================================#
 
-sp_comparison_tb <- species_occurences %>% dplyr::select(Bird.code, n_sites_street, n_sites_yard, 
-       prev_street, prev_yard, prevalence_diff) %>%
+sp_comparison_tb <- species_occurrence_matrix %>% 
+  dplyr::select(Bird.code, street, yard, 
+                occurenceprop_street, occurenceprop_yard, 
+                occurenceprop_diff) %>%
   drop_na(Bird.code) %>% 
   gt() %>% 
   tab_header(
-    title = "Species Prevalence Comparison",
+    title = "Species Occurrence Comparison",
   ) %>%
   cols_label(
     Bird.code = "Species",
-    n_sites_street = "Number of Street Sites",
-    n_sites_yard = "Number of Yard Sites",
-    prev_street = "Prevalence in Streets",
-    prev_yard = "Prevalence in Yards",
-    prevalence_diff = "Difference in Prevalence"
+    street = "Number of Street Sites",
+    yard = "Number of Yard Sites",
+    occurenceprop_street = "Occurrence in Streets",
+    occurenceprop_yard = "Occurrence in Yards",
+    occurenceprop_diff = "Difference in Occurrence"
   ) %>%
   fmt_number(
-    columns = c(prev_street, prev_yard, prevalence_diff),
+    # Limiting the number of decimals for the values in these columns
+    columns = c(occurenceprop_street, occurenceprop_yard, 
+                occurenceprop_diff),
     decimals = 2
   )
 
 gtsave(sp_comparison_tb, 
-       "Q2.2_prevalance_table.html", 
+       "Q2.2_occurrence_table.html", 
        path= "4-Output/Figures")
 
 
 
-
-#####################################
-          #Simper analysis#
-####################################
-
-# "Discriminating species between two groups using Bray-Curtis dissimilarities"
-# I used jaccard distance so not sure if this is applicabable or relevant
-
-simper_result <- simper(dist_df, $Landtype)
-summary(simper_result)
-
-simper_df <- do.call(data.frame,simper_result)
-
-simper_tb <- simper_df %>% 
-  dplyr::select(street_yard.species, street_yard.average, street_yard.sd, 
-                street_yard.ratio, street_yard.cusum, 
-                street_yard.p) %>% 
-  gt() %>% 
-  tab_header(
-    title = "Species Driving Community Dissimilarity between Yards and Streets"
-  ) %>% 
-  cols_label(street_yard.species = "Species Code", 
-             street_yard.average = "Average", 
-             street_yard.sd = "Sd", 
-             street_yard.ratio = "Ratio", 
-             street_yard.cusum = "Cumulative Contribution", 
-             street_yard.p = "p-value") %>% 
-  fmt_number(decimals = 3) %>% 
-  row_order(street_yard.p, reverse = FALSE)
-
-gtsave(simper_tb, 
-       "Q2.2_SIMPER_results.html", 
-       path= "4-Output/Figures")
-
-
-
-################################################
-        #INDICATOR SPECIES#
-################################################
-
+#=============================================#
+             #INDICATOR SPECIES#
+#=============================================#
 
 
 indicator_spp <- multipatt(dist_df, 
                            data_matrix$Landtype,
                            func = "r.g",  # either of these are recommended (https://cran.r-project.org/web//packages/indicspecies/vignettes/IndicatorSpeciesAnalysis.html#indicator-species-analysis-using-multipatt) or "IndVal.g", in both SOSP is sig but in Indval.g MAWA is not 
                            control = how(nperm = 999))
-
