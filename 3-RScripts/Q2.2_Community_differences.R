@@ -51,36 +51,40 @@ street_sites <- 21
 # Occurrence frequency matrix 
 # How frequently did species occur in yards or streets 
 
-species_occurrence_frequency <- alldata %>%
+species_occurrence_matrix <- alldata %>%
   group_by(Landtype, Bird.code) %>%
   summarise(
-    n_occurrences = n(), 
-    # Number of times a species was written down for each land use
-    n_sites = n_distinct(Code) 
     # Number of sites a species was observed for each land use
+    n_occurrences = n_distinct(Code), 
+    
   ) %>%
   group_by(Bird.code) %>%
   mutate(
     # Total # of sites a species was observed in
-    total_sites = sum(n_sites) 
+    total_sites = sum(n_occurrences) 
   ) %>%
   ungroup() %>%
   pivot_wider(
     names_from = Landtype,
-    values_from = c(n_occurrences, n_sites),
+    values_from = c(n_occurrences),
     values_fill = 0
   ) %>%
   mutate(
     # The proportion of sites where X species occurred (streets)
-    occurenceprop_street = n_sites_street / street_sites,
+    occurenceprop_street = street / street_sites,
     # The proportion of sites where X species occurred (yards)
-    occurenceprop_yard = n_sites_yard / yard_sites, 
+    occurenceprop_yard = yard / yard_sites, 
     # Calculated the difference in proprtion of occurrences
     occurenceprop_diff = occurenceprop_yard - occurenceprop_street, 
     # Calculating the ratio, adding 0.01 to avoid division by 0
     yard_street_ratio = occurenceprop_yard / (occurenceprop_street + 0.01)  
   ) %>%
   arrange(desc(abs(occurenceprop_diff)))
+
+
+
+
+
 
 
 ################################
