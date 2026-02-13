@@ -156,7 +156,7 @@ ggplot(forg_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
 #########################################
 
 forg_chisq_results <- chisq.test(forg_contingency_table)
-forg_chisq_results
+forg_chisq_results #X^2 higher than global
 
 
 forg_chisq_results$expected

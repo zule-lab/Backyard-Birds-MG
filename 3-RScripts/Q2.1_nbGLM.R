@@ -67,7 +67,7 @@ summary(nb_mod)
 
 #1. Checking for overdispersion
 
-nb.pearson_resid <- residuals(nb_mod, type="pearson")
+nb.pearson_resid <- residuals(nb_mod, type="pearson") #here we are extracting model residuals
 nb.overdispersion <- sum(nb.pearson_resid^2) / nb_mod$df.residual
 nb.overdispersion
 
@@ -79,6 +79,8 @@ nb.overdispersion
 
 nb.sim_res <- simulateResiduals(nb_mod) #using DHARMa package
 plot(nb.sim_res)
+
+testZeroInflation(nb.sim_res)
 
     #everything looks good    
 
@@ -94,10 +96,11 @@ influenceIndexPlot(nb_mod)
 
 #################################
         #POST-HOC TESTS#
+#################################
 
 #The following code computes the estimated means for all landtype and season combinations
 
-estimated_means <- emmeans(nb_mod, ~ Landtype * Season, type = "response")
+estimated_means <- emmeans(nb_mod, ~ Landtype * Season, type = "response") #back-transform results to the response scale
 estimated_means
 
 
