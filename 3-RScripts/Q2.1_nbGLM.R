@@ -1,124 +1,119 @@
-#This script contains t-tests to answer question 2.1, testing by year (2024, 2025, both) and 
-#season (spring, summer, both) 
+
 
 #q2.1: Is species richness different between yards and street segments? 
 
-
-#running the model
+# Packages used: 
+    # Running the model
 library(tidyverse)
-library(lmtest)
 library(MASS)
 library(emmeans)
-#checking model assumptions
+    # Checking model assumptions
 library(DHARMa)
 library(car)
-#visualisation
+    # Visualisation
 library(ggplot2)
 library(sjPlot)
 
 
-#########################################
-      #CREATING THE DATASET#
-########################################
+#======================================================#
+                 #CREATING THE DATASET#
+#======================================================#
 
-#creating a global dataset that includes all sites, years, and seasons
-
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-data2024$Season <- ifelse(data2024$Date <= "2024-06-01", "Spring", "Summer")
-#adding "season" column (Spring or Summer) to use in model later
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
-data2025$Season <- ifelse(data2025$Date <= "2025-06-01", "Spring", "Summer")
-
-dataglobal <- bind_rows(data2024, data2025)
+dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
+#======================================================#
+                  #RUNNING THE MODEL#
+#======================================================#
 
-########################################
-          #RUNNING THE MODEL#
-########################################
-
-#Here we are calculated the species richness per site (yard or street) per season, so each site should have 2 rows
-global_richness <- dataglobal %>% group_by(Code, Landtype, Season) %>% 
+global_richness <- dataglobal %>% group_by(Code, Landtype) %>%
+  # Calculating species richness per site
   summarise(species_richness = n_distinct(Bird.code, na.rm = TRUE)) 
 
-#the following code shows the logic behind choosing the negative binomial generalized linear model
+
+model_richness <- dataglobal %>%  
+  group_by(Season, Landtype, Code) %>%
+  # Calculating species richness per site, per season
+  summarise(species_richness = n_distinct(Bird.code, na.rm = TRUE)) 
+
+
+# Choosing which model to run: 
 
 #1. Trying with a gaussian distribution
-gaussian_glm <- glm(species_richness ~ Landtype*Season, family=gaussian(link="identity"), data = global_richness)
-leveneTest(gaussian_glm) #doesn't work because variances between groups are not equal
+
+gaussian_glm <- glm(species_richness ~ Landtype*Season, 
+                    family=gaussian(link="identity"), 
+                    data = model_richness)
+# Doesn't work because variances between groups are not equal
+leveneTest(gaussian_glm) 
+
 
 #2. Trying with poisson distribution
-poisson_glm <- glm(species_richness ~ Landtype* Season, family= poisson(link="log"), data = global_richness)
+
+poisson_glm <- glm(species_richness ~ Landtype* Season, 
+                   family= poisson(link="log"), 
+                   data = model_richness)
+# Calculating Pearson residuals to test for over-dispersion
 poisson_pearson_resid <- residuals(poisson_glm, type = "pearson")
-poisson_overdisp_test <- sum(poisson_pearson_resid^2) / mod_nb$df.residual
-poisson_overdisp_test #shows evidence of overdispersion
+poisson_overdisp_test <- sum(poisson_pearson_resid^2) / poisson_glm$df.residual
+# Shows evidence of over-dispersion
+poisson_overdisp_test 
 
 
-#3. Final model: negative binomial GLM which can deal with overdispersed count data
-
-nb_mod <- glm.nb(species_richness ~ Landtype * Season,data = global_richness)
-summary(nb_mod) 
+#3. Negative binomial GLM which can deal with over-dispersed count data
 
 
+nb_mod <- glm.nb(species_richness ~ Landtype * Season,
+                 data = model_richness)
 
-########################################
-         #CHECKING ASSUMPTIONS#
-########################################
+summary(nb_mod)
 
-#1. Checking for overdispersion
 
-nb.pearson_resid <- residuals(nb_mod, type="pearson") #here we are extracting model residuals
-nb.overdispersion <- sum(nb.pearson_resid^2) / nb_mod$df.residual
+#======================================================#
+               #CHECKING ASSUMPTIONS#
+#======================================================#
+
+#1. Checking for over-dispersion
+
+nb.pearson_resid <- residuals(nb_mod, type="pearson") # Extracting model residuals
+nb.overdispersion <- sum(nb.pearson_resid^2) / nb_mod$df.residual    
+# Value is approx 1 (1.05) so no over-dispersion observed
 nb.overdispersion
-
-    #value is approx 1 (1.05) so no overdispersion observed
 
 
 
 #2. Checking the residuals
 
-nb.sim_res <- simulateResiduals(nb_mod) #using DHARMa package
+nb.sim_res <- simulateResiduals(nb_mod) # Using DHARMa package
 plot(nb.sim_res)
-
+# Everything looks good
 testZeroInflation(nb.sim_res)
 
-    #everything looks good    
-
-
+      
 
 #3. Checking for 'heavy' outliers
 
 influenceIndexPlot(nb_mod)
-    
-    #no one point is wildly different from the others
-    #Cook's distances are all <0.25
+# No one point is wildly different from the others
+# Cook's distances are all <0.25
 
 
-#################################
-        #POST-HOC TESTS#
-#################################
 
-#The following code computes the estimated means for all landtype and season combinations
+#======================================================#
+              #'POST-HOC' TESTS#
+#======================================================#
 
-estimated_means <- emmeans(nb_mod, ~ Landtype * Season, type = "response") #back-transform results to the response scale
+# Computing the estimated means for each land use and season combinations
+
+estimated_means <- emmeans(nb_mod, ~ Landtype + Season + Landtype * Season, type = "response") #back-transform results to the response scale
 estimated_means
 
 
-#post-hoc tests
-#not adjusted with Bonferroni correction since we are hypothesis testing
+#======================================================#
+                  #TABLE CREATION#
+#======================================================#
 
-#The effect of season for each landtype
-landtype<- pairs(estimated_means, by="Landtype")
-
-#The effect of landtype for each season 
-season<- pairs(emm, by = "Season")
-
-
-#####################################
-            #TABLE#
-###################################
-
-#making a table for the nb glm output
+# Making a table for the nb glm output
 tab_model(nb_mod,
           show.intercept = TRUE,
           show.r2 = FALSE,
@@ -134,38 +129,59 @@ tab_model(nb_mod,
           string.p = "P-value",
           file = "4-Output/Q2.1_nbmodel_table.html") 
 
-#estimated means table for landtype (season effects between landtype)
-tab_df(as.data.frame(landtype),
-       title = "Seasonal effects on species richness within each land use",
-       file = "4-Output/Q2.1seasonal_contrasts.html")
 
-#estimated means table for season (landtype effect between seasons)
-tab_df(as.data.frame(season),
-       title = "Land use effects on species richness within each season",
-       file = "4-Output/Q2.1landuse_contrasts.html")
 
-##############################
-        #BOXPLOT#
-#############################
+#===================================================#
+                      #BOXPLOT#
+#===================================================#
+
 
 
 label = c("Street ROWs", "Yard")
 
-
-richness_boxplot <- global_richness %>% ggplot(aes(Landtype, species_richness)) + 
+# Species richness boxplot, global
+richness_boxplot <- global_richness %>% 
+  ggplot(aes(Landtype, species_richness)) + 
   geom_boxplot(outlier.shape = NA) +
   geom_jitter(width = .1) + 
-  labs(x = "Land use", y= "Species richness") + scale_x_discrete(label = label)
+  labs(x = "Land use", y= "Species richness") + 
+  scale_x_discrete(label = c("Street ROWs", "Yard"))
 
 
-richness_boxplot_season <- global_richness %>% ggplot(aes(Landtype, species_richness)) + 
+# Species richness boxplot, facet by season
+richness_boxplot_season <- model_richness %>% 
+  ggplot(aes(Landtype, species_richness)) + 
   geom_boxplot(outlier.shape = NA) +
   geom_jitter(width = .1) + 
-  labs(x = "Land use", y= "Species richness") + scale_x_discrete(label = label) +
-  facet_wrap(~ Season)
+  labs(x = "Land use", y= "Species richness") + 
+  scale_x_discrete(label = c("Street ROWs", "Yard")) +
+  facet_wrap(~ Season) + 
+  theme_test() + 
+  theme(# Making axis labels and text larger
+    axis.text=element_text(size=12),
+    axis.title=element_text(size=18))
 richness_boxplot_season
 
 
+# Species richness boxplot, facet by season in FRENCH
+richness_boxplot_season_FR <- global_richness %>% 
+  ggplot(aes(Landtype, species_richness)) + 
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = .1) + 
+  labs(x = "Type de terrain", y= "Richesse en espèces") + 
+  scale_x_discrete(label = c("Rue", "Résidentiel")) +
+  facet_wrap(~ Season, 
+             labeller = labeller(Season = 
+             c("Spring" = "Printemps", "Summer" = "Été"))) + 
+  theme_test() + 
+  theme(# Making axis labels and text larger
+    axis.text=element_text(size=15),
+    axis.title=element_text(size=20), 
+    strip.text = element_text(size = 20))
+richness_boxplot_season_FR
+
+
+# Saving the three boxplots
 ggsave(richness_boxplot, 
        filename = "Q2.1richness_boxplot.png",
        path = "4-Output/Figures",
@@ -174,6 +190,12 @@ ggsave(richness_boxplot,
 
 ggsave(richness_boxplot_season, 
        filename = "Q2.1richness_season_boxplot.png",
+       path = "4-Output/Figures",
+       device = "png",
+       height = 6, width = 10, units = "in")
+
+ggsave(richness_boxplot_season_FR, 
+       filename = "Q2.1_FRrichness_season_boxplot.png",
        path = "4-Output/Figures",
        device = "png",
        height = 6, width = 10, units = "in")

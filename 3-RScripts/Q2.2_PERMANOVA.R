@@ -1,64 +1,70 @@
-#This script runs a PERMANOVA tests on the global data, answering question 2.2
+# This script runs a PERMANOVA tests on the global data, 
+# answering question 2.2
 
-#packages used
+# Packages used
 library(tidyverse)
 library(vegan)
 
 
-#loading in the data
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv") #all obs from 2024
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") #all obs from 2025
+# Loading in the data
+            # All obs from 2024
+data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
+            # All obs from 2025
+data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
 
-#Creating a global dataset
+# Creating a global dataset
 alldata <- bind_rows(data2024, data2025)
 
 
-#####################################
-        #PERMANOVA#
-#####################################
 
-#Converting the dataset into a matrix format
+#==================================#
+            #PERMANOVA#
+#==================================#
 
-#where rows are sites and includes land use identity (yard or street) 
-data_matrix <- alldata %>%
+alldata_visits <- alldata %>% 
+  # Adding a column that identifies each visit 
+  unite("SurveyID", Code, Date, remove = TRUE)
+
+
+# Converting the dataset into a matrix format
+# where rows are sites and includes land use identity (yard or street) 
+
+data_matrix <- alldata_visits %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(Code, Landtype, Bird.code) %>%
+  select(SurveyID, Landtype, Bird.code) %>%
   distinct() %>%
-  mutate_at(vars(Code), as.factor) %>% 
+  mutate_at(vars(SurveyID), as.factor) %>% 
   mutate(Present = 1) %>%
   pivot_wider(
-    id_cols = c(Code, Landtype),
+    id_cols = c(SurveyID, Landtype),
     names_from = Bird.code,
     values_from = Present,
     values_fill = 0) %>% 
-  column_to_rownames(var = "Code")
+  column_to_rownames(var = "SurveyID")
 
-#Now we create the distance matrix from the data matrix
 
-#first removing land use variable
+# Dataframe that distance matrix will be calculated from
 dist_df <- data_matrix %>% 
+  # Removing landtype column so distance matrix can be calculated
   dplyr::select(-(Landtype))
 
-dist_matrix <- vegdist(x = dist_df, method = "jaccard", binary = TRUE) #jaccard distance
 
+# Calculating distance matrix for permanova and ordination analyses
+dist_matrix <- vegdist(x = dist_df,
+                       # Jaccard distance for pres/abs data
+                       method = "jaccard", binary = TRUE)
 
-#running the permanova
-permanova_results <- adonis2( dist_matrix ~ Landtype, data = data_matrix, permutations = 999) 
-permanova_results
+# Before running PERMANOVA, we test for homogeneity of variances 
+# amongst groups using the beta.disper test (vegan package)
 
-###########################
-    #MODEL CHECKING#
-############################
+homo_test <- betadisper(dist_matrix, data_matrix$Landtype)
+permutest(homo_test)
+# Checking which group has the greater spread
+homo_test$group.distances
+# The test is significant, which means the variances in groups are not 
+# the same between the two groups 
 
-#Checking for homogenity of variances between groups using beta disper
+# Implication: differences between these groups may be driven by the heterogeneity
+# of variances rather than the factor we are interested in (yard v streets)
 
-
-global_disp <- betadisper(dist_matrix, data_matrix$Landtype)
-permutest(global_disp, permutations = 999)
-plot(global_disp)
-
-  #results are significant (p=0.03)
-  #the groups do not have similar vairances --> yards are more variable/dispersed than streets
-
-
-
+# We therefore cannot proceed with the PERMANOVA
