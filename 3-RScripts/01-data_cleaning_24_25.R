@@ -108,3 +108,18 @@ all_trees$Plant.sci[which(all_trees$Plant.sci== "Tilia europaea")] <- "Tilia cor
 
 write.csv(all_trees, "2-Cleaned_data/all_trees.csv", row.names = FALSE)
 
+#===================================================================#
+                          #COMBINING DF#
+#===================================================================#
+
+data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
+data2024$Season <- ifelse(data2024$Date <= "2024-06-01", "Spring", "Summer")
+# Adding "season" column (Spring or Summer) to use in model later
+data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
+data2025$Season <- ifelse(data2025$Date <= "2025-06-01", "Spring", "Summer")
+
+dataglobal <- bind_rows(data2024, data2025)
+
+write.csv(dataglobal, "2-Cleaned_data/cleaned_df.csv", row.names = FALSE)
+
+
