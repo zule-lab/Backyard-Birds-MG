@@ -1,6 +1,5 @@
-
-
-#q2.1: Is species richness different between yards and street segments? 
+# Code evaluating whether species richness differs between yards 
+# and street segments
 
 # Packages used: 
     # Running the model
