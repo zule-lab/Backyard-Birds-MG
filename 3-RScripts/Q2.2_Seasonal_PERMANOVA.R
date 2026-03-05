@@ -7,30 +7,15 @@ library(vegan)
 
 
 # Loading in the data
-            # All obs from 2024
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-            # All obs from 2025
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
-
-# Adding column for season
-season2025 <- data2025 %>%
-  mutate(Season = case_when(Date >= "2025-06-01" ~ 'Summer',
-                            Date <= "2025-06-01" ~ 'Spring'))
-# Adding column for season
-season2024 <- data2024 %>%
-  mutate(Season = case_when(Date >= "2024-06-01" ~ 'Summer',
-                            Date <= "2024-06-01" ~ 'Spring'))
-
-# Combining to form whole dataframe
-seasons_total <- bind_rows(season2024, season2025)
+dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
 
-#============================================#
-               #SPRING PERMANOVA#
-#============================================#
+#==================================================#
+                   #SPRING PERMANOVA#
+#==================================================#
 
-spring_visits <- seasons_total %>% 
+spring_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
   unite("SurveyID", Code, Date, remove = TRUE) %>% 
   # Subsetting to only include spring season
@@ -42,7 +27,7 @@ spring_visits <- seasons_total %>%
 
 spring_data_matrix <- spring_visits %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(SurveyID, Landtype, Bird.code) %>%
+  dplyr::select(SurveyID, Landtype, Bird.code) %>%
   distinct() %>%
   mutate_at(vars(SurveyID), as.factor) %>% 
   mutate(Present = 1) %>%
@@ -74,8 +59,7 @@ spring_dist_matrix <- vegdist(x = spring_dist_df,
 spring_homo_test <- betadisper(spring_dist_matrix, 
                                spring_data_matrix$Landtype)
 permutest(spring_homo_test)
-# Checking which group has the greater spread
-spring_homo_test$group.distances
+
 
 
 # Running the PERMANOVA
@@ -86,11 +70,11 @@ spring_permanova
 
 
 
-#============================================#
+#================================================#
             #SUMMER PERMANOVA#
-#============================================#
+#================================================#
 
-summer_visits <- seasons_total %>% 
+summer_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
   unite("SurveyID", Code, Date, remove = TRUE) %>% 
   # Subsetting to only include summer season
@@ -102,7 +86,7 @@ summer_visits <- seasons_total %>%
 
 summer_data_matrix <- summer_visits %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(SurveyID, Landtype, Bird.code) %>%
+  dplyr::select(SurveyID, Landtype, Bird.code) %>%
   distinct() %>%
   mutate_at(vars(SurveyID), as.factor) %>% 
   mutate(Present = 1) %>%
@@ -134,8 +118,6 @@ summer_dist_matrix <- vegdist(x = summer_dist_df,
 summer_homo_test <- betadisper(summer_dist_matrix, 
                                summer_data_matrix$Landtype)
 permutest(summer_homo_test)
-# Checking which group has the greater spread
-summer_homo_test$group.distances
 
 
 # Running the PERMANOVA

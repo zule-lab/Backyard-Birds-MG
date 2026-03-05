@@ -12,14 +12,9 @@ library(ggplot2)
 library(ggrepel)
 
 
-# Loading in the data
-# All obs from 2024
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-# All obs from 2025
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") 
 
-# Creating a global data set with the data from 2025&2024
-alldata <- bind_rows(data2024, data2025) %>% drop_na(Bird.code)
+# Loading in the data
+dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
 #========================================================#
@@ -28,7 +23,7 @@ alldata <- bind_rows(data2024, data2025) %>% drop_na(Bird.code)
 
 
 #  Communtiy  matrix (site x bird species)
-data_matrix_group <- alldata %>%
+data_matrix_group <- dataglobal %>%
   # Removing obervations where bird species was unknown
   filter(!grepl("Unknown", Bird.code)) %>% 
   dplyr::select(Code, Landtype, Bird.code) %>%
@@ -79,9 +74,9 @@ data.scores$Group <- data_matrix_group$Landtype
 
 
 # Extracting species scores and converting to df using 'scores' function (vegan)
-species.scores <- as.data.frame(scores(example_NMDS, "species"))
+species.scores <- as.data.frame(scores(bird_NMDS, "species"))
 # Creating a new column (species) from the row names
-species.scores$species <- rownames(species.scores)  # create a column of species, from the rownames of species.scores
+species.scores$species <- rownames(species.scores)  
 
 
 
@@ -94,7 +89,30 @@ grp.street <- data.scores[data.scores$Group == "street", ][chull(data.scores[dat
 hull.data <- rbind(grp.yard, grp.street)
 
 
+
+nmds_plot <- ggplot() + 
+  # Adding the group hulls
+  geom_polygon(data=hull.data,aes(x=NMDS1,y=NMDS2,fill=Group,group=Group),alpha=0.30) +
+  # Adding the species labels to the plot
+  geom_text_repel(data=species.scores,aes(x=NMDS1,y=NMDS2,label=species), size = 2.5, max.overlaps = Inf,alpha=0.5) +
+  # Adding the site points to the plot
+  geom_point(data=data.scores,aes(x=NMDS1,y=NMDS2,shape=Group,colour=Group),size=7, show.legend = FALSE) +
+  # Colouring the two groups
+  scale_colour_manual(values=c("yard" = "darkblue", "street" = "chartreuse4")) +
+  scale_fill_manual(labels= c("Street Segments", "Yard"), values = c("yard" = "darkblue", "street" = "chartreuse4")) +
+  coord_equal() +
+  labs(fill="Land Use Type") +
+  theme_test() + 
+  theme(# Making axis labels larger
+    axis.title.x = element_text(size=20), 
+    axis.title.y = element_text(size=20), 
+    legend.title = element_text(size =22), 
+    legend.text = element_text(size = 20), 
+    legend)
  
+
+
+
 nmds_plot_FR <- ggplot() + 
   # Adding the group hulls
   geom_polygon(data=hull.data,aes(x=NMDS1,y=NMDS2,fill=Group,group=Group),alpha=0.30) +
@@ -118,6 +136,13 @@ nmds_plot_FR <- ggplot() +
 
 ggsave(nmds_plot_FR, 
        filename = "Q2.2_NMDS_plot_FR.png",
+       path = "4-Output/Figures",
+       device = "png",
+       height = 6, width = 10, units = "in")
+
+
+ggsave(nmds_plot, 
+       filename = "Q2.2_NMDS_plot.png",
        path = "4-Output/Figures",
        device = "png",
        height = 6, width = 10, units = "in")

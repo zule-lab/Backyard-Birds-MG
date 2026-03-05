@@ -1,5 +1,5 @@
 # This script runs a PERMANOVA tests on the global data, 
-# answering question 2.2
+# looking at community differences between yards and street segments
 
 # Packages used
 library(tidyverse)
@@ -7,19 +7,13 @@ library(vegan)
 
 
 # Loading in the data
-            # All obs from 2024
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-            # All obs from 2025
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv")
-
-# Creating a global dataset
-alldata <- bind_rows(data2024, data2025)
+dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
 
-#==================================#
-            #PERMANOVA#
-#==================================#
+#================================================#
+                     #PERMANOVA#
+#================================================#
 
 alldata_visits <- alldata %>% 
   # Adding a column that identifies each visit 
