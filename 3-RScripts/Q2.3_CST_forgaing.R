@@ -1,4 +1,4 @@
-# In this script we investigate whether bird behaviour patterns 
+# In this script we investigate whether foraging behaviour patterns 
 # differ between yards and ROWs
 
 # Packages used: 
@@ -6,31 +6,28 @@ library(tidyverse)
 library(ggplot2)
 library(pheatmap)
 
-
-
-
 # Reading in the data
 data_global <- read.csv("2-Cleaned_data/cleaned_df.csv") 
 
-data_global2 <- data_global %>% 
+# Subsetting to only including foraging observations
+forg_data <- subset(data_global, Behaviour.type == "Foraging")
+
+forg_data <- forg_data %>% 
   # Removing rows with NA in bird code and behaviour columns
-  drop_na(c(Bird.code, Behaviour.type)) %>% 
+  drop_na(c(Bird.code, Behaviour)) %>% 
   # Removing rows where behaviour type was unknown since this is 
   # not a 'behaviour' we want to evaluate biologically
-  filter(!grepl("Unknown", Behaviour.type))
-
-
-
+  filter(!grepl("Unknown", Behaviour)) 
 
 
 #=======================================================#
-           # 1. CREATING CONTINGENCY TABLE #
+        # 1. CREATING CONTINGENCY TABLE #
 #=======================================================#
 
 
 # Creating a contingency table showing the frequency of each 
 # behaviour + land use combination
-chsq_contingency_table <- table(data_global2$Landtype,data_global2$Behaviour.type)
+chsq_contingency_table <- table(forg_data$Landtype,forg_data$Behaviour)
 
 
 # Transforming the contingency table into a df
@@ -53,8 +50,9 @@ ggplot(chsq_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
   )
 
 
+
 #=======================================================#
-             # 2. PEARSONS CHI SQ TEST #
+            # 2. PEARSONS CHI SQ TEST #
 #=======================================================#
 
 chisq_results <- chisq.test(chsq_contingency_table)
@@ -92,8 +90,10 @@ chisq_results$stdres
 
 
 
+
+
 #=========================================================#
-               # CONTRIBUTION TABLE #
+                # CONTRIBUTION TABLE #
 #=========================================================#
 
 # Calculate contribution to chi-square statistic
@@ -111,7 +111,7 @@ print(round(percentage_contributions, 2))
 
 
 #=========================================================#
-                    # HEATMAP #
+                      # HEATMAP #
 #=========================================================#
 
 # Heatmap visualising the contribution of different combinations 
@@ -120,7 +120,6 @@ pheatmap(percentage_contributions,
          cluster_rows = FALSE,
          cluster_cols = FALSE,
          main = "Percentage Contribution to Chi-Square Statistic")
-
 
 
 
