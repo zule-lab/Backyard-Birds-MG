@@ -1,10 +1,12 @@
 # In this script we investigate whether bird behaviour patterns 
-# differ between yards and ROWs dependent on season
+# differ between yards and ROWs dependent on season by doing a 
+# chi-squared test of independence
 
 # Packages used: 
 library(tidyverse)
 library(ggplot2)
 library(pheatmap)
+library(vcd)
 
 
 
@@ -46,11 +48,13 @@ spchsq_contingency_table <- table(spring$Landtype,spring$Behaviour.type)
 
 
 # Transforming the contingency table into a df
-spchsq_contingency_table <- as.data.frame(spchsq_contingency_table)
-
+spchsq_contingency_df <- as.data.frame(spchsq_contingency_table)
+spchsq_matrix <- spchsq_contingency_df %>%
+  pivot_wider(names_from = Var2, values_from = Freq) %>%
+  column_to_rownames("Var1") 
 
 # Plot of the contingency table
-ggplot(spchsq_contingency_table, aes(x = Var2, y = Var1, fill = Freq)) +
+ggplot(spchsq_contingency_df, aes(x = Var2, y = Var1, fill = Freq)) +
   geom_tile() +
   geom_text(aes(label = Freq), color = "white") +
   scale_fill_gradient(low = "red4", high = "blue4") +
@@ -68,6 +72,7 @@ ggplot(spchsq_contingency_table, aes(x = Var2, y = Var1, fill = Freq)) +
 #=======================================================#
           # 2. PEARSONS CHI SQ TEST #
 #=======================================================#
+
 
 spchisq_results <- chisq.test(spchsq_contingency_table)
 print(spchisq_results)
@@ -263,3 +268,6 @@ pheatmap(supercentage_contributions,
          main = "Percentage Contribution to Chi-Square Statistic")
 
 
+
+
+cramer_v(spchsq_matrix)
