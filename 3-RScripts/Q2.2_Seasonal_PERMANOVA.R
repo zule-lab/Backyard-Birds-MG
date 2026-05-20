@@ -11,9 +11,9 @@ dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
 
-#==================================================#
-                   #SPRING PERMANOVA#
-#==================================================#
+#------------------------------------------------#
+              #SPRING PERMANOVA#
+#------------------------------------------------#
 
 spring_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
@@ -70,9 +70,9 @@ spring_permanova
 
 
 
-#================================================#
-            #SUMMER PERMANOVA#
-#================================================#
+#------------------------------------------------#
+               #SUMMER PERMANOVA#
+#------------------------------------------------#
 
 summer_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
@@ -125,3 +125,4 @@ summer_permanova <- adonis2( summer_dist_matrix ~ Landtype,
                              data = summer_data_matrix, 
                              permutations = 999) 
 summer_permanova
+

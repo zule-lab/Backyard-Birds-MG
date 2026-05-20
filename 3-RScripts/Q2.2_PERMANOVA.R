@@ -11,11 +11,11 @@ dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
 
-#================================================#
-                     #PERMANOVA#
-#================================================#
+#------------------------------------------------#
+                  # PERMANOVA #
+#------------------------------------------------#
 
-alldata_visits <- alldata %>% 
+alldata_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
   unite("SurveyID", Code, Date, remove = TRUE)
 
@@ -25,7 +25,7 @@ alldata_visits <- alldata %>%
 
 data_matrix <- alldata_visits %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  select(SurveyID, Landtype, Bird.code) %>%
+  dplyr::select(SurveyID, Landtype, Bird.code) %>%
   distinct() %>%
   mutate_at(vars(SurveyID), as.factor) %>% 
   mutate(Present = 1) %>%

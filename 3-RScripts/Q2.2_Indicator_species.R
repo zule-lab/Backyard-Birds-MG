@@ -8,13 +8,7 @@ library(indicspecies)
 
 
 # Loading in the data
-            # All obs from 2024
-data2024 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2024.csv")
-            # All obs from 2025
-data2025 <- read.csv("2-Cleaned_data/ndg_cleaneddata_2025.csv") 
-
-# Creating a global data set with the data from 2025&2024
-alldata <- bind_rows(data2024, data2025) %>% drop_na(Bird.code)
+alldata <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
 

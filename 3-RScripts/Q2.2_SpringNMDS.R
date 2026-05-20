@@ -18,9 +18,11 @@ spring_visits <- dataglobal %>%
   # Subsetting to only include spring season
   subset(Season == "Spring") %>% 
   drop_na(Bird.code)
-#========================================================#
-              #FORMATTING THE DATAFRAME#
-#========================================================#
+
+
+#------------------------------------------------------------------------------#
+                     # FORMATTING THE DATAFRAME #
+#------------------------------------------------------------------------------#
 
 # Converting the dataset into a matrix format
 # where rows are sites and includes land use identity (yard or street) 
@@ -45,9 +47,9 @@ spring_dist_df <- spring_data_matrix %>%
   dplyr::select(-(Landtype))
 
 
-  #======================================================#
-                        #NMDS#
-#======================================================#
+#------------------------------------------------------------------------------#
+                                  # NMDS #
+#------------------------------------------------------------------------------#
 head(spring_dist_df)
 
 bird_NMDS_spring = metaMDS(spring_dist_df, 
@@ -58,12 +60,12 @@ bird_NMDS_spring = metaMDS(spring_dist_df,
 # Extracting stress metric 
 bird_NMDS_spring$stress
 # Visualising stress
-stressplot(bird_NMDS)
+stressplot(bird_NMDS_spring)
 
 
-#===============================================================#
-                            #NMDS PLOT#
-#===============================================================#
+#------------------------------------------------------------------------------#
+                            # NMDS PLOT #
+#------------------------------------------------------------------------------#
 
 
 # Extracting site scores and converting to df using 'scores' function (vegan)
@@ -82,12 +84,12 @@ species.scores_sp$species <- rownames(species.scores_sp)
 
 
 # Calculating the hull values for each group (yard or street)
-grp.yard_sp <- data.scores_sp[data.scores_sp$Group == "yard", ]
-                             [chull(data.scores_sp[data.scores_sp$Group 
-                                    == "yard", c("NMDS1", "NMDS2")]), ]
-grp.street_sp <- data.scores_sp[data.scores_sp$Group == "street", ]
-                               [chull(data.scores_sp[data.scores_sp$Group 
-                                == "street", c("NMDS1", "NMDS2")]), ]
+grp.yard_sp <- data.scores_sp[data.scores_sp$Group == "yard", ][chull(data.scores_sp[data.scores_sp$Group == "yard", c("NMDS1", "NMDS2")]), ]
+
+
+grp.street_sp <- data.scores_sp[data.scores_sp$Group == "street", ][chull(data.scores_sp[data.scores_sp$Group == "street", c("NMDS1", "NMDS2")]), ]
+
+
 # Combining hull values for both groups
 hull.data_sp <- rbind(grp.yard_sp, grp.street_sp)
 
@@ -128,3 +130,11 @@ ggsave(spring_nmds_plot,
        path = "4-Output/Figures",
        device = "png",
        height = 6, width = 10, units = "in")
+
+
+
+
+
+
+
+

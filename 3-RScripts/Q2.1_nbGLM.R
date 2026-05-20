@@ -14,22 +14,21 @@ library(ggplot2)
 library(sjPlot)
 
 
-#======================================================#
-                 #CREATING THE DATASET#
-#======================================================#
 
+# Loading in the data
 dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
 
 
-#======================================================#
-                  #RUNNING THE MODEL#
-#======================================================#
+#------------------------------------------------------------------------------#
+                             # RUNNING THE MODEL #
+#------------------------------------------------------------------------------#
 
+# Dataset to be used in visualization
 global_richness <- dataglobal %>% group_by(Code, Landtype) %>%
   # Calculating species richness per site
   summarise(species_richness = n_distinct(Bird.code, na.rm = TRUE)) 
 
-
+# Dataset to e used in the model
 model_richness <- dataglobal %>%  
   group_by(Season, Landtype, Code) %>%
   # Calculating species richness per site, per season
@@ -38,7 +37,7 @@ model_richness <- dataglobal %>%
 
 # Choosing which model to run: 
 
-#1. Trying with a gaussian distribution
+#--- 1. Trying with a gaussian distribution ---#
 
 gaussian_glm <- glm(species_richness ~ Landtype*Season, 
                     family=gaussian(link="identity"), 
@@ -47,7 +46,7 @@ gaussian_glm <- glm(species_richness ~ Landtype*Season,
 leveneTest(gaussian_glm) 
 
 
-#2. Trying with poisson distribution
+#--- 2. Trying with poisson distribution ---#
 
 poisson_glm <- glm(species_richness ~ Landtype* Season, 
                    family= poisson(link="log"), 
@@ -59,7 +58,7 @@ poisson_overdisp_test <- sum(poisson_pearson_resid^2) / poisson_glm$df.residual
 poisson_overdisp_test 
 
 
-#3. Negative binomial GLM which can deal with over-dispersed count data
+#--- 3. Negative binomial GLM which can deal with over-dispersed count data ---#
 
 
 nb_mod <- glm.nb(species_richness ~ Landtype * Season,
@@ -68,11 +67,11 @@ nb_mod <- glm.nb(species_richness ~ Landtype * Season,
 summary(nb_mod)
 
 
-#======================================================#
-               #CHECKING ASSUMPTIONS#
-#======================================================#
+#------------------------------------------------------------------------------#
+                     # CHECKING ASSUMPTIONS #
+#------------------------------------------------------------------------------#
 
-#1. Checking for over-dispersion
+#--- 1. Checking for over-dispersion ---#
 
 nb.pearson_resid <- residuals(nb_mod, type="pearson") # Extracting model residuals
 nb.overdispersion <- sum(nb.pearson_resid^2) / nb_mod$df.residual    
@@ -81,7 +80,7 @@ nb.overdispersion
 
 
 
-#2. Checking the residuals
+#--- 2. Checking the residuals ---#
 
 nb.sim_res <- simulateResiduals(nb_mod) # Using DHARMa package
 plot(nb.sim_res)
@@ -90,7 +89,7 @@ testZeroInflation(nb.sim_res)
 
       
 
-#3. Checking for 'heavy' outliers
+#--- 3. Checking for 'heavy' outliers ---#
 
 influenceIndexPlot(nb_mod)
 # No one point is wildly different from the others
@@ -98,19 +97,21 @@ influenceIndexPlot(nb_mod)
 
 
 
-#======================================================#
-              #'POST-HOC' TESTS#
-#======================================================#
+#------------------------------------------------------------------------------#
+                         # 'POST-HOC' TESTS #
+#------------------------------------------------------------------------------#
 
 # Computing the estimated means for each land use and season combinations
 
-estimated_means <- emmeans(nb_mod, ~ Landtype + Season + Landtype * Season, type = "response") #back-transform results to the response scale
+estimated_means <- emmeans(nb_mod, ~ Landtype + Season + Landtype * Season,
+                           #back-transform results to the response scale
+                           type = "response") 
 estimated_means
 
 
-#======================================================#
-                  #TABLE CREATION#
-#======================================================#
+#------------------------------------------------------------------------------#
+                            # TABLE CREATION #
+#------------------------------------------------------------------------------#
 
 # Making a table for the nb glm output
 tab_model(nb_mod,
@@ -130,9 +131,9 @@ tab_model(nb_mod,
 
 
 
-#===================================================#
-                      #BOXPLOT#
-#===================================================#
+#------------------------------------------------------------------------------#
+                                 # BOXPLOT #
+#------------------------------------------------------------------------------#
 
 
 
