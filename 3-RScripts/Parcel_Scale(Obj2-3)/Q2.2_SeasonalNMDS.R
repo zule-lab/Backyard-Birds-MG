@@ -7,7 +7,7 @@ library(tidyverse)
 library(vegan)
 library(ggplot2)
 library(ggrepel)
-library(patchwork)
+
 
 
 # Loading in the data
@@ -15,7 +15,7 @@ dataglobal <- read.csv("2-Cleaned_data/Parcel_cleaned_df.csv")
 
 spring_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
-  unite("SurveyID", Code, Date, remove = TRUE) %>% 
+  #unite("SurveyID", Code, Date, remove = TRUE) %>% 
   # Subsetting to only include spring season
   subset(Season == "Spring") %>% 
   drop_na(Bird.code)
@@ -30,16 +30,16 @@ spring_visits <- dataglobal %>%
 
 spring_data_matrix <- spring_visits %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  dplyr::select(SurveyID, Landtype, Bird.code) %>%
+  dplyr::select(Code, Landtype, Bird.code) %>%
   distinct() %>%
-  mutate_at(vars(SurveyID), as.factor) %>% 
+  mutate_at(vars(Code), as.factor) %>% 
   mutate(Present = 1) %>%
   pivot_wider(
-    id_cols = c(SurveyID, Landtype),
+    id_cols = c(Code, Landtype),
     names_from = Bird.code,
     values_from = Present,
     values_fill = 0) %>% 
-  column_to_rownames(var = "SurveyID")
+  column_to_rownames(var = "Code")
 
 
 # Dataframe that distance matrix will be calculated from
@@ -101,49 +101,52 @@ hull.data_sp <- rbind(grp.yard_sp, grp.street_sp)
 spring_nmds_plot <- ggplot() +
   # Adding the group hulls
   geom_polygon(data = hull.data_sp,
-               aes(NMDS1, NMDS2, fill = Group, group = Group),
-               alpha = 0.3) +
-  # Adding the site points to the plot
-  geom_point(data = data.scores_sp,
-             aes(NMDS1, NMDS2, colour = Group, shape = Group),
-             size = 5) +
-  # Adding the species labels to the plot
-  geom_text_repel(data = species.scores_sp,
-                  aes(NMDS1, NMDS2, label = species),
-                  size = 2.5,
-                  alpha = 0.6) +
-  # Colouring the two groups
-  scale_colour_manual(values = c("yard"="darkblue","street"="chartreuse4")) +
-  scale_fill_manual(labels= c("Street Segments", "Yard"), values = c("yard" = "darkblue", "street" = "chartreuse4")) +
-  labs(fill="Land Use Type") +
-  theme_test() + 
-  theme(# Making axis labels larger
-    axis.title.x = element_text(size=5), 
-    axis.title.y = element_text(size=5), 
-    legend.title = element_text(size =10), 
-    legend.text = element_text(size = 7), 
-    legend)
-
-
+               aes(NMDS1, NMDS2, fill = Group, group = Group),alpha = 0.3 ) +
+  # Adding the site points
+  geom_point( data = data.scores_sp,
+              aes(NMDS1, NMDS2, colour = Group, shape = Group), size = 5) +
+  # Adding species labels
+  geom_text_repel( data = species.scores_sp,aes(NMDS1, NMDS2, label = species),
+                   alpha = 0.6) +
+  # Shape of site points
+  scale_shape_manual(name = "", labels = c("street" = "Street Segment",
+                                           "yard" = "Yard" ),
+                     values = c("yard" = 17,"street" = 16)) +
+  # Colour of site points
+  scale_colour_manual(name = "",labels = c("street" = "Street Segment",
+                                           "yard" = "Yard"),
+                      values = c("yard" = "darkseagreen", "street" = "plum4")) +
+  # Fill of group hulls
+  scale_fill_manual(name = "Land Use Type",labels = c( "street" = "Street Segments", 
+                                                       "yard" = "Yard"),
+                    values = c( "yard" = "darkseagreen","street" = "plum4" )) +
+  
+  theme_test() +
+  theme(axis.title.x = element_text(size = 10),
+        axis.title.y = element_text(size = 10),
+        legend.title = element_text(size = 12),
+        legend.text = element_text(size = 10))
+spring_nmds_plot
 
 ggsave(spring_nmds_plot, 
        filename = "Q2.2_Spring_NMDS_plot.png",
-       path = "4-Output/Figures",
+       path = "4-Output",
        device = "png",
        height = 6, width = 10, units = "in")
 
 
 
-#------------------------------------------------------------------------------------------#
-
+#------------------------------------------------------------------------------#
+                        # SUMMER #
+#------------------------------------------------------------------------------#
 
 
 # Loading in the data
-dataglobal <- read.csv("2-Cleaned_data/cleaned_df.csv")
+dataglobal <- read.csv("2-Cleaned_data/Parcel_cleaned_df.csv")
 
 summer_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
-  unite("SurveyID", Code, Date, remove = TRUE) %>% 
+  #unite("SurveyID", Code, Date, remove = TRUE) %>% 
   # Subsetting to only include spring season
   subset(Season == "Summer") %>% 
   drop_na(Bird.code)
@@ -159,16 +162,16 @@ summer_visits <- dataglobal %>%
 
 summer_data_matrix <- summer_visits %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  dplyr::select(SurveyID, Landtype, Bird.code) %>%
+  dplyr::select(Code, Landtype, Bird.code) %>%
   distinct() %>%
-  mutate_at(vars(SurveyID), as.factor) %>% 
+  mutate_at(vars(Code), as.factor) %>% 
   mutate(Present = 1) %>%
   pivot_wider(
-    id_cols = c(SurveyID, Landtype),
+    id_cols = c(Code, Landtype),
     names_from = Bird.code,
     values_from = Present,
     values_fill = 0) %>% 
-  column_to_rownames(var = "SurveyID")
+  column_to_rownames(var = "Code")
 
 
 # Dataframe that distance matrix will be calculated from
@@ -224,28 +227,32 @@ hull.data_sm <- rbind(grp.yard_sm, grp.street_sm)
 summer_nmds_plot <- ggplot() +
   # Adding the group hulls
   geom_polygon(data = hull.data_sm,
-               aes(NMDS1, NMDS2, fill = Group, group = Group),
-               alpha = 0.3) +
-  # Adding the site points to the plot
-  geom_point(data = data.scores_sm,
-             aes(NMDS1, NMDS2, colour = Group, shape = Group),
-             size = 5) +
-  # Adding the species labels to the plot
-  geom_text_repel(data = species.scores_sm,
-                  aes(NMDS1, NMDS2, label = species),
-                  size = 2.5,
-                  alpha = 0.6) +
-  # Colouring the two groups
-  scale_colour_manual(values = c("yard"="darkblue","street"="chartreuse4")) +
-  scale_fill_manual(labels= c("Street Segments", "Yard"), values = c("yard" = "darkblue", "street" = "chartreuse4")) +
-  labs(fill="Land Use Type") +
-  theme_test() + 
-  theme(# Making axis labels larger
-    axis.title.x = element_text(size=5), 
-    axis.title.y = element_text(size=5), 
-    legend.title = element_text(size =10), 
-    legend.text = element_text(size = 7), 
-    legend)
+               aes(NMDS1, NMDS2, fill = Group, group = Group),alpha = 0.3 ) +
+  # Adding the site points
+  geom_point( data = data.scores_sm,
+              aes(NMDS1, NMDS2, colour = Group, shape = Group), size = 5) +
+  # Adding species labels
+  geom_text_repel( data = species.scores_sm,aes(NMDS1, NMDS2, label = species),
+                   alpha = 0.6) +
+  # Shape of site points
+  scale_shape_manual(name = "", labels = c("street" = "Street Segment",
+                                           "yard" = "Yard" ),
+                     values = c("yard" = 17,"street" = 16)) +
+  # Colour of site points
+  scale_colour_manual(name = "",labels = c("street" = "Street Segment",
+                                           "yard" = "Yard"),
+                      values = c("yard" = "darkseagreen", "street" = "plum4")) +
+  # Fill of group hulls
+  scale_fill_manual(name = "Land Use Type",labels = c( "street" = "Street Segments", 
+                                                       "yard" = "Yard"),
+                    values = c( "yard" = "darkseagreen","street" = "plum4" )) +
+  
+  theme_test() +
+  theme(axis.title.x = element_text(size = 10),
+        axis.title.y = element_text(size = 10),
+        legend.title = element_text(size = 12),
+        legend.text = element_text(size = 10))
+summer_nmds_plot
 
 
 
@@ -265,7 +272,7 @@ combined_figure <- spring_nmds_plot+summer_nmds_plot+
                    plot_layout(ncol = 1)
 ggsave(combined_figure, 
        filename = "Q2.2_combined_figure.png",
-       path = "4-Output/Figures",
+       path = "4-Output",
        device = "png",
-       height = 6, width = 6, units = "in")
+       height = 10, width = 10, units = "in")
 

@@ -14,12 +14,13 @@ dataglobal <- read.csv("2-Cleaned_data/Parcel_cleaned_df.csv")
 
 summer_visits <- dataglobal %>% 
   # Adding a column that identifies each visit 
-  unite("SurveyID", Code, Date, remove = TRUE) %>% 
+  #unite("SurveyID", Code, Date, remove = TRUE) %>% 
   # Subsetting to only include spring season
   subset(Season == "Summer") %>% 
   drop_na(Bird.code)
 
 
+summer_sansLEFL <- subset(summer_visits, !(Bird.code %in% c('S06_2024-06-21', 'S06_2024-07-03', 'Y06_2025-06-02')))
 
 #------------------------------------------------------------------------------#
                      # FORMATTING THE DATAFRAME #
@@ -30,16 +31,16 @@ summer_visits <- dataglobal %>%
 
 summer_data_matrix <- summer_visits %>%
   filter(!grepl("Unknown", Bird.code)) %>% 
-  dplyr::select(SurveyID, Landtype, Bird.code) %>%
+  dplyr::select(Code, Landtype, Bird.code) %>%
   distinct() %>%
-  mutate_at(vars(SurveyID), as.factor) %>% 
+  mutate_at(vars(Code), as.factor) %>% 
   mutate(Present = 1) %>%
   pivot_wider(
-    id_cols = c(SurveyID, Landtype),
+    id_cols = c(Code, Landtype),
     names_from = Bird.code,
     values_from = Present,
     values_fill = 0) %>% 
-  column_to_rownames(var = "SurveyID")
+  column_to_rownames(var = "Code")
 
 
 # Dataframe that distance matrix will be calculated from
@@ -91,7 +92,6 @@ hull.data_sm <- rbind(grp.yard_sm, grp.street_sm)
 
 
 
-
 summer_nmds_plot <- ggplot() +
   # Adding the group hulls
   geom_polygon(data = hull.data_sm,
@@ -107,8 +107,8 @@ summer_nmds_plot <- ggplot() +
                   size = 2.5,
                   alpha = 0.6) +
   # Colouring the two groups
-  scale_colour_manual(values = c("yard"="darkblue","street"="chartreuse4")) +
-  scale_fill_manual(labels= c("Street Segments", "Yard"), values = c("yard" = "darkblue", "street" = "chartreuse4")) +
+  scale_colour_manual(values = c("yard"="darkseagreen","street"="plum3")) +
+  scale_fill_manual(labels= c("Street Segments", "Yard"), values = c("yard" = "darkseagreen", "street" = "plum3")) +
   labs(fill="Land Use Type") +
   theme_test() + 
   theme(# Making axis labels larger

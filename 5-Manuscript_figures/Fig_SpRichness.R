@@ -12,7 +12,7 @@ library(patchwork)
 #------------------------------------------------------------------------------#
 
 
-surveys <- read.csv("2-Cleaned_data/cleaned_df.csv")
+surveys <- read.csv("2-Cleaned_data/Parcel_cleaned_df.csv")
 
 
 parcel_richness <- surveys %>% group_by(Code, Landtype, Season) %>%
@@ -29,6 +29,7 @@ parcel_richness_plot <- ggplot(data=parcel_richness,
   labs(x= "Period", 
        y="Species Richness", 
        fill='Land use Type')+
+  scale_x_discrete(label = c('Pre-breeding Migratory', 'Breeding')) + 
   scale_fill_manual(labels = c("Street ROW", "Yard"), 
                     values=c('plum3','darkseagreen'))+
   theme_light()
@@ -63,6 +64,7 @@ landscape_richness_plot <- ggplot(data=landscape_richness,
   labs(x= "Period", 
        y="Species Richness", 
        fill='Land use Type')+
+  scale_x_discrete(label = c('Pre-breeding Migratory', 'Breeding')) + 
   scale_fill_manual(labels = c("Public Green Space", "Residential Area"), 
                     values=c('plum3','darkseagreen'))+
   theme_light()

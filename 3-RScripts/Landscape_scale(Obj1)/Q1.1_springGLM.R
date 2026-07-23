@@ -18,7 +18,7 @@ library(DHARMa)
 
 
 
-springmod_data <- read.csv("3-Output/moddata_spring.csv")
+springmod_data <- read.csv("4-Output/moddata_spring.csv")
 
 # Scaling canopy cover values for model
 springmod_data <- springmod_data %>% mutate_at(c('canopy_50', 'canopy_100', 
